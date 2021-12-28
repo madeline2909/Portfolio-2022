@@ -1,0 +1,408 @@
+/* =============
+    Blog Content
+============= */
+/* --------------------------
+    Blog Hero
+ --------------------------*/
+#blog-hero-container {
+    color: $verygreen;
+
+    @include md {
+        margin-right: 60px;
+    }
+
+    @include xl {
+        margin-right: 0;
+    }
+
+    #blog-hero {
+        background-image: url('../img/blog/blog-hero.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 65vh;
+        position: relative;
+        width: 100%;
+
+        @include md {
+            height: 500px;
+        }
+
+        @include lg {
+            background-position-y: -150px;
+            height: 620px;
+        }
+
+        .japn {
+            @include md {
+                right: -25px;
+                top: 180px;
+            }
+
+            @include lg {
+                top: 250px;
+            }
+
+            @include xl {}
+        }
+    }
+
+    h4 {
+        @include md {
+            width: 400px;
+        }
+
+        @include lg {
+            width: 370px;
+        }
+    }
+}
+
+/* --------------------------
+    Blog Article
+ --------------------------*/
+#blog-content-1 {
+    background-color: $sky;
+    color: $darkblue;
+
+    img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+
+        @include md {
+            height: unset;
+        }
+    }
+
+    >div {
+        @include md {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-areas: "i1 t1"
+                "i1 p1"
+                "i1 i2"
+                "p2 i2";
+            grid-template-columns: repeat(2, auto);
+        }
+
+        @include lg {
+            grid-gap: unset;
+            grid-template-areas: "i1 . t1 t1"
+                "i1 . . p1"
+                "i1 . . i2"
+                "p2 . . i2";
+            grid-template-columns: auto 5% 5% auto;
+            padding: 0 122px 50vh;
+        }
+    }
+
+    p {
+        padding: 20px 0;
+
+        @include md {
+            padding: 30px 0;
+        }
+    }
+
+    #blog-i1 {
+        grid-area: i1;
+    }
+
+    #blog-i2 {
+        grid-area: i2;
+    }
+
+    #blog-p1 {
+        grid-area: p1;
+    }
+
+    #blog-p2 {
+        grid-area: p2;
+
+        @include md {
+            margin-left: 30px;
+            text-align: right;
+        }
+
+        @include lg {
+            margin-left: 0;
+            text-align: left;
+        }
+    }
+
+    #blog-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: rem-calc(20);
+        font-weight: 700;
+        grid-area: t1;
+        line-height: rem-calc(30);
+        padding: 0 30px 20px;
+        text-align: center;
+
+        @include md {
+            font-size: rem-calc(25);
+            line-height: rem-calc(35);
+            padding: 0;
+            text-align: left;
+            width: 70%;
+        }
+    }
+}
+
+#blog-content-2 {
+    color: $darkblue;
+
+    @include lg {
+        margin-top: -50vh;
+    }
+
+    #pusheen {
+        @include md {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        li {
+            margin: 10px;
+
+            img {
+                object-fit: cover;
+                object-position: center;
+                width: 100%;
+            }
+        }
+    }
+
+    p {
+        padding: 40px 0;
+
+        @include md {
+            padding: 50px 0;
+        }
+    }
+
+    #arts {
+        @include md {
+            align-items: flex-start;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @include lg {
+            margin-left: 202px;
+        }
+
+        li {
+            img {
+                height: 100%;
+                margin-bottom: 10px;
+                object-fit: cover;
+                object-position: center;
+                width: 100%;
+            }
+        }
+
+        :nth-child(1) {
+            img {
+                @include lg {
+                    height: 428px;
+                }
+            }
+        }
+
+        :nth-child(2) {
+            img {
+                @include md {
+                    height: 590px;
+                    margin-left: 20px;
+                    width: 60vw;
+                }
+
+                @include lg {
+                    height: 620px;
+                    width: 55vw;
+                }
+            }
+        }
+    }
+}
+
+/* --------------------------
+    Blog Slider
+ --------------------------*/
+.my-slider {
+    img {
+        height: 350px;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+
+        @include md {
+            height: 500px;
+        }
+
+        @include lg {
+            height: 450px;
+        }
+    }
+}
+
+.tns-controls [aria-controls] {
+    background-color: $mainpink;
+    border: 2px solid $mainpink;
+    border-radius: 10px;
+    color: $white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: rem-calc(16);
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.25s;
+    width: 70px;
+
+    &:hover,
+    &:active {
+        background-color: rgba($color: white, $alpha: 0.5);
+        border: 2px solid $mainpink;
+        color: $mainpink;
+    }
+}
+
+.controls {
+    align-items: center;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    width: 100%;
+
+    &:focus {
+        outline: none;
+    }
+
+    li:hover {
+        cursor: pointer;
+    }
+}
+
+/* --------------------------
+    Blog Form
+ --------------------------*/
+#blog-form-container {
+    background-color: $blush;
+    padding: 50px 0;
+
+    @include md {
+        padding: 60px 0;
+    }
+
+    @include lg {
+        padding: 70px 0;
+    }
+
+    h4 {
+        font-family: 'Gaegu', cursive;
+        color: $darkblue;
+        padding: 0;
+    }
+
+    form {
+        display: grid;
+        gap: 20px;
+        padding-top: 25px;
+
+        @include md {
+            grid-template-areas: "name email"
+                "subject subject"
+                "cmt cmt"
+                "submit submit";
+            grid-template-columns: repeat(2, auto);
+        }
+
+        section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 0 5%;
+
+            input,
+            textarea {
+                font-family: 'Space Mono', monospace;
+                font-size: rem-calc(16);
+                font-weight: 400;
+                line-height: rem-calc(25);
+                padding: 20px 0;
+                width: 100%;
+            }
+
+            ::placeholder {
+                /* Chrome, Firefox, Opera, Safari 10.1+ */
+                color: $mainpink;
+                opacity: 1;
+            }
+
+            :-ms-input-placeholder {
+                /* Internet Explorer 10-11 */
+                color: $mainpink;
+            }
+
+            ::-ms-input-placeholder {
+                /* Microsoft Edge */
+                color: $mainpink;
+            }
+        }
+
+        section:nth-child(1) {
+            @include md {
+                grid-area: name;
+            }
+        }
+
+        section:nth-child(2) {
+            @include md {
+                grid-area: email;
+            }
+        }
+
+        section:nth-child(3) {
+            @include md {
+                grid-area: subject;
+                padding: 0 2%;
+            }
+
+            @include lg {
+                padding: 0 3%;
+            }
+        }
+
+        section:nth-child(4) {
+            @include md {
+                grid-area: cmt;
+                padding: 0 2%;
+            }
+
+            @include lg {
+                padding: 0 3%;
+            }
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+
+            @include md {
+                grid-area: submit;
+            }
+        }
+    }
+}

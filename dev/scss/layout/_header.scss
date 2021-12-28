@@ -1,0 +1,89 @@
+/* =============
+    Header
+============= */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+
+    div {
+        color: $mainpink;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        padding: 15px;
+
+        @include lg {
+            padding: 30px 42px;
+        }
+
+        @include md {
+            padding: 25px 30px;
+        }
+
+        a:link,
+        a:visited {
+            color: $mainpink;
+        }
+
+        a:hover,
+        a:active {
+            color: $bluegreen;
+        }
+
+        h5 {
+            font-family: 'Space Mono', monospace;
+            font-size: rem-calc(17px);
+            font-weight: 400;
+            line-height: rem-calc(17px);
+            text-align: center;
+
+            @include lg {
+                font-size: rem-calc(15px);
+                line-height: rem-calc(15px);
+            }
+        }
+
+        #logo-1-container {
+            align-items: center;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: -10px;
+        }
+
+        #logo-2-container {
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+
+            img {
+                height: 50px;
+
+                @include md {
+                    height: 45px;
+                }
+            }
+        }
+
+        #burger-container {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+            #burger {
+                cursor: pointer;
+                height: 25px;
+
+                #lines {
+                    stroke: $mainpink;
+                    transition: 0.25s;
+                }
+
+                &:hover {
+                    #lines {
+                        stroke: $bluegreen;
+                    }
+                }
+            }
+        }
+    }
+}
