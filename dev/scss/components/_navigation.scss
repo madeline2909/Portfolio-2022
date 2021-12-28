@@ -1,0 +1,118 @@
+/* =============
+    Navigation
+============= */
+#main-nav {
+    >div {
+        align-items: center;
+        background-color: $dark-blue;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 80vw;
+        z-index: 900;
+
+        @include md {
+            width: 50vw;
+        }
+    }
+
+    ul {
+        display: grid;
+        grid-template-areas: "n1"
+            "n2"
+            "n3"
+            "n4";
+        grid-template-rows: repeat(4, auto);
+        height: auto;
+
+        li {
+            font-family: 'Exo', sans-serif;
+
+            a:link,
+            a:visited {
+                color: $yellow;
+                cursor: pointer;
+                text-decoration: none;
+                transition: 0.25s;
+
+                >div {
+                    border-bottom: 2px solid $off-white;
+                    font-size: rem-calc(30);
+                    padding: 30px;
+                    text-align: right;
+
+                    @include md {
+                        font-size: rem-calc(40);
+                    }
+
+                    @include lg {
+                        font-size: rem-calc(50);
+                    }
+
+                    @include xl {
+                        font-size: rem-calc(60);
+                    }
+                }
+            }
+        }
+
+        #nav-impact {
+            grid-area: n1;
+
+            a:hover,
+            a:active {
+                color: $red;
+            }
+        }
+
+        #nav-experiment {
+            grid-area: n2;
+
+            a:hover,
+            a:active {
+                color: $white;
+            }
+        }
+
+        #nav-employment {
+            grid-area: n3;
+
+            a:hover,
+            a:active {
+                color: $dark-red;
+            }
+        }
+
+        #nav-gallery {
+            grid-area: n4;
+
+            a:hover,
+            a:active {
+                color: $green-blue;
+            }
+
+            div {
+                border-bottom: none;
+            }
+        }
+    }
+
+    #nav-img {
+        background-image: url(../img/index/nav-img.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 20vw;
+        z-index: 900;
+
+        @include md {
+            width: 50vw;
+        }
+    }
+}

@@ -1,0 +1,666 @@
+/* =============
+    Gallery
+============= */
+img {
+    object-fit: cover;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+/* ------------------
+    Gallery Hero
+----------------- */
+#gallery-hero {
+    background-color: $off-white;
+
+    div {
+        align-items: flex-end;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        @include md {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        img {
+            display: none;
+
+            @include md {
+                display: block;
+                height: 550px;
+                object-position: left center;
+                width: 90%;
+            }
+
+            @include lg {
+                height: 85vh;
+            }
+        }
+
+        >div {
+            background-image: url(../img/gallery/hero-1.jpg);
+            background-position: left top;
+            background-size: cover;
+            height: 80vh;
+            width: 100vw;
+
+            @include md {
+                align-items: center;
+                background-image: none;
+                display: flex;
+                height: auto;
+                justify-content: flex-end;
+                position: absolute;
+                top: 0;
+            }
+
+            h1 {
+                color: $dark-red;
+                padding-bottom: 100px;
+                text-align: center;
+
+                @include md {
+                    margin: 40vh 7% 0 0;
+                    padding-bottom: 0px;
+                    text-align: left;
+                }
+            }
+        }
+
+        p {
+            color: $dark-red;
+            margin: 0 12%;
+            text-align: justify;
+
+            @include md {
+                margin-left: 10%;
+                width: 550px;
+            }
+        }
+    }
+}
+
+/* ------------------
+    Gallery content 1: pull quote 1 and main gallery
+----------------- */
+#gallery-content-1 {
+    #gallery-quote-1 {
+        align-items: center;
+        background-image: url(../img/gallery/hero-2.jpg);
+        background-position: top center;
+        background-size: cover;
+        display: flex;
+        height: 80vh;
+        justify-content: flex-end;
+        overflow: hidden;
+        width: 100%;
+
+        @include md {
+            height: 100vh;
+        }
+
+        p {
+            color: $off-white;
+            margin: 0 10%;
+            width: auto;
+
+            @include md {
+                margin-left: 36%;
+                margin-right: 10%;
+                text-align: right;
+            }
+
+            @include lg {
+                width: 500px;
+            }
+        }
+    }
+
+    #gallery-container {
+        background-color: $off-white;
+        height: 100vh;
+        overflow: hidden;
+        width: 100vw;
+
+        h3 {
+            color: $dark-red;
+            font-size: rem-calc(30);
+        }
+
+        p {
+            color: $dark-red;
+            padding: 0;
+            text-align: left;
+        }
+
+        ul {
+            align-items: center;
+            background-color: $off-white;
+            display: flex;
+            height: 100vh;
+
+            li {
+                align-items: center;
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: 35px;
+
+                img {
+                    height: 60vh;
+                    width: 50vw;
+
+                    @include md {
+                        width: 30vw;
+                    }
+
+                    @include lg {
+                        height: 60vh;
+                        width: 25vw;
+                    }
+
+                    @include xl {
+                        width: 20vw;
+                    }
+                }
+            }
+
+            :nth-child(1) {
+                justify-content: flex-end;
+
+                p {
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+/* ------------------
+    Gallery content 2
+----------------- */
+#gallery-content-2 {
+    align-items: center;
+    background-color: $green-blue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+
+    @include ip11 {
+        height: 80vh;
+    }
+
+    @include md {
+        height: 80vh;
+    }
+
+    @include lg {
+        height: 100vh;
+    }
+
+    img {
+        height: 100vh;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 30%;
+        z-index: 0;
+
+        @include ip11 {
+            height: 80vh;
+        }
+
+        @include md {
+            width: 45%;
+        }
+
+        @include lg {
+            height: 100vh;
+            width: 55%;
+        }
+    }
+
+    #gallery-content-2-text {
+        display: grid;
+        grid-template-areas: "content-2-1 content-2-1 content-2-1"
+            ". content-2-2 .";
+        grid-template-columns: 40% auto 15px;
+        grid-template-rows: "auto auto";
+        height: auto;
+        width: 100vw;
+
+        @include md {
+            display: grid;
+            grid-template-areas: ". content-2-1 content-2-1"
+                ". . content-2-2";
+            grid-template-columns: 35% 20% auto;
+            grid-template-rows: "auto auto";
+        }
+
+        @include lg {
+            display: grid;
+            grid-template-areas: ". content-2-1 content-2-1"
+                ". . content-2-2";
+            grid-template-columns: 45% 20% auto;
+            grid-template-rows: "auto auto";
+        }
+
+        h3 {
+            color: $blue-black;
+            padding-left: 10%;
+            width: 340px;
+
+            @include md {
+                grid-area: content-2-1;
+                padding: 0 10% 0 0;
+                width: unset;
+            }
+        }
+
+        p {
+            color: $blue-black;
+            grid-area: content-2-2;
+
+            @include md {
+                margin-top: -12%;
+                padding-right: 10%;
+                text-align: left;
+            }
+
+            @include lg {
+                width: 380px;
+            }
+        }
+    }
+}
+
+/* ------------------
+    Gallery content 3
+----------------- */
+#gallery-content-3 {
+    background-color: $blue;
+    display: grid;
+    grid-template-areas: "hope"
+        "content-3";
+
+    @include md {
+        align-items: center;
+        display: flex;
+    }
+
+    img {
+        grid-area: hope;
+        width: 100vw;
+
+        @include md {
+            margin-left: -20vw;
+            width: 40%;
+        }
+
+        @include lg {
+            margin-left: -16vw;
+            width: 350px;
+        }
+    }
+
+    >div {
+        background-color: $red;
+        grid-area: content-3;
+
+        @include md {
+            height: auto;
+            width: auto;
+        }
+
+        @include lg {
+            height: auto;
+            width: 80vw;
+        }
+
+        p {
+            color: $off-white;
+            line-height: rem-calc(25);
+            padding: 50px 5%;
+            text-align: justify;
+            width: auto;
+
+            @include md {
+                line-height: rem-calc(28);
+                padding-bottom: 100px;
+                padding-left: 15%;
+                padding-top: 100px;
+                text-align: left;
+                width: 50%;
+            }
+
+            @include lg {
+                padding-top: 150px;
+            }
+        }
+
+        :nth-child(1) {
+            padding-bottom: 0;
+        }
+
+        :nth-child(2) {
+            padding-top: 0;
+        }
+    }
+}
+
+/* ------------------
+    Gallery pull quote 2
+----------------- */
+#gallery-quote-2 {
+    align-items: center;
+    background-color: $dark-blue;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+
+    @include lg {
+        height: 100vh;
+    }
+
+    p {
+        color: $blue;
+        font-size: rem-calc(30);
+        line-height: rem-calc(40);
+        margin: 0;
+        padding: 0 7%;
+        text-align: center;
+        width: auto;
+
+        @include md {
+            font-size: rem-calc(42);
+            line-height: rem-calc(60);
+            width: 700px;
+        }
+
+        @include lg {
+            width: 786px;
+        }
+    }
+}
+
+/* ------------------
+    Gallery content 4
+----------------- */
+#gallery-content-4 {
+    background-color: $off-white;
+    position: relative;
+
+    @include xl {
+        display: grid;
+        grid-template-areas: ". container .";
+        grid-template-columns: auto 1440px auto;
+
+        >div {
+            grid-area: container;
+        }
+    }
+
+    #gallery-logo-1 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: "p1""i1";
+        grid-template-rows: auto 300px;
+
+        @include md {
+            grid-template-areas: "i1 p1";
+            grid-template-columns: 50% auto;
+            grid-template-rows: 200px;
+        }
+
+        @include lg {
+            grid-template-rows: unset;
+            margin-bottom: 50px;
+        }
+
+        img {
+            grid-area: i1;
+            height: 100%;
+            width: 100%;
+        }
+
+        p {
+            grid-area: p1;
+            line-height: rem-calc(28);
+            margin: 0 5%;
+
+            @include md {
+                margin: 0 15%;
+            }
+
+            @include lg {
+                margin: 20% 20% 20% 10%;
+            }
+        }
+    }
+
+    #gallery-logo-2 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: "i3"
+            "p2"
+            "i2";
+        grid-template-rows: 300px auto 500px;
+
+        @include md {
+            grid-template-areas: "p2 p2"
+                "i2 i3";
+            grid-template-columns: 50% auto;
+            grid-template-rows: auto 500px;
+        }
+
+        @include lg {
+            grid-template-areas: "p2 i2 i3"
+                "p2 i2 i4";
+            grid-template-columns: auto 25% 25%;
+            grid-template-rows: unset;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        #i2 {
+            grid-area: i2;
+        }
+
+        #i3 {
+            grid-area: i3;
+        }
+
+        #i4 {
+            grid-area: i4;
+        }
+
+        p {
+            grid-area: p2;
+            line-height: rem-calc(28);
+            margin: 5%;
+
+            @include md {
+                margin: 50px 9% 30px;
+            }
+
+            @include lg {
+                margin: 20% 10% 20% 20%;
+            }
+        }
+    }
+}
+
+/* ------------------
+    Gallery form
+----------------- */
+#gallery-form {
+    @include xl {
+        background-color: $red;
+        display: grid;
+        grid-template-areas: ". container .";
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div {
+        background-color: $red;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 100px;
+        position: relative;
+
+        @include md {
+            margin-bottom: 0;
+            padding-bottom: 100px;
+        }
+
+        @include xl {
+            background-color: unset;
+            grid-area: container;
+            justify-content: center;
+        }
+
+        h3 {
+            color: $yellow;
+            position: absolute;
+            right: 8%;
+            text-align: right;
+            top: -5%;
+
+            @include md {
+                right: 12%;
+                top: 7%;
+            }
+
+            @include lg {
+                left: -5%;
+                right: unset;
+                top: 10%;
+                width: 400px;
+            }
+
+            @include xl {
+                top: 18%;
+            }
+        }
+
+        form {
+            background-color: $dark-blue;
+            width: 100%;
+
+            @include md {
+                margin-top: 100px;
+            }
+
+            @include lg {
+                margin-top: 0;
+                width: 85%;
+            }
+
+            @include xl {
+                margin-top: 100px;
+                width: 70%;
+            }
+
+            p {
+                color: $off-white;
+                font-family: 'Libre Baskerville', sans-serif;
+                font-size: rem-calc(24);
+                line-height: rem-calc(56);
+                margin: 0 5%;
+                text-align: left;
+                width: 550px;
+
+                @include md {
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+
+            section {
+                display: flex;
+
+                @include md {
+                    justify-content: center;
+                }
+
+                input,
+                textarea {
+                    background-color: $green-blue;
+                    border-radius: 0;
+                    font-family: 'Libre Baskerville', sans-serif;
+                    font-size: rem-calc(24);
+                    outline: none;
+                    padding: 10px 10px;
+                    text-align: center;
+                }
+
+                textarea {
+                    margin: 20px 5%;
+                    padding: 10px 0;
+                    width: 440px;
+
+                    @include md {
+                        margin: 20px 0;
+                    }
+                }
+            }
+        }
+
+        ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $off-white;
+            text-align: center;
+        }
+
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: $off-white;
+            text-align: center;
+        }
+
+        ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: $off-white;
+            text-align: center;
+        }
+    }
+}
+
+input,
+button,
+textarea {
+    border: none;
+}
+
+.button {
+    align-items: center;
+    background-color: $yellow;
+    color: $red;
+    cursor: pointer;
+    font-family: 'Exo', sans-serif;
+    font-size: rem-calc(20);
+    margin-left: 5%;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 0.25s;
+
+    @include md {
+        margin-left: 0;
+    }
+
+    @include lg {}
+
+    &:hover,
+    &:active {
+        background-color: $off-white;
+        color: $dark-red;
+    }
+}
