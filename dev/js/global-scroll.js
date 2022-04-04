@@ -1,45 +1,46 @@
-import {gsap} from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import {gsap} from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 //animating global caption
-const captionAnimTL = gsap.timeline({paused:true});
-captionAnimTL
-.from(".caption", {
-    duration: 0.5,
-    xPercent: -20,
-    alpha: 0
-})
 
-export function captionAnimation(){
+// const captionAnimTL = gsap.timeline({paused:true});
+// captionAnimTL
+// .from(".caption", {
+//     duration: 0.5,
+//     xPercent: -20,
+//     alpha: 0
+// })
 
-    ScrollTrigger.create({
-        animation: captionAnimTL,
-        toggleActions: "play none none none",
-        trigger: ".caption",
-        start: "top 80%",
-        //markers: true,
-        id: "caption"
-    });
-}
+// export function captionAnimation(){
 
-//page titles animation
-const titleAnimTL = gsap.timeline({paused:true});
-titleAnimTL
-.from(".page-title", {
-    yPercent: -100,
-    alpha: 0,
-    duration:0.5
-})
+//     ScrollTrigger.create({
+//         animation: captionAnimTL,
+//         toggleActions: "play none none none",
+//         trigger: ".caption",
+//         start: "top 80%",
+//         //markers: true,
+//         id: "caption"
+//     });
+// }
 
-export function titleAnimation(){
+// //page titles animation
+// const titleAnimTL = gsap.timeline({paused:true});
+// titleAnimTL
+// .from(".page-title", {
+//     yPercent: -100,
+//     alpha: 0,
+//     duration:0.5
+// })
 
-    ScrollTrigger.create({
-        animation:titleAnimTL,
-        trigger: ".hero-container",
-        id: "page title",
-        //markers: true,
-        toggleActions: "play none none none"
-    });
-}
+// export function titleAnimation(){
+
+//     ScrollTrigger.create({
+//         animation:titleAnimTL,
+//         trigger: ".hero-container",
+//         id: "page title",
+//         //markers: true,
+//         toggleActions: "play none none none"
+//     });
+// }
