@@ -516,20 +516,12 @@
 		"oAP": "/deploy/contact.html",
 		"oF": 2
 		},
-	"/dev/content/blog-content.kit": {
+	"/dev/content/about-content.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/blog-content.html",
-		"oF": 0
-		},
-	"/dev/content/btn-cat.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/btn-cat.html",
+		"oAP": "/dev/content/about-content.html",
 		"oF": 0
 		},
 	"/dev/content/contact-content.kit": {
@@ -540,14 +532,6 @@
 		"oAP": "/dev/content/contact-content.html",
 		"oF": 0
 		},
-	"/dev/content/gallery-content.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/gallery-content.html",
-		"oF": 0
-		},
 	"/dev/content/index-content.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -556,12 +540,20 @@
 		"oAP": "/dev/content/index-content.html",
 		"oF": 0
 		},
-	"/dev/content/insta-content.kit": {
+	"/dev/content/play-content.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/insta-content.html",
+		"oAP": "/dev/content/play-content.html",
+		"oF": 0
+		},
+	"/dev/content/work-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/work-content.html",
 		"oF": 0
 		},
 	"/dev/global/footer.kit": {
