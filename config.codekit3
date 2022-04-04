@@ -9,20 +9,12 @@
 	],
 "creatorBuild": "33081",
 "files": {
-	"/deploy/blog.html": {
+	"/deploy/about.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/blog.html",
-		"oF": 0
-		},
-	"/deploy/btn.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/btn.html",
+		"oAP": "/deploy/about.html",
 		"oF": 0
 		},
 	"/deploy/contact.html": {
@@ -42,14 +34,6 @@
 		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/deploy/gallery.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/gallery.html",
-		"oF": 0
 		},
 	"/deploy/img/blog/blog-1.jpeg": {
 		"ft": 16384,
@@ -489,14 +473,6 @@
 		"oAP": "/deploy/index.html",
 		"oF": 0
 		},
-	"/deploy/insta.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/insta.html",
-		"oF": 0
-		},
 	"/deploy/js/scripts-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -508,29 +484,37 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/blog.kit": {
+	"/deploy/play.html": {
 		"cB": 0,
-		"ft": 2048,
+		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/blog.html",
+		"oAP": "/deploy/play.html",
 		"oF": 0
 		},
-	"/dev/btn.kit": {
+	"/deploy/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/work.html",
+		"oF": 0
+		},
+	"/dev/about.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/btn.html",
-		"oF": 0
+		"oAP": "/deploy/about.html",
+		"oF": 2
 		},
 	"/dev/contact.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/contact.html",
-		"oF": 0
+		"oAP": "/deploy/contact.html",
+		"oF": 2
 		},
 	"/dev/content/blog-content.kit": {
 		"cB": 0,
@@ -580,14 +564,6 @@
 		"oAP": "/dev/content/insta-content.html",
 		"oF": 0
 		},
-	"/dev/gallery.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/gallery.html",
-		"oF": 0
-		},
 	"/dev/global/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -633,38 +609,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/index.html",
-		"oF": 0
-		},
-	"/dev/insta.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/insta.html",
-		"oF": 0
-		},
-	"/dev/js/btn-cat/btn-animation.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/btn-cat/btn-animation-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/btn-cat/btn-mouse-event.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/btn-cat/btn-mouse-event-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oAP": "/deploy/index.html",
+		"oF": 2
 		},
 	"/dev/js/fancyBox.js": {
 		"bF": 0,
@@ -819,6 +765,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/play.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/play.html",
+		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -1066,6 +1020,14 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/dev/work.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/work.html",
+		"oF": 2
 		},
 	"/Gruntfile.js": {
 		"bF": 0,
