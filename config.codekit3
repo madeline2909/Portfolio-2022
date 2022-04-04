@@ -922,7 +922,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_blog-content.scss": {
+	"/dev/scss/sections/_about-content.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -930,20 +930,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_blog-content.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_btn-cat.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_btn-cat.css",
+		"oAP": "/dev/scss/sections/_about-content.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -961,19 +948,6 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_gallery-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_gallery-content.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
 	"/dev/scss/sections/_index-content.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -987,7 +961,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_insta-content.scss": {
+	"/dev/scss/sections/_play-content.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -995,7 +969,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_insta-content.css",
+		"oAP": "/dev/scss/sections/_play-content.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_work-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_work-content.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -1008,8 +995,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/dev/scss/styles.css",
-		"oF": 0,
+		"oAP": "/deploy/css/styles.css",
+		"oF": 2,
 		"oS": 0,
 		"sct": 0
 		},

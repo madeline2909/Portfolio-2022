@@ -5,189 +5,47 @@ footer {
     height: auto;
     width: 100%;
     position: relative;
-    // position: fixed;
-    // bottom: 0;
-    // z-index: -1;
     z-index: 0;
-    #footer-background {
-        background-image: url('../img/footer/footer.jpeg');
-        background-position: center bottom;
-        background-size: cover;
-        height: 343px;
-        position: absolute;
-        width: 100%;
-        z-index: -3;
 
-        @include md {
-            height: 360px;
-        }
-
-        @include lg {
-            height: 410px;
-        }
-    }
-
-    section {
+    #footer-container {
         display: flex;
         justify-content: center;
-
-        ul {
-            align-items: center;
-            display: flex;
-            justify-content: space-between;
-            width: 140px;
-
-            @include lg {
-                width: 170px;
-            }
-
-            li {
-                font-size: rem-calc(30);
-
-                a:link,
-                a:visited {
-                    color: $white;
-
-                    &:hover,
-                    &:active {
-                        color: $mainpink;
-                    }
+        #right-footer{
+            ul {
+                color: $verygreen;
+                align-items: right;
+                //display: flex;
+               // justify-content: space-between;
+                //width: 140px;
+    
+    
+                li {
+                    font-size: rem-calc(16);
+    
+                    // a:link,
+                    // a:visited {
+                    //     color: $white;
+    
+                    //     &:hover,
+                    //     &:active {
+                    //         color: $mainpink;
+                    //     }
+                    // }
                 }
             }
         }
-    }
-
-    #footer-overlay {
-        background-color: rgba($color: $green, $alpha: 0.7);
-        height: 343px;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 100%;
-        z-index: -2;
-
-        @include md {
-            height: 360px;
-            width: 93vw;
-        }
-
-        @include lg {
-            height: 410px;
-        }
-
-        h5 {
-            border: 2px solid white;
-            color: white;
-            left: -25px;
-            margin-top: 45px;
-        }
-    }
-
-    #email {
-        display: flex;
-        justify-content: center;
-
-        #email-input {
-            background-color: white;
-            border-radius: 10px 0 0 10px;
-            padding: 0 3%;
-
-            input {
-                font-family: 'Space Mono', monospace;
-                font-size: rem-calc(16);
-                font-weight: 400;
-                height: 40px;
-                line-height: rem-calc(25);
-                width: 220px;
-
-                @include md {
-                    height: 50px;
-                    width: 400px;
-                }
-
-                @include lg {
-                    height: 65px;
-                    width: 600px;
-                }
-            }
-
-            ::placeholder {
-                /* Chrome, Firefox, Opera, Safari 10.1+ */
-                color: $mainpink;
-                opacity: 1;
-            }
-
-            :-ms-input-placeholder {
-                /* Internet Explorer 10-11 */
-                color: $mainpink;
-            }
-
-            ::-ms-input-placeholder {
-                /* Microsoft Edge */
-                color: $mainpink;
-            }
-        }
-
-        button {
-            background-color: $mainpink;
-            border-radius: 0 10px 10px 0;
-            height: 100%;
-
-            i {
-                align-items: center;
-                color: white;
-                cursor: pointer;
-                display: flex;
-                font-size: rem-calc(30);
-                justify-content: center;
-                padding: 0 5px;
-                text-align: center;
-                transition: 0.25s;
-
-                @include lg {
-                    font-size: rem-calc(35);
-                    padding: 0 16px;
-                }
-
-                &:hover,
-                &:active {
-                    color: $blush;
-                }
-            }
-        }
+        
     }
 
     p {
-        color: white;
-        font-family: 'Gaegu', cursive;
-        font-weight: 700;
-        font-size: rem-calc(30);
-        line-height: rem-calc(35);
-        margin: 0 50px 10px;
-        text-align: center;
+        color: $verygreen;
+        font-family: 'Hepta Slab', serif;
+        // font-weight: 700;
+        // font-size: rem-calc(30);
+        // line-height: rem-calc(35);
+        text-align: left;
 
-        @include md {
-            margin-bottom: 15px;
-        }
-
-        @include lg {
-            margin-bottom: 20px;
-        }
     }
 
-    #copyright {
-        align-self: flex-end;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 0;
-        padding-bottom: 15px;
-
-        @include md {
-            padding-bottom: 20px;
-        }
-
-        @include lg {
-            padding-bottom: 30px;
-        }
-    }
+    
 }
