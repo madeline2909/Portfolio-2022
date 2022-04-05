@@ -653,6 +653,9 @@ header {
   z-index: 200;
   border-bottom: 2px solid #82AB40;
 }
+header #line-4 {
+  opacity: 0;
+}
 header > div {
   color: none;
   margin-left: 40px;

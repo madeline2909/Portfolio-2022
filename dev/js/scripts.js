@@ -14,7 +14,7 @@
 
 // //jquery
 // import {mouseEvent} from "./main-nav/burger-mouse.js";
-// import {burgerClick} from "./main-nav/burger-mouse.js";
+import {burgerClick} from "./main-nav/burger-mouse.js";
 import {navClick} from "./main-nav/main-nav-click.js";
 import {reportWindowSize} from "./main-nav/nav-global.js";
 import {menuBgSelect} from "./main-nav/nav-global.js";
@@ -37,7 +37,7 @@ import {menuBgSelect} from "./main-nav/nav-global.js";
 // galleryPinning();
 
 // mouseEvent();
-// burgerClick();
+burgerClick();
 navClick();
 reportWindowSize();
 menuBgSelect();

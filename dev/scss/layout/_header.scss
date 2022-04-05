@@ -6,7 +6,9 @@ header {
     width: 100vw;
     z-index: 200;
     border-bottom: 2px solid $grass;
-
+    #line-4{
+        opacity: 0;
+    }
     >div {
         color: none;
         margin-left: 40px;
