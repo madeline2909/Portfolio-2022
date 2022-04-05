@@ -39,7 +39,13 @@
             }
         }
         .nav-btn{
-            padding: 40px;
+            padding: 50px 40px;
+            .nav-text{
+                padding-bottom: 30px;
+            }
+            img{
+                width: 100%;
+            }
         }
         #nav-work-btn{
             border-right: 2px solid $offwhite;
@@ -50,11 +56,17 @@
             border-right: 2px solid $offwhite;
             grid-area: play;
             background-color: $grass;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
         }
         #nav-about-btn{
             border-right: 2px solid $offwhite;
             grid-area: about;
             background-color: $grass;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         #nav-contact-btn{
             grid-area: contact;

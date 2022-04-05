@@ -599,7 +599,13 @@ p {
   color: #ECEDEE;
 }
 #main-nav > div .nav-btn {
-  padding: 40px;
+  padding: 50px 40px;
+}
+#main-nav > div .nav-btn .nav-text {
+  padding-bottom: 30px;
+}
+#main-nav > div .nav-btn img {
+  width: 100%;
 }
 #main-nav > div #nav-work-btn {
   border-right: 2px solid #ECEDEE;
@@ -610,11 +616,17 @@ p {
   border-right: 2px solid #ECEDEE;
   grid-area: play;
   background-color: #82AB40;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 #main-nav > div #nav-about-btn {
   border-right: 2px solid #ECEDEE;
   grid-area: about;
   background-color: #82AB40;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #main-nav > div #nav-contact-btn {
   grid-area: contact;
@@ -707,6 +719,7 @@ footer {
   width: 100%;
   position: relative;
   z-index: 0;
+  background-color: #ECEDEE;
 }
 footer #footer-container {
   display: flex;
@@ -749,6 +762,7 @@ footer #footer-container #right-footer ul li a:visited:active {
 #home-hero-container {
   overflow: hidden;
   width: 100%;
+  background-color: #ECEDEE;
 }
 #home-hero-container #home-title h6 {
   color: #33813F;
