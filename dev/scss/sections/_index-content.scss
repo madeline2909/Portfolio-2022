@@ -2,9 +2,21 @@
     overflow: hidden;
     width: 100%;
     
-    #home-hero{
+    #home-title{
+        h6{
+            margin: 0 5%;
+            color: $verygreen;
+            position: relative;
+            bottom: -30px;
+        }
         #big-title{
             margin: 0 3%;
+        }
+    }
+    #home-hero{
+        p{
+            width: 330px;
+            color: $verygreen;
         }
     }
 }

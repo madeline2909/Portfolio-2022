@@ -413,7 +413,7 @@ textarea {
 .grid-container {
   display: grid;
   grid-template-areas: ". container .";
-  grid-template-columns: 15px auto 15px;
+  grid-template-columns: 5% auto 5%;
 }
 @media (min-width: 1440px) {
   .grid-container {
@@ -425,16 +425,16 @@ textarea {
 }
 
 .heading-spacing {
-  margin: 0 15px;
+  padding: 50px;
 }
 @media (min-width: 768px) {
   .heading-spacing {
-    margin: 0 120px;
+    padding: 100px;
   }
 }
 @media (min-width: 1025px) {
   .heading-spacing {
-    margin: 0 202px;
+    padding: 140px 0;
   }
 }
 
@@ -750,6 +750,16 @@ footer #footer-container #right-footer ul li a:visited:active {
   overflow: hidden;
   width: 100%;
 }
-#home-hero-container #home-hero #big-title {
+#home-hero-container #home-title h6 {
+  margin: 0 5%;
+  color: #33813F;
+  position: relative;
+  bottom: -30px;
+}
+#home-hero-container #home-title #big-title {
   margin: 0 3%;
+}
+#home-hero-container #home-hero p {
+  width: 330px;
+  color: #33813F;
 }
