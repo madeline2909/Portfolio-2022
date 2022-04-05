@@ -48,8 +48,8 @@ header {
             cursor: pointer;
             &:hover {
                 .lines {
-                    fill: $matcha;
-                    transition: 0.25s;
+                    fill: $offwhite;
+                    transition: 0.5s;
                 }
             }
             display: flex;
