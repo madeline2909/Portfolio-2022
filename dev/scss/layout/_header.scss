@@ -6,7 +6,9 @@ header {
     width: 100vw;
     z-index: 200;
     border-bottom: 2px solid $grass;
-
+    #line-4{
+        opacity: 0;
+    }
     >div {
         color: none;
         margin-left: 40px;
@@ -38,6 +40,15 @@ header {
             grid-area: logo;
             display: flex;
             justify-content: center;
+            cursor: pointer;
+            &:hover {
+                #logo {
+                    path{
+                        fill: $yellow;
+                        transition: 0.5s;
+                    }
+                }
+            }
         }
 
         #burger-container {
@@ -48,7 +59,7 @@ header {
             cursor: pointer;
             &:hover {
                 .lines {
-                    fill: $offwhite;
+                    fill: $yellow;
                     transition: 0.5s;
                 }
             }

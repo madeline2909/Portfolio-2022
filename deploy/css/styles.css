@@ -576,9 +576,9 @@ p {
 #main-nav {
   position: fixed;
   z-index: 1;
+  background-color: #9B96C2;
 }
 #main-nav > div {
-  background-color: #F89F77;
   width: 100vw;
   height: 100vh;
   display: grid;
@@ -621,6 +621,10 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #F89F77;
+}
+#main-nav > div #nav-contact-btn h3 {
+  width: 120px;
 }
 #main-nav > div #nav-contact-btn > a:link,
 #main-nav > div #nav-contact-btn a:visited {
@@ -635,6 +639,7 @@ p {
 #main-nav > div #nav-info-btn {
   border-top: 2px solid #ECEDEE;
   grid-area: info;
+  background-color: #F89F77;
   color: #ECEDEE;
   display: flex;
   flex-direction: column;
@@ -652,6 +657,9 @@ header {
   width: 100vw;
   z-index: 200;
   border-bottom: 2px solid #82AB40;
+}
+header #line-4 {
+  opacity: 0;
 }
 header > div {
   color: none;
@@ -671,6 +679,11 @@ header > div #logo-container {
   grid-area: logo;
   display: flex;
   justify-content: center;
+  cursor: pointer;
+}
+header > div #logo-container:hover #logo path {
+  fill: #F2B029;
+  transition: 0.5s;
 }
 header > div #burger-container {
   border-left: 2px solid #82AB40;
@@ -682,7 +695,7 @@ header > div #burger-container {
   justify-content: center;
 }
 header > div #burger-container:hover .lines {
-  fill: #ECEDEE;
+  fill: #F2B029;
   transition: 0.5s;
 }
 
