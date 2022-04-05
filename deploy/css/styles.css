@@ -439,16 +439,16 @@ textarea {
 }
 
 .content-spacing {
-  margin: 50px 0;
+  margin: 50px 0 0 0;
 }
 @media (min-width: 768px) {
   .content-spacing {
-    margin: 60px 0;
+    margin: 60px 0 0 0;
   }
 }
 @media (min-width: 1025px) {
   .content-spacing {
-    margin: 70px 0;
+    margin: 70px 0 0 0;
   }
 }
 
@@ -751,7 +751,6 @@ footer #footer-container #right-footer ul li a:visited:active {
   width: 100%;
 }
 #home-hero-container #home-title h6 {
-  margin: 0 5%;
   color: #33813F;
   position: relative;
   bottom: -30px;
@@ -759,7 +758,21 @@ footer #footer-container #right-footer ul li a:visited:active {
 #home-hero-container #home-title #big-title {
   margin: 0 3%;
 }
-#home-hero-container #home-hero p {
+#home-hero-container #home-hero > div {
+  width: 100%;
+}
+#home-hero-container #home-hero > div img {
+  width: 100%;
+}
+#home-hero-container #home-hero > div p {
   width: 330px;
-  color: #33813F;
+  color: #ECEDEE;
+  position: relative;
+  bottom: 36%;
+  left: 70%;
+}
+#home-hero-container #home-hero > div #featured-prj {
+  position: relative;
+  top: -20%;
+  left: 70%;
 }
