@@ -573,6 +573,10 @@ p {
 /* =============
     Forms
 ============= */
+#main-nav {
+  position: fixed;
+  z-index: 1;
+}
 #main-nav > div {
   background-color: #F89F77;
   width: 100vw;

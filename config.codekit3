@@ -615,8 +615,30 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/main-nav/main-nav-click.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/main-nav-click-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/nav-global.js": {
+		"bF": 4,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/nav-global-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -903,6 +925,50 @@
 		"oA": 2,
 		"oAP": "/build/node_modules",
 		"oF": 0
+		},
+	"/node_modules/gsap/CSSPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/gsap-core.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/gsap-core-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/jquery/dist/jquery.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/jquery/dist/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/package-lock.json": {
 		"ft": 524288,
@@ -1368,7 +1434,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8197,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -1682,7 +1748,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -2339,7 +2405,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "gsap",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

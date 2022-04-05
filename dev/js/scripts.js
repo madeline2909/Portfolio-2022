@@ -15,9 +15,9 @@
 // //jquery
 // import {mouseEvent} from "./main-nav/burger-mouse.js";
 // import {burgerClick} from "./main-nav/burger-mouse.js";
-// import {navClick} from "./main-nav/main-nav-click.js";
-// import {reportWindowSize} from "./main-nav/nav-global.js";
-// import {menuBgSelect} from "./main-nav/nav-global.js";
+import {navClick} from "./main-nav/main-nav-click.js";
+import {reportWindowSize} from "./main-nav/nav-global.js";
+import {menuBgSelect} from "./main-nav/nav-global.js";
 // import {headerScroll} from "./main-nav/header-scroll.js";
 
 //fancybox and tinyslider
@@ -38,9 +38,9 @@
 
 // mouseEvent();
 // burgerClick();
-// navClick();
-// reportWindowSize();
-// menuBgSelect();
+navClick();
+reportWindowSize();
+menuBgSelect();
 // headerScroll(); 
 
 // //cat button

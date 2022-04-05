@@ -2,5 +2,9 @@
   "devDependencies": {
     "grunt": "^1.4.1",
     "grunt-codekit": "^1.2.1"
+  },
+  "dependencies": {
+    "gsap": "^3.10.2",
+    "jquery": "^3.6.0"
   }
 }
