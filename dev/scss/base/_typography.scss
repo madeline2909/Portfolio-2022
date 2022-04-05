@@ -67,12 +67,14 @@ h2 {
 
 h3 {
 	font-weight: 400;
-	font-size: rem-calc(100);
-	line-height: rem-calc(80);
-
+	font-size: rem-calc(48);
+	line-height: rem-calc(50);
+	text-align: center;
+	color:$offwhite;
 	@include md {
-		font-size: rem-calc(180);
-		line-height: rem-calc(145);
+		text-align: left;
+		font-size: rem-calc(55);
+		line-height: rem-calc(60);
 	}
 
 	@include lg {
