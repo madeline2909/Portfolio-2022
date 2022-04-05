@@ -1,89 +1,59 @@
 /* =============
     Header
 ============= */
-// header {
-//     position: fixed;
-//     width: 100%;
-//     z-index: 200;
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 200;
+    border-bottom: 2px solid $grass;
 
-//     div {
-//         color: $mainpink;
-//         display: grid;
-//         grid-template-columns: repeat(3, auto);
-//         padding: 15px;
+    >div {
+        color: none;
+        margin-left: 40px;
+        display: grid;
+        grid-gap: 0;
+        grid-template-areas: "logo . burger";
+        grid-template-columns: (20% auto 20%);
 
-//         @include lg {
-//             padding: 30px 42px;
-//         }
+        @include lg {
+            grid-template-columns: (10% auto 10%);
+        }
 
-//         @include md {
-//             padding: 25px 30px;
-//         }
+        // @include md {
+        //     padding: 25px 30px;
+        // }
 
-//         a:link,
-//         a:visited {
-//             color: $mainpink;
-//         }
+        // a:link,
+        // a:visited {
+        //     color: $mainpink;
+        // }
 
-//         a:hover,
-//         a:active {
-//             color: $bluegreen;
-//         }
+        // a:hover,
+        // a:active {
+        //     color: $bluegreen;
+        // }
 
-//         h5 {
-//             font-family: 'Space Mono', monospace;
-//             font-size: rem-calc(17px);
-//             font-weight: 400;
-//             line-height: rem-calc(17px);
-//             text-align: center;
+        #logo-container {
+            padding: 20px 0;
+            grid-area: logo;
+            display: flex;
+            justify-content: center;
+        }
 
-//             @include lg {
-//                 font-size: rem-calc(15px);
-//                 line-height: rem-calc(15px);
-//             }
-//         }
-
-//         #logo-1-container {
-//             align-items: center;
-//             display: flex;
-//             justify-content: flex-start;
-//             margin-top: -10px;
-//         }
-
-//         #logo-2-container {
-//             align-items: center;
-//             display: flex;
-//             justify-content: flex-end;
-
-//             img {
-//                 height: 50px;
-
-//                 @include md {
-//                     height: 45px;
-//                 }
-//             }
-//         }
-
-//         #burger-container {
-//             align-items: center;
-//             display: flex;
-//             justify-content: center;
-
-//             #burger {
-//                 cursor: pointer;
-//                 height: 25px;
-
-//                 #lines {
-//                     stroke: $mainpink;
-//                     transition: 0.25s;
-//                 }
-
-//                 &:hover {
-//                     #lines {
-//                         stroke: $bluegreen;
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
+        #burger-container {
+            border-left: 2px solid $grass;
+            padding: 20px 0;
+            grid-area: burger;
+            align-items: center;
+            cursor: pointer;
+            &:hover {
+                .lines {
+                    fill: $matcha;
+                    transition: 0.25s;
+                }
+            }
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

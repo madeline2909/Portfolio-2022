@@ -566,6 +566,45 @@ p {
 /* =============
     Header
 ============= */
+header {
+  position: fixed;
+  width: 100vw;
+  z-index: 200;
+  border-bottom: 2px solid #82AB40;
+}
+header > div {
+  color: none;
+  margin-left: 40px;
+  display: grid;
+  grid-gap: 0;
+  grid-template-areas: "logo . burger";
+  grid-template-columns: 20% auto 20%;
+}
+@media (min-width: 1025px) {
+  header > div {
+    grid-template-columns: 10% auto 10%;
+  }
+}
+header > div #logo-container {
+  padding: 20px 0;
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+}
+header > div #burger-container {
+  border-left: 2px solid #82AB40;
+  padding: 20px 0;
+  grid-area: burger;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+header > div #burger-container:hover .lines {
+  fill: #CFD1A0;
+  transition: 0.25s;
+}
+
 /* =============
     Footer
 ============= */
