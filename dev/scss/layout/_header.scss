@@ -40,6 +40,15 @@ header {
             grid-area: logo;
             display: flex;
             justify-content: center;
+            cursor: pointer;
+            &:hover {
+                #logo {
+                    path{
+                        fill: $yellow;
+                        transition: 0.5s;
+                    }
+                }
+            }
         }
 
         #burger-container {
@@ -50,7 +59,7 @@ header {
             cursor: pointer;
             &:hover {
                 .lines {
-                    fill: $offwhite;
+                    fill: $yellow;
                     transition: 0.5s;
                 }
             }

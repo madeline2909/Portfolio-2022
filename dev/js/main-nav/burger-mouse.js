@@ -1,8 +1,7 @@
 import $ from "jquery";
 //import {gsap} from "gsap";
 
-import {burgerAnimationTimeline} from "./burger-animation.js";
-import {navAnimationTimeline} from "./burger-animation.js";
+import {burgerAnimationTimeline,navAnimationTimeline} from "./burger-animation.js";
 import {canYouSeeTheMenu} from "./nav-global.js";
 
 
@@ -13,8 +12,8 @@ export function burgerClick(){
             burgerAnimationTimeline.play("burgerToX");
             navAnimationTimeline.play("burgerToX")
         } else {
-            burgerAnimationTimeline.reverse("XToBurger");
-            navAnimationTimeline.reverse("XToBurger")
+            burgerAnimationTimeline.reverse("burgerToX");
+            navAnimationTimeline.reverse("burgerToX")
         }
     });
 }
