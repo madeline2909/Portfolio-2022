@@ -101,6 +101,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/deploy/img/prj-img-demo.png": {
+		"ft": 32768,
+		"iS": 2089,
+		"oA": 0,
+		"oAP": "/deploy/img/prj-img-demo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,

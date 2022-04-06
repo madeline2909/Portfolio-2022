@@ -1,0 +1,41 @@
+#work-container{
+    background-color: $offwhite;
+
+    >div{
+        #work-prj-title{
+            color: $tangerine;
+            @include md{
+                display: flex;
+                justify-content: space-between;
+            }
+            #work-prj-caption{
+                @include md{
+                    text-align: right;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                }
+            }
+        }
+        #work-prj-container{
+            color: $tangerine;
+            #work-prj-grid-container{
+                @include md{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+                .work-project{
+                    //margin: 18px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .project-titles{
+    
+                }
+            }
+            
+        }
+    }
+}

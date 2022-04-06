@@ -897,6 +897,39 @@ footer #footer-container #right-footer ul li a:visited:active {
   color: #F2B029;
 }
 
+#work-container {
+  background-color: #ECEDEE;
+}
+#work-container > div #work-prj-title {
+  color: #E8622B;
+}
+@media (min-width: 768px) {
+  #work-container > div #work-prj-title {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 768px) {
+  #work-container > div #work-prj-title #work-prj-caption {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+#work-container > div #work-prj-container {
+  color: #E8622B;
+}
+@media (min-width: 768px) {
+  #work-container > div #work-prj-container #work-prj-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+#work-container > div #work-prj-container #work-prj-grid-container .work-project img {
+  width: 100%;
+}
 #home-hero-container {
   overflow: hidden;
   width: 100%;
