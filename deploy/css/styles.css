@@ -596,14 +596,14 @@ p {
 }
 @media (min-width: 768px) {
   #main-nav > div {
-    grid-template-rows: 58px 60% auto auto;
+    grid-template-rows: 60px 60% auto auto;
     grid-template-columns: repeat(3, 3fr);
     grid-template-areas: ". . ." "work play about" "contact contact contact" "info info info";
   }
 }
 @media (min-width: 1024px) {
   #main-nav > div {
-    grid-template-rows: 58px auto 30%;
+    grid-template-rows: 60px auto 30%;
     grid-template-columns: repeat(4, 25%);
     grid-template-areas: ". . . ." "work play about contact" "work play about info";
   }
