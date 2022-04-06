@@ -37,8 +37,8 @@ h1 {
 
 
 	@include md {
-		font-size: rem-calc(180);
-		line-height: rem-calc(145);
+		font-size: rem-calc(140);
+		line-height: rem-calc(100);
 
 	}
 
@@ -102,9 +102,11 @@ h4 {
 h5 {
 	font-weight: 400;
 	font-size: rem-calc(30);
-
+	@include md{
+		font-size: rem-calc(32);
+	}
 	@include lg {
-		font-size: rem-calc(30);
+		font-size: rem-calc(24);
 	}
 }
 h6{

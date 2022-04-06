@@ -46,6 +46,14 @@ textarea {
     }
 }
 
+.not-show-lg{
+    display: block;
+
+    @include lg {
+        display: none;
+    }
+}
+
 .hero-container {
     @include xl {
         display: grid;

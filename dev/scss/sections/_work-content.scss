@@ -1,41 +1,71 @@
 #work-container{
     background-color: $offwhite;
 
-    >div{
-        #work-prj-title{
-            color: $tangerine;
-            @include md{
-                display: flex;
-                justify-content: space-between;
-            }
-            #work-prj-caption{
-                @include md{
-                    text-align: right;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: flex-end;
-                }
-            }
+    #work-prj-title{
+        color: $tangerine;
+        @include md{
+            display: flex;
+            justify-content: space-between;
         }
-        #work-prj-container{
-            color: $tangerine;
-            #work-prj-grid-container{
-                @include md{
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                }
-                .work-project{
-                    //margin: 18px;
-                    img{
-                        width: 100%;
-                    }
-                }
-                .project-titles{
-    
-                }
+        #work-prj-caption{
+            display: none;
+            @include md{
+                display: block;
+                text-align: right;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
             }
-            
         }
     }
+}
+#work-container-2{
+    padding-bottom: 80px;
+    background-color: $offwhite;
+    display: grid;
+    grid-template-areas: ". container .";
+    grid-template-columns: 20px auto 20px;
+    @include md{
+        grid-template-areas: ". container container";
+        grid-template-columns: 5% auto 5%;
+        padding-bottom: 100px;
+    }
+    @include xl {
+        grid-template-columns: auto 1440px auto;
+        padding-bottom: 80px;
+    }
+    #work-prj-container{
+        grid-area: container;
+        color: $tangerine;
+        #work-prj-grid-container{
+            @include md{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                
+            }
+            .work-project{
+                //margin: 18px;
+                //width: 3fr;
+                @include md{
+                    flex-basis: 47%;
+                }
+                @include lg{
+                    flex-basis: 32%;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .project-titles{
+                text-transform: uppercase;
+                padding-top: 20px;
+            }
+            p{
+                padding-bottom: 80px;
+            }
+        }
+        
+    }
+    
 }
