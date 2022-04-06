@@ -73,7 +73,7 @@ h3 {
 	color:$offwhite;
 	@include md {
 		text-align: left;
-		font-size: rem-calc(55);
+		font-size: rem-calc(65);
 		line-height: rem-calc(60);
 	}
 
@@ -85,12 +85,12 @@ h3 {
 
 h4 {
 	font-weight: 400;
-	font-size: rem-calc(20);
-	line-height: rem-calc(25);
+	font-size: rem-calc(30);
+	line-height: rem-calc(28);
 
 	@include md {
-		font-size: rem-calc(24);
-		line-height: rem-calc(28);
+		font-size: rem-calc(40);
+		line-height: rem-calc(38);
 	}
 
 	@include lg {

@@ -518,7 +518,7 @@ h3 {
 @media (min-width: 768px) {
   h3 {
     text-align: left;
-    font-size: 3.4375rem;
+    font-size: 4.0625rem;
     line-height: 3.75rem;
   }
 }
@@ -531,13 +531,13 @@ h3 {
 
 h4 {
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.5625rem;
+  font-size: 1.875rem;
+  line-height: 1.75rem;
 }
 @media (min-width: 768px) {
   h4 {
-    font-size: 1.5rem;
-    line-height: 1.75rem;
+    font-size: 2.5rem;
+    line-height: 2.375rem;
   }
 }
 @media (min-width: 1025px) {
@@ -584,22 +584,9 @@ p {
 #main-nav > div {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-}
-@media (min-width: 768px) {
-  #main-nav > div {
-    padding-top: 0;
-  }
-}
-@media (min-width: 1025px) {
-  #main-nav > div {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-areas: ". . . ." "work play about contact" "work play about info";
-    grid-template-rows: 58px auto 30%;
-  }
+  display: grid;
+  grid-template-rows: 50px auto auto auto auto 20%;
+  grid-template-areas: "." "work" "play" "about" "contact" "info";
 }
 #main-nav > div a:link,
 #main-nav > div a:visited {
@@ -613,15 +600,38 @@ p {
 #main-nav > div a:visited:active {
   color: #ECEDEE;
 }
+@media (min-width: 768px) {
+  #main-nav > div {
+    grid-template-rows: 58px 60% auto 15%;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-areas: ". . ." "work play about" "contact contact contact" "info info info";
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav > div {
+    grid-template-rows: 58px auto 30%;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-areas: ". . . ." "work play about contact" "work play about info";
+  }
+}
+#main-nav > div .nav-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 30px;
+}
+@media (min-width: 768px) {
+  #main-nav > div .nav-btn {
+    display: block;
+    padding: 40px;
+  }
+}
 @media (min-width: 1025px) {
   #main-nav > div .nav-btn {
     padding: 50px 40px;
   }
 }
-#main-nav > div .nav-btn .nav-text {
-  padding: 18px;
-}
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
   #main-nav > div .nav-btn .nav-text {
     padding: 0 0 30px 0;
     color: #33813F;
@@ -633,50 +643,55 @@ p {
 @media (min-width: 768px) {
   #main-nav > div .nav-btn img {
     display: block;
+    width: 100%;
   }
 }
 @media (min-width: 1025px) {
   #main-nav > div .nav-btn img {
-    width: 100%;
+    display: block;
   }
 }
 #main-nav > div #nav-work-btn {
   background-color: #82AB40;
   border-bottom: 2px solid #ECEDEE;
+  grid-area: work;
 }
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
   #main-nav > div #nav-work-btn {
     border-top: none;
     border-right: 2px solid #ECEDEE;
-    grid-area: work;
   }
 }
 #main-nav > div #nav-play-btn {
   background-color: #82AB40;
   border-bottom: 2px solid #ECEDEE;
+  grid-area: play;
 }
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
   #main-nav > div #nav-play-btn {
     border-top: none;
     border-right: 2px solid #ECEDEE;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    grid-area: play;
   }
 }
 #main-nav > div #nav-about-btn {
   background-color: #82AB40;
   border-bottom: 2px solid #ECEDEE;
+  grid-area: about;
 }
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
   #main-nav > div #nav-about-btn {
     border-top: none;
-    border-right: 2px solid #ECEDEE;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    grid-area: about;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav > div #nav-about-btn {
+    border-right: 2px solid #ECEDEE;
   }
 }
 #main-nav > div #nav-contact-btn {
@@ -684,13 +699,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #F89F77;
-}
-@media (min-width: 1025px) {
-  #main-nav > div #nav-contact-btn h3 {
-    width: 120px;
-    color: #D42128;
-  }
+  background-color: #82AB40;
+  padding-bottom: 15px;
 }
 #main-nav > div #nav-contact-btn > a:link,
 #main-nav > div #nav-contact-btn a:visited {
@@ -702,6 +712,29 @@ p {
 #main-nav > div #nav-contact-btn a:visited:active {
   color: #ECEDEE;
 }
+@media (min-width: 768px) {
+  #main-nav > div #nav-contact-btn h3 {
+    padding: 0 80px 15px;
+    color: #D42128;
+    text-align: center;
+    font-size: 4.6875rem;
+    line-height: 4.375rem;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav > div #nav-contact-btn h3 {
+    padding: 0 0 40px;
+    text-align: left;
+    font-size: 3.75rem;
+    line-height: 3.4375rem;
+    width: 120px;
+  }
+}
+@media (min-width: 768px) {
+  #main-nav > div #nav-contact-btn {
+    background-color: #F89F77;
+  }
+}
 #main-nav > div #nav-info-btn {
   border-top: 2px solid #ECEDEE;
   grid-area: info;
@@ -711,8 +744,34 @@ p {
   flex-direction: column;
   justify-content: center;
 }
+@media (min-width: 768px) {
+  #main-nav > div #nav-info-btn {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #main-nav > div #nav-info-btn > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  #main-nav > div #nav-info-btn > div p {
+    padding-bottom: 15px;
+  }
+}
+@media (min-width: 1025px) {
+  #main-nav > div #nav-info-btn {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 #main-nav > div #nav-info-btn h4 {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+}
+@media (min-width: 1025px) {
+  #main-nav > div #nav-info-btn h4 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
 }
 
 /* =============
@@ -751,7 +810,7 @@ header > div #logo-container:hover #logo path {
   fill: #F2B029;
   transition: 0.5s;
 }
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
   header > div #logo-container {
     padding: 20px 0;
   }

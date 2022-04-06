@@ -10,23 +10,17 @@
     >div{
         width: 100vw;
         height: 100vh;
-        display: flex;
-        flex-direction: column;
-        padding-top: 50px;
-        @include md{
-            padding-top: 0;
-        }
-        @include lg{
-            
-            display: grid;
-            grid-template-columns: repeat(4, 25%);
-            grid-template-areas: 
-            ". . . ."
-            "work play about contact"
-            "work play about info";
-            grid-template-rows: 58px auto 30%;
-        }
-
+        display: grid;
+        grid-template-rows: 
+        50px auto auto auto auto 20%;
+        grid-template-areas: 
+        "."
+        "work"
+        "play"
+        "about"
+        "contact"
+        "info";
+        
         a:link,
         a:visited {
             border: none;
@@ -39,15 +33,44 @@
                 color: $offwhite;
             }
         }
+        @include md{
+            //padding-top: 0;
+            grid-template-rows: 58px 60% auto 15%;
+            grid-template-columns: repeat(3, 3fr);
+            grid-template-areas: 
+            ". . ."
+            "work play about"
+            "contact contact contact"
+            "info info info";
+            
+        }
+        @include lg{
+            //padding-top: 0;
+            grid-template-rows: 58px auto 30%;
+            grid-template-columns: repeat(4, 25%);
+            grid-template-areas: 
+            ". . . ."
+            "work play about contact"
+            "work play about info";
+            
+        }
+        
         .nav-btn{
-
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px 30px;
+            @include md{
+                display: block;
+                padding: 40px;
+            }
             @include lg{
                 padding: 50px 40px;
+
             }
             
             .nav-text{
-                padding: 18px;
-                @include lg{
+                @include md{
                     padding: 0 0 30px 0;
                     color: $verygreen;
                 }
@@ -56,45 +79,53 @@
                 display:none;
 
                 @include md{
-                display: block};
+                    display: block;
+                    width: 100%;
+                };
 
                 @include lg{
-                    width: 100%;
+                    display: block;
                 }
             }
         }
         #nav-work-btn{ 
             background-color: $grass;
             border-bottom: 2px solid $offwhite;
-            @include lg{
+            grid-area: work;
+            @include md{
                 border-top: none;
                 border-right: 2px solid $offwhite;
-                grid-area: work;
+                
             }
         }
         #nav-play-btn{
             background-color: $grass;
             border-bottom: 2px solid $offwhite;
-            @include lg{
+            grid-area: play;
+
+            @include md{
                 border-top: none;
                 border-right: 2px solid $offwhite;
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-end;
-                grid-area: play;
             }
         }
         #nav-about-btn{
             
             background-color: $grass;
             border-bottom: 2px solid $offwhite;
-            @include lg{
+            grid-area: about;
+
+            @include md{
                 border-top: none;
-                border-right: 2px solid $offwhite;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                grid-area: about;
+            }
+            @include lg{
+                border-right: 2px solid $offwhite;
+
             }
             
         }
@@ -103,21 +134,36 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            background-color: $peachy;
-            h3{
-                @include lg{
-                    width: 120px;
-                    color: $veryred;
-                }
-            }
+            background-color: $grass;
+            padding-bottom: 15px;
             >a:link,
             a:visited{
                 color: $veryred;
                 transition: 0.5s;
+            
                 &:hover,
                 &:active {
-                color: $offwhite;
+                    color: $offwhite;
+                }
             }
+            h3{
+                @include md{
+                    padding: 0 80px 15px;
+                    color: $veryred;
+                    text-align: center;
+                    font-size: rem-calc(75);
+                    line-height: rem-calc(70);
+                }
+                @include lg{
+                    padding: 0 0 40px;
+                    text-align: left;
+                    font-size: rem-calc(60);
+		            line-height: rem-calc(55);
+                    width: 120px;
+                }
+            }
+            @include md{
+                background-color: $peachy;
             }
             
         }
@@ -129,15 +175,30 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            h4{
-                padding-bottom: 50px;
+            @include md{
+                //padding-bottom: 50px;
+                flex-direction: row;
+                justify-content: space-between;
+                >div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    p{
+                        padding-bottom: 15px;
+                    }
+                }
             }
-    
-            // .nav-text{
-            //     display: flex;
-            //     flex-direction: column;
-            //     justify-content: flex-end;
-            // }
+            @include lg{
+                flex-direction: column;
+                justify-content: center;
+            }
+            h4{
+                padding-bottom: 20px;
+                @include lg{
+                    padding-top: 20px;
+                    padding-bottom: 60px;
+                }
+            }
         }
             
     }
