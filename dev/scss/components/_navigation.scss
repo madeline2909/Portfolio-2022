@@ -166,15 +166,25 @@
             justify-content: center;
             background-color: $grass;
             padding-bottom: 15px;
-
+            a{
+                @include md{
+                    margin-top: -15px;
+                    margin-bottom: 15px;
+                    padding: 0 50px;
+                    text-align: center;
+                    color: $veryred;
+                }
+                @include lg{
+                    text-align: left;
+                    padding: 0;
+                }
+            }
             @include md {
                 background-color: $peachy;
-                padding: 0 50px 15px;
-                color: $veryred;
-                text-align: center;
+                
             }
             @include lg{
-                text-align: left;
+                
                 >a:link,
                 a:visited {
                     color: $veryred;
@@ -225,7 +235,7 @@
                     padding-bottom: 0;
                 }
                 @include lg {
-                    padding-top: 20px;
+                    padding-top: 10px;
                     padding-bottom: 60px;
                 }
             }

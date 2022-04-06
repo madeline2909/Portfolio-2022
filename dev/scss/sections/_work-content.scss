@@ -8,6 +8,9 @@
             justify-content: space-between;
         }
         #work-prj-caption{
+            font-weight: 300;
+            font-size: rem-calc(14);
+            line-height: rem-calc(22);
             display: none;
             @include md{
                 display: block;

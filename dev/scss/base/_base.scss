@@ -54,19 +54,20 @@ textarea {
     }
 }
 
-.hero-container {
-    @include xl {
-        display: grid;
-        grid-template-areas: ". hero .";
-        grid-template-columns: auto 1440px auto;
-    }
+// .hero-container {
+//     @include xl {
+//         display: grid;
+//         grid-template-areas: ". hero .";
+//         grid-template-columns: auto 1440px auto;
+//     }
 
-    >div {
-        grid-area: hero;
-    }
-}
+//     >div {
+//         grid-area: hero;
+//     }
+// }
 
 .grid-container {
+    background-color: $offwhite;
     display: grid;
     grid-template-areas: ". container .";
     grid-template-columns: 20px auto 20px;
