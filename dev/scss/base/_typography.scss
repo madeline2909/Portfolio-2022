@@ -109,11 +109,7 @@ h5 {
 }
 h6{
 	font-weight: 300;
-	font-size: rem-calc(30);
-
-	@include lg {
-		font-size: rem-calc(20);
-	}
+	font-size: rem-calc(20);
 }
 
 p {

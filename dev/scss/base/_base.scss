@@ -61,8 +61,11 @@ textarea {
 .grid-container {
     display: grid;
     grid-template-areas: ". container .";
-    grid-template-columns: 5% auto 5%;
-
+    grid-template-columns: 20px auto 20px;
+    @include md{
+        grid-template-areas: ". container .";
+        grid-template-columns: 5% auto 5%;
+    }
     @include xl {
         grid-template-columns: auto 1440px auto;
     }
@@ -73,22 +76,22 @@ textarea {
 }
 
 .heading-spacing {
-    padding: 50px;
+    padding: 100px 0;
 
     @include md {
-        padding: 100px;
+        padding: 120px 0;
     }
 
     @include lg {
-        padding: 140px 0;
+        padding: 120px 0;
     }
 }
 
 .content-spacing {
-    margin: 50px 0 0 0;
+    margin: 30px 0 0 0;
 
     @include md {
-        margin: 60px 0 0 0;
+        margin: 50px 0 0 0;
     }
 
     @include lg {
