@@ -2,81 +2,194 @@
 //     Navigation
 // ============= */
 
-#main-nav{
+#main-nav {
     position: fixed;
     z-index: 1;
     background-color: $lavender;
-    >div{
-        
+
+
+    >div {
         width: 100vw;
         height: 100vh;
         display: grid;
-        grid-template-columns: repeat(4, 25%);
-        grid-template-areas: 
-        ". . . ."
-        "work play about contact"
-        "work play about info";
-        grid-template-rows: 58px auto 30%;
-        a:link,
-        a:visited {
-            border: none;
-            color: $verygreen;
-            cursor: pointer;
-            transition: 0.5s;
-            // @include md {
-            //     font-size: rem-calc(25);
-            //     line-height: rem-calc(30);
-            // }
+        grid-template-rows:
+            50px auto auto auto auto 20%;
+        grid-template-areas:
+            "."
+            "work"
+            "play"
+            "about"
+            "contact"
+            "info";
 
-            // @include lg {
-            //     font-size: rem-calc(30);
-            //     line-height: rem-calc(37);
-            // }
 
-            &:hover,
-            &:active {
-                color: $offwhite;
+        @include md {
+            grid-template-rows: 58px 60% auto auto;
+            grid-template-columns: repeat(3, 3fr);
+            grid-template-areas:
+                ". . ."
+                "work play about"
+                "contact contact contact"
+                "info info info";
+
+        }
+
+        @include lg {
+            grid-template-rows: 58px auto 30%;
+            grid-template-columns: repeat(4, 25%);
+            grid-template-areas:
+                ". . . ."
+                "work play about contact"
+                "work play about info";
+        }
+
+        .nav-btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px 30px;
+            
+            @include md {
+                display: block;
+                padding: 40px;
+            }
+
+            @include lg {
+                padding: 50px 40px;
+                a:link,
+                a:visited {
+                    border: none;
+                    color: $verygreen;
+                    cursor: pointer;
+                    transition: 0.5s;
+            
+                    &:hover,
+                    &:active {
+                        color: $offwhite;
+                    }
+                }
+            }
+
+            .nav-text {
+                font-family: 'Hepta Slab', serif;
+                font-weight: 400;
+                font-size: rem-calc(48);
+                line-height: rem-calc(50);
+                text-align: center;
+                color:$offwhite;
+                @include md {
+                    color: $verygreen;
+                    text-align: left;
+                    font-size: rem-calc(65);
+                    line-height: rem-calc(60);
+                }
+            
+                @include lg {
+                    font-size: rem-calc(60);
+                    line-height: rem-calc(55);
+                }
+            }
+
+            img {
+                display: none;
+
+                @include md {
+                    padding-top: 30px;
+                    display: block;
+                    width: 100%;
+                }
+
+                ;
+
+                @include lg {
+                    display: block;
+                }
             }
         }
-        .nav-btn{
-            padding: 40px;
-        }
-        #nav-work-btn{
-            border-right: 2px solid $offwhite;
+
+        #nav-work-btn {
+            background-color: $grass;
+            border-bottom: 2px solid $offwhite;
             grid-area: work;
-            background-color: $grass;
+
+            @include md {
+                border-top: none;
+                border-right: 2px solid $offwhite;
+
+            }
+            @include lg{
+                border-bottom: 0;
+            }
         }
-        #nav-play-btn{
-            border-right: 2px solid $offwhite;
+
+        #nav-play-btn {
+            background-color: $grass;
+            border-bottom: 2px solid $offwhite;
             grid-area: play;
-            background-color: $grass;
+
+            @include md {
+                border-top: none;
+                border-right: 2px solid $offwhite;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+            @include lg{
+                border-bottom: 0;
+            }
         }
-        #nav-about-btn{
-            border-right: 2px solid $offwhite;
+
+        #nav-about-btn {
+
+            background-color: $grass;
+            border-bottom: 2px solid $offwhite;
             grid-area: about;
-            background-color: $grass;
+
+            @include md {
+                border-top: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            @include lg {
+                border-right: 2px solid $offwhite;
+                border-bottom: 0;
+            }
+
         }
-        #nav-contact-btn{
+
+        #nav-contact-btn {
             grid-area: contact;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            background-color: $peachy;
-            h3{
-                width: 120px;
-            }
-            >a:link,
-            a:visited{
+            background-color: $grass;
+            padding-bottom: 15px;
+
+            @include md {
+                background-color: $peachy;
+                padding: 0 50px 15px;
                 color: $veryred;
-                transition: 0.5s;
-                &:hover,
-                &:active {
-                color: $offwhite;
+                text-align: center;
             }
+            @include lg{
+                text-align: left;
+                >a:link,
+                a:visited {
+                    color: $veryred;
+                    transition: 0.5s;
+    
+                    &:hover,
+                    &:active {
+                        color: $offwhite;
+                    }
+                }
             }
-            
+
         }
-        #nav-info-btn{
+
+        #nav-info-btn {
             border-top: 2px solid $offwhite;
             grid-area: info;
             background-color: $peachy;
@@ -84,16 +197,39 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            h4{
-                padding-bottom: 50px;
+
+            @include md {
+                //padding-bottom: 50px;
+                flex-direction: row;
+                justify-content: space-between;
+
+                >div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+
+                    p {
+                        //padding-bottom: 15px;
+                    }
+                }
             }
-    
-            // .nav-text{
-            //     display: flex;
-            //     flex-direction: column;
-            //     justify-content: flex-end;
-            // }
+
+            @include lg {
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            h4 {
+                padding-bottom: 20px;
+                @include md{
+                    padding-bottom: 0;
+                }
+                @include lg {
+                    padding-top: 20px;
+                    padding-bottom: 60px;
+                }
+            }
         }
-            
+
     }
 }

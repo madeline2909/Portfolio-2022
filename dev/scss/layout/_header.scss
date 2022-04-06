@@ -15,7 +15,7 @@ header {
         display: grid;
         grid-gap: 0;
         grid-template-areas: "logo . burger";
-        grid-template-columns: (20% auto 20%);
+        grid-template-columns: (15% auto 20%);
 
         @include lg {
             grid-template-columns: (10% auto 10%);
@@ -36,7 +36,7 @@ header {
         // }
 
         #logo-container {
-            padding: 20px 0;
+            padding: 15px 0;
             grid-area: logo;
             display: flex;
             justify-content: center;
@@ -49,11 +49,14 @@ header {
                     }
                 }
             }
+            @include md{
+                padding: 20px 0;
+            }
         }
 
         #burger-container {
             border-left: 2px solid $grass;
-            padding: 20px 0;
+            //padding: 20px 0;
             grid-area: burger;
             align-items: center;
             cursor: pointer;
