@@ -21,20 +21,6 @@ header {
             grid-template-columns: (10% auto 10%);
         }
 
-        // @include md {
-        //     padding: 25px 30px;
-        // }
-
-        // a:link,
-        // a:visited {
-        //     color: $mainpink;
-        // }
-
-        // a:hover,
-        // a:active {
-        //     color: $bluegreen;
-        // }
-
         #logo-container {
             padding: 15px 0;
             grid-area: logo;
