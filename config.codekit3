@@ -141,6 +141,86 @@
 		"oAP": "/deploy/play.html",
 		"oF": 0
 		},
+	"/deploy/project-1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-1.html",
+		"oF": 0
+		},
+	"/deploy/project-10.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-10.html",
+		"oF": 0
+		},
+	"/deploy/project-2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-2.html",
+		"oF": 0
+		},
+	"/deploy/project-3.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-3.html",
+		"oF": 0
+		},
+	"/deploy/project-4.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-4.html",
+		"oF": 0
+		},
+	"/deploy/project-5.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-5.html",
+		"oF": 0
+		},
+	"/deploy/project-6.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-6.html",
+		"oF": 0
+		},
+	"/deploy/project-7.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-7.html",
+		"oF": 0
+		},
+	"/deploy/project-8.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-8.html",
+		"oF": 0
+		},
+	"/deploy/project-9.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-9.html",
+		"oF": 0
+		},
 	"/deploy/work.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -337,6 +417,166 @@
 		"oA": 0,
 		"oAP": "/deploy/play.html",
 		"oF": 2
+		},
+	"/dev/project-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-1.html",
+		"oF": 3
+		},
+	"/dev/project-10.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-10.html",
+		"oF": 2
+		},
+	"/dev/project-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-2.html",
+		"oF": 2
+		},
+	"/dev/project-3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-3.html",
+		"oF": 2
+		},
+	"/dev/project-4.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-4.html",
+		"oF": 2
+		},
+	"/dev/project-5.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-5.html",
+		"oF": 2
+		},
+	"/dev/project-6.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-6.html",
+		"oF": 2
+		},
+	"/dev/project-7.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-7.html",
+		"oF": 2
+		},
+	"/dev/project-8.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-8.html",
+		"oF": 2
+		},
+	"/dev/project-9.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/project-9.html",
+		"oF": 2
+		},
+	"/dev/projects/prj-1-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-1-content.html",
+		"oF": 1
+		},
+	"/dev/projects/prj-10-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-10-content.html",
+		"oF": 1
+		},
+	"/dev/projects/prj-2-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-2-content.html",
+		"oF": 1
+		},
+	"/dev/projects/prj-3-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-3-content.html",
+		"oF": 1
+		},
+	"/dev/projects/prj-4-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-4-content.html",
+		"oF": 1
+		},
+	"/dev/projects/prj-5-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-5-content.html",
+		"oF": 1
+		},
+	"/dev/projects/prj-6-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-6-content.html",
+		"oF": 1
+		},
+	"/dev/projects/prj-7-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-7-content.html",
+		"oF": 1
+		},
+	"/dev/projects/prj-8-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-8-content.html",
+		"oF": 1
+		},
+	"/dev/projects/prj-9-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/projects/prj-9-content.html",
+		"oF": 1
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,

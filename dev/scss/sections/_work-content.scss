@@ -36,8 +36,19 @@
     }
     #work-prj-container{
         grid-area: container;
-        color: $tangerine;
         #work-prj-grid-container{
+            a:link,
+            a:visited {
+                border: none;
+                color: $tangerine;
+                cursor: pointer;
+                transition: 0.5s;
+        
+                &:hover,
+                &:active {
+                    color: $grass
+                }
+            }
             @include md{
                 display: flex;
                 flex-wrap: wrap;

@@ -507,19 +507,20 @@ h1 {
 
 h2 {
   font-weight: 400;
-  font-size: 12.5rem;
-  line-height: 9.25rem;
+  font-size: 3rem;
+  line-height: 3.125rem;
+  color: #CFD1A0;
 }
 @media (min-width: 768px) {
   h2 {
-    font-size: 12.5rem;
-    line-height: 9.25rem;
+    font-size: 7.5rem;
+    line-height: 6.875rem;
   }
 }
 @media (min-width: 1024px) {
   h2 {
-    font-size: 12.5rem;
-    line-height: 9.25rem;
+    font-size: 9.375rem;
+    line-height: 8.4375rem;
   }
 }
 
@@ -958,7 +959,18 @@ footer #footer-container #right-footer ul li a:visited:active {
 }
 #work-container-2 #work-prj-container {
   grid-area: container;
+}
+#work-container-2 #work-prj-container #work-prj-grid-container a:link,
+#work-container-2 #work-prj-container #work-prj-grid-container a:visited {
+  border: none;
   color: #E8622B;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#work-container-2 #work-prj-container #work-prj-grid-container a:link:hover, #work-container-2 #work-prj-container #work-prj-grid-container a:link:active,
+#work-container-2 #work-prj-container #work-prj-grid-container a:visited:hover,
+#work-container-2 #work-prj-container #work-prj-grid-container a:visited:active {
+  color: #82AB40;
 }
 @media (min-width: 768px) {
   #work-container-2 #work-prj-container #work-prj-grid-container {
