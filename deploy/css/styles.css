@@ -384,7 +384,7 @@ textarea {
 .show-for-lg {
   display: none;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .show-for-lg {
     display: block;
   }
@@ -432,7 +432,7 @@ textarea {
     padding: 100px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .heading-spacing {
     padding: 140px 0;
   }
@@ -446,7 +446,7 @@ textarea {
     margin: 60px 0 0 0;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .content-spacing {
     margin: 70px 0 0 0;
   }
@@ -483,7 +483,7 @@ h1 {
     line-height: 9.0625rem;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   h1 {
     font-size: 12.5rem;
     line-height: 10.25rem;
@@ -501,7 +501,7 @@ h2 {
     line-height: 9.25rem;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   h2 {
     font-size: 12.5rem;
     line-height: 9.25rem;
@@ -522,7 +522,7 @@ h3 {
     line-height: 3.75rem;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   h3 {
     font-size: 3.75rem;
     line-height: 3.4375rem;
@@ -540,7 +540,7 @@ h4 {
     line-height: 2.375rem;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   h4 {
     font-size: 1.75rem;
     line-height: 1.75rem;
@@ -551,7 +551,7 @@ h5 {
   font-weight: 400;
   font-size: 1.875rem;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   h5 {
     font-size: 1.875rem;
   }
@@ -561,7 +561,7 @@ h6 {
   font-weight: 300;
   font-size: 1.875rem;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   h6 {
     font-size: 1.25rem;
   }
@@ -588,26 +588,14 @@ p {
   grid-template-rows: 50px auto auto auto auto 20%;
   grid-template-areas: "." "work" "play" "about" "contact" "info";
 }
-#main-nav > div a:link,
-#main-nav > div a:visited {
-  border: none;
-  color: #33813F;
-  cursor: pointer;
-  transition: 0.5s;
-}
-#main-nav > div a:link:hover, #main-nav > div a:link:active,
-#main-nav > div a:visited:hover,
-#main-nav > div a:visited:active {
-  color: #ECEDEE;
-}
 @media (min-width: 768px) {
   #main-nav > div {
-    grid-template-rows: 58px 60% auto 15%;
+    grid-template-rows: 58px 60% auto auto;
     grid-template-columns: repeat(3, 3fr);
     grid-template-areas: ". . ." "work play about" "contact contact contact" "info info info";
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   #main-nav > div {
     grid-template-rows: 58px auto 30%;
     grid-template-columns: repeat(4, 25%);
@@ -626,15 +614,43 @@ p {
     padding: 40px;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   #main-nav > div .nav-btn {
     padding: 50px 40px;
   }
+  #main-nav > div .nav-btn a:link,
+#main-nav > div .nav-btn a:visited {
+    border: none;
+    color: #33813F;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  #main-nav > div .nav-btn a:link:hover, #main-nav > div .nav-btn a:link:active,
+#main-nav > div .nav-btn a:visited:hover,
+#main-nav > div .nav-btn a:visited:active {
+    color: #ECEDEE;
+  }
+}
+#main-nav > div .nav-btn .nav-text {
+  font-family: "Hepta Slab", serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.125rem;
+  text-align: center;
+  color: #ECEDEE;
 }
 @media (min-width: 768px) {
   #main-nav > div .nav-btn .nav-text {
-    padding: 0 0 30px 0;
     color: #33813F;
+    text-align: left;
+    font-size: 4.0625rem;
+    line-height: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #main-nav > div .nav-btn .nav-text {
+    font-size: 3.75rem;
+    line-height: 3.4375rem;
   }
 }
 #main-nav > div .nav-btn img {
@@ -642,11 +658,12 @@ p {
 }
 @media (min-width: 768px) {
   #main-nav > div .nav-btn img {
+    padding-top: 30px;
     display: block;
     width: 100%;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   #main-nav > div .nav-btn img {
     display: block;
   }
@@ -689,7 +706,7 @@ p {
     justify-content: center;
   }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   #main-nav > div #nav-about-btn {
     border-right: 2px solid #ECEDEE;
   }
@@ -702,37 +719,27 @@ p {
   background-color: #82AB40;
   padding-bottom: 15px;
 }
-#main-nav > div #nav-contact-btn > a:link,
-#main-nav > div #nav-contact-btn a:visited {
-  color: #D42128;
-  transition: 0.5s;
-}
-#main-nav > div #nav-contact-btn > a:link:hover, #main-nav > div #nav-contact-btn > a:link:active,
-#main-nav > div #nav-contact-btn a:visited:hover,
-#main-nav > div #nav-contact-btn a:visited:active {
-  color: #ECEDEE;
-}
-@media (min-width: 768px) {
-  #main-nav > div #nav-contact-btn h3 {
-    padding: 0 80px 15px;
-    color: #D42128;
-    text-align: center;
-    font-size: 4.6875rem;
-    line-height: 4.375rem;
-  }
-}
-@media (min-width: 1025px) {
-  #main-nav > div #nav-contact-btn h3 {
-    padding: 0 0 40px;
-    text-align: left;
-    font-size: 3.75rem;
-    line-height: 3.4375rem;
-    width: 120px;
-  }
-}
 @media (min-width: 768px) {
   #main-nav > div #nav-contact-btn {
     background-color: #F89F77;
+    padding: 0 50px 15px;
+    color: #D42128;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  #main-nav > div #nav-contact-btn {
+    text-align: left;
+  }
+  #main-nav > div #nav-contact-btn > a:link,
+#main-nav > div #nav-contact-btn a:visited {
+    color: #D42128;
+    transition: 0.5s;
+  }
+  #main-nav > div #nav-contact-btn > a:link:hover, #main-nav > div #nav-contact-btn > a:link:active,
+#main-nav > div #nav-contact-btn a:visited:hover,
+#main-nav > div #nav-contact-btn a:visited:active {
+    color: #ECEDEE;
   }
 }
 #main-nav > div #nav-info-btn {
@@ -754,11 +761,8 @@ p {
     flex-direction: column;
     justify-content: flex-end;
   }
-  #main-nav > div #nav-info-btn > div p {
-    padding-bottom: 15px;
-  }
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   #main-nav > div #nav-info-btn {
     flex-direction: column;
     justify-content: center;
@@ -767,7 +771,12 @@ p {
 #main-nav > div #nav-info-btn h4 {
   padding-bottom: 20px;
 }
-@media (min-width: 1025px) {
+@media (min-width: 768px) {
+  #main-nav > div #nav-info-btn h4 {
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1024px) {
   #main-nav > div #nav-info-btn h4 {
     padding-top: 20px;
     padding-bottom: 60px;
@@ -794,7 +803,7 @@ header > div {
   grid-template-areas: "logo . burger";
   grid-template-columns: 15% auto 20%;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   header > div {
     grid-template-columns: 10% auto 10%;
   }
