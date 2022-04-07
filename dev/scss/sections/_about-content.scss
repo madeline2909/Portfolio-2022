@@ -13,48 +13,48 @@
 
 //*changing color of nav bar and footer//
 
-header{
-    border-bottom: 2px solid $offwhite;
-    #logo-container {
-        path{
-            fill: $offwhite;
-        }
-    }
+// header{
+//     border-bottom: 2px solid $offwhite;
+//     #logo-container {
+//         path{
+//             fill: $offwhite;
+//         }
+//     }
     
-    #burger-container{
-        border-left: 2px solid $offwhite;
-        .lines{
-            fill: $offwhite;
-        }
-    }
-}
+//     #burger-container{
+//         border-left: 2px solid $offwhite;
+//         .lines{
+//             fill: $offwhite;
+//         }
+//     }
+// }
 
-footer {
-    background-color: $peachy;
-    #footer-container {
-        border-top: 2px solid $offwhite;
-        #left-footer{
-            ul {
-                color: $offwhite;
-            }
-        }
-        #right-footer{
-            ul {
-                color: $offwhite;
-                li {
-                    a:link,
-                    a:visited {
-                        color: $offwhite;
+// footer {
+//     background-color: $peachy;
+//     #footer-container {
+//         border-top: 2px solid $offwhite;
+//         #left-footer{
+//             ul {
+//                 color: $offwhite;
+//             }
+//         }
+//         #right-footer{
+//             ul {
+//                 color: $offwhite;
+//                 li {
+//                     a:link,
+//                     a:visited {
+//                         color: $offwhite;
     
-                        &:hover,
-                        &:active {
-                            color: $yellow;
-                        }
-                    }
-                }
-            }
-        }
+//                         &:hover,
+//                         &:active {
+//                             color: $yellow;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
         
-    }
+//     }
     
-}
+// }

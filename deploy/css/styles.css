@@ -468,7 +468,7 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "Hepta Slab", serif;
+  font-family: "Montagu Slab", serif;
 }
 
 p, h6, li {
@@ -832,16 +832,16 @@ p {
 /* =============
     Header
 ============= */
-header {
+#header-1 {
   position: fixed;
   width: 100vw;
   z-index: 200;
   border-bottom: 2px solid #82AB40;
 }
-header #line-4 {
+#header-1 .line-4 {
   opacity: 0;
 }
-header > div {
+#header-1 > div {
   color: none;
   margin-left: 40px;
   display: grid;
@@ -850,27 +850,27 @@ header > div {
   grid-template-columns: 15% auto 20%;
 }
 @media (min-width: 1024px) {
-  header > div {
+  #header-1 > div {
     grid-template-columns: 10% auto 10%;
   }
 }
-header > div #logo-container {
+#header-1 > div #logo-container-1 {
   padding: 15px 0;
   grid-area: logo;
   display: flex;
   justify-content: center;
   cursor: pointer;
 }
-header > div #logo-container:hover #logo path {
+#header-1 > div #logo-container-1:hover #logo-1 path {
   fill: #F2B029;
   transition: 0.5s;
 }
 @media (min-width: 768px) {
-  header > div #logo-container {
+  #header-1 > div #logo-container-1 {
     padding: 20px 0;
   }
 }
-header > div #burger-container {
+#header-1 > div #burger-container-1 {
   border-left: 2px solid #82AB40;
   grid-area: burger;
   align-items: center;
@@ -878,9 +878,69 @@ header > div #burger-container {
   display: flex;
   justify-content: center;
 }
-header > div #burger-container:hover .lines {
+#header-1 > div #burger-container-1:hover .lines {
   fill: #F2B029;
   transition: 0.5s;
+}
+
+/* =============
+    Header
+============= */
+#header-2 {
+  position: fixed;
+  width: 100vw;
+  z-index: 200;
+  border-bottom: 2px solid #ECEDEE;
+}
+#header-2 .line-4 {
+  opacity: 0;
+}
+#header-2 > div {
+  color: none;
+  margin-left: 40px;
+  display: grid;
+  grid-gap: 0;
+  grid-template-areas: "logo . burger";
+  grid-template-columns: 15% auto 20%;
+}
+@media (min-width: 1024px) {
+  #header-2 > div {
+    grid-template-columns: 10% auto 10%;
+  }
+}
+#header-2 > div #logo-container-2 {
+  padding: 15px 0;
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+#header-2 > div #logo-container-2:hover #logo-2 path {
+  fill: #D42128;
+  transition: 0.5s;
+}
+#header-2 > div #logo-container-2 #logo-2 path {
+  fill: #ECEDEE;
+}
+@media (min-width: 768px) {
+  #header-2 > div #logo-container-2 {
+    padding: 20px 0;
+  }
+}
+#header-2 > div #burger-container-2 {
+  border-left: 2px solid #ECEDEE;
+  grid-area: burger;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+#header-2 > div #burger-container-2:hover .lines {
+  fill: #D42128;
+  transition: 0.5s;
+}
+#header-2 > div #burger-container-2 .lines {
+  fill: #ECEDEE;
 }
 
 /* =============
@@ -1113,53 +1173,6 @@ footer #footer-container #right-footer ul li a:visited:active {
   padding-bottom: 80px;
 }
 
-#about-container {
-  background-color: #F89F77;
-}
-#about-container > div .about-bodycopy {
-  padding: 20px 0;
-}
-@media (min-width: 1024px) {
-  #about-container > div .about-bodycopy {
-    padding: 30px 0;
-  }
-}
-
-header {
-  border-bottom: 2px solid #ECEDEE;
-}
-header #logo-container path {
-  fill: #ECEDEE;
-}
-header #burger-container {
-  border-left: 2px solid #ECEDEE;
-}
-header #burger-container .lines {
-  fill: #ECEDEE;
-}
-
-footer {
-  background-color: #F89F77;
-}
-footer #footer-container {
-  border-top: 2px solid #ECEDEE;
-}
-footer #footer-container #left-footer ul {
-  color: #ECEDEE;
-}
-footer #footer-container #right-footer ul {
-  color: #ECEDEE;
-}
-footer #footer-container #right-footer ul li a:link,
-footer #footer-container #right-footer ul li a:visited {
-  color: #ECEDEE;
-}
-footer #footer-container #right-footer ul li a:link:hover, footer #footer-container #right-footer ul li a:link:active,
-footer #footer-container #right-footer ul li a:visited:hover,
-footer #footer-container #right-footer ul li a:visited:active {
-  color: #F2B029;
-}
-
 #home-hero-container {
   overflow: hidden;
   width: 100%;
@@ -1233,5 +1246,17 @@ footer #footer-container #right-footer ul li a:visited:active {
 @media (min-width: 1024px) {
   #home-hero-container #home-hero > div #featured-prj {
     bottom: -60%;
+  }
+}
+
+#about-container {
+  background-color: #F89F77;
+}
+#about-container > div .about-bodycopy {
+  padding: 20px 0;
+}
+@media (min-width: 1024px) {
+  #about-container > div .about-bodycopy {
+    padding: 30px 0;
   }
 }

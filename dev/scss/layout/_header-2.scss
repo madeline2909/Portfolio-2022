@@ -1,11 +1,11 @@
 /* =============
     Header
 ============= */
-#header-1 {
+#header-2 {
     position: fixed;
     width: 100vw;
     z-index: 200;
-    border-bottom: 2px solid $grass;
+    border-bottom: 2px solid $offwhite;
     .line-4{
         opacity: 0;
     }
@@ -21,18 +21,24 @@
             grid-template-columns: (10% auto 10%);
         }
 
-        #logo-container-1 {
+        #logo-container-2 {
             padding: 15px 0;
             grid-area: logo;
             display: flex;
             justify-content: center;
             cursor: pointer;
+            
             &:hover {
-                #logo-1 {
+                #logo-2 {
                     path{
-                        fill: $yellow;
+                        fill: $veryred;
                         transition: 0.5s;
                     }
+                }
+            }
+            #logo-2{
+                path{
+                    fill: $offwhite;
                 }
             }
             @include md{
@@ -40,20 +46,23 @@
             }
         }
 
-        #burger-container-1 {
-            border-left: 2px solid $grass;
+        #burger-container-2 {
+            border-left: 2px solid $offwhite;
             //padding: 20px 0;
             grid-area: burger;
             align-items: center;
             cursor: pointer;
             &:hover {
                 .lines {
-                    fill: $yellow;
+                    fill: $veryred;
                     transition: 0.5s;
                 }
             }
             display: flex;
             justify-content: center;
+            .lines{
+                fill: $offwhite;
+            }
         }
     }
 }

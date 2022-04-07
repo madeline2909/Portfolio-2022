@@ -18,11 +18,13 @@
 
 // Layout Styles
 @import "layout/_header";
+@import "layout/_header-2";
 @import "layout/_footer";
 
 // Sections Styles
 @import "sections/_work-content";
-@import "sections/_play-content";
-@import "sections/_about-content";
-@import "sections/_index-content";
 @import "sections/_contact-content";
+@import "sections/_play-content";
+@import "sections/_index-content";
+@import "sections/_about-content";
+

@@ -6,7 +6,7 @@ import {canYouSeeTheMenu} from "./nav-global.js";
 
 
 export function burgerClick(){
-    $("#burger-container").on("click", function () {
+    $(".burger-container").on("click", function () {
         console.log("click");
         if (canYouSeeTheMenu === false) {
             burgerAnimationTimeline.play("burgerToX");

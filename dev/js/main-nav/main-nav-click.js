@@ -8,7 +8,7 @@ import {
 
 export function navClick() {
     //adding a listener the two buttons that will call a function that is defined in the nav-global js file
-    $("#burger-container").on("click", hideShowMainNav);
+    $(".burger-container").on("click", hideShowMainNav);
 
     //add event listener for the scroll plugin
     // $("#main-nav li button").on("click", scrollIndex);
