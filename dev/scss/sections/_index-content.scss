@@ -12,11 +12,16 @@
                 
             }
             @include lg{
-                bottom: -30px;
+                bottom: -15px;
             }
         }
         #big-title{
             margin: 30px 5%;
+            svg{
+                path{
+                    fill: $verygreen;
+                }
+            }
             @include md{
                 margin: 0 3%;
             }
@@ -63,58 +68,12 @@
                     right:10%;
                 }
                 @include lg{
-                    bottom: -60%;
+                    position: relative;
+                    bottom: 8%;
+                    right: -70%;
                 }
             }
         }
         
     }
 }
-
-//*changing color of nav bar and footer//
-
-// header{
-//     border-bottom: 2px solid $grass;
-//     #logo-container {
-//         path{
-//             fill: $veryred;
-//         }
-//     }
-    
-//     #burger-container{
-//         border-left: 2px solid $grass;
-//         .lines{
-//             fill: $veryred;
-//         }
-//     }
-// }
-
-// footer {
-//     background-color: $offwhite;
-//     #footer-container {
-//         border-top: 2px solid $grass;
-//         #left-footer{
-//             ul {
-//                 color: $grass;
-//             }
-//         }
-//         #right-footer{
-//             ul {
-//                 color: $grass;
-//                 li {
-//                     a:link,
-//                     a:visited {
-//                         color: $grass;
-    
-//                         &:hover,
-//                         &:active {
-//                             color: $yellow;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-        
-//     }
-    
-// }
