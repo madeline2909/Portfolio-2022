@@ -35,11 +35,31 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/home/featured-projects.svg": {
+	"/deploy/img/about/resume-badge.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/featured-projects.svg",
+		"oAP": "/deploy/img/about/resume-badge.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/about/thisisme-badge.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/about/thisisme-badge.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/home/featured-prj-badge.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/home/featured-prj-badge.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -58,11 +78,21 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/deploy/img/home/madeline.svg": {
+	"/deploy/img/home/madeline-hepta.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/madeline.svg",
+		"oAP": "/deploy/img/home/madeline-hepta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/home/madeline-montagu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/home/madeline-montagu.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
