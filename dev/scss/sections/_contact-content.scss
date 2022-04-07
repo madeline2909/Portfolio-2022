@@ -1,0 +1,12 @@
+#contact-container{
+    background-color: $peachy;
+    height: 60vh;
+    >div{
+        h1{
+            color: $tangerine;
+        }
+        h4, p{
+            color: $offwhite;
+        }
+    }
+}

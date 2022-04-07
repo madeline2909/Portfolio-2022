@@ -16,8 +16,8 @@ h5{
 h1, h4{
 	margin: 0;
 	padding: 0;
-	//font-family: 'Montagu Slab', serif;
-	font-family: 'Hepta Slab', serif;
+	font-family: 'Montagu Slab', serif;
+	//font-family: 'Hepta Slab', serif;
 }
 p, h6, li {
 	margin: 0;
@@ -32,20 +32,20 @@ p, h6, li {
 // }
 
 h1 {
-	font-weight: 400;
-	font-size: rem-calc(100);
-	line-height: rem-calc(80);
+	font-weight: 300;
+	font-size: rem-calc(120);
+	line-height: rem-calc(95);
 
 
 	@include md {
-		font-size: rem-calc(140);
-		line-height: rem-calc(100);
+		font-size: rem-calc(180);
+		line-height: rem-calc(130);
 
 	}
 
 	@include lg {
-		font-size: rem-calc(200);
-		line-height: rem-calc(164);
+		font-size: rem-calc(250);
+		line-height: rem-calc(180);
 	}
 }
 
@@ -86,7 +86,7 @@ h3 {
 }
 
 h4 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: rem-calc(30);
 	line-height: rem-calc(28);
 
@@ -96,8 +96,9 @@ h4 {
 	}
 
 	@include lg {
-		font-size: rem-calc(28);
-		line-height: rem-calc(28);
+		font-weight: 200;
+		font-size: rem-calc(37);
+		line-height: rem-calc(35);
 	}
 }
 
