@@ -285,6 +285,14 @@
 		"oAP": "/dev/content/work-content.html",
 		"oF": 0
 		},
+	"/dev/global/footer-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/footer-2.html",
+		"oF": 1
+		},
 	"/dev/global/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -712,6 +720,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/helpers/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/layout/_footer-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/layout/_footer-2.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
