@@ -147,10 +147,28 @@ p {
 	color: $verygreen;
 }
 
-// .bold-italic {
-// 	font-family: 'JetBrains Mono', monospace;
-// 	font-weight: 700;
-// 	font-style: italic;
-// 	line-height: rem-calc(28);
-// 	font-size: rem-calc(18);
-// }
+//changing text highlight
+h1::selection, h3::selection, h4::selection, h5::selection, h6::selection, li::selection, p::selection {
+	background: $matcha;
+	color: $grass; /* WebKit/Blink Browsers */
+}
+h1::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, li::-moz-selection, p::-moz-selection {
+	background: $matcha;
+	color: $grass; /* Gecko Browsers */
+}
+.about-bold::selection {
+	background: $offwhite;
+	color: $lavender;
+}
+.about-bold::-moz-selection{
+	background: $offwhite;
+	color: $lavender;
+}
+h2::selection{
+	background: $lavender;
+	color: $offwhite;
+}
+h2::-moz-selection {
+	background: $lavender;
+	color: $offwhite;
+}
