@@ -54,6 +54,14 @@ textarea {
     }
 }
 
+.not-show-md{
+    display: block;
+
+    @include md {
+        display: none;
+    }
+}
+
 // .hero-container {
 //     @include xl {
 //         display: grid;

@@ -408,6 +408,15 @@ textarea {
   }
 }
 
+.not-show-md {
+  display: block;
+}
+@media (min-width: 768px) {
+  .not-show-md {
+    display: none;
+  }
+}
+
 .grid-container {
   background-color: #ECEDEE;
   display: grid;
@@ -488,7 +497,7 @@ h1 {
 @media (min-width: 768px) {
   h1 {
     font-size: 11.25rem;
-    line-height: 8.125rem;
+    line-height: 8.75rem;
   }
 }
 @media (min-width: 1024px) {
@@ -1141,13 +1150,95 @@ p {
 
 #contact-container {
   background-color: #F89F77;
-  height: 60vh;
+}
+@media (min-width: 768px) {
+  #contact-container {
+    padding-top: 180px;
+  }
+}
+@media (min-width: 1024px) {
+  #contact-container {
+    padding-top: 120px;
+  }
 }
 #contact-container > div h1 {
   color: #E8622B;
 }
-#contact-container > div h4, #contact-container > div p {
+#contact-container > div p, #contact-container > div li {
   color: #ECEDEE;
+}
+#contact-container > div h4 {
+  color: #E8622B;
+}
+@media (min-width: 768px) {
+  #contact-container > div {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "title text" "email text";
+  }
+}
+@media (min-width: 1024px) {
+  #contact-container > div {
+    grid-template-columns: 65% 35%;
+    grid-template-areas: "title title" "text email";
+  }
+}
+@media (min-width: 768px) {
+  #contact-container > div h1 {
+    grid-area: title;
+  }
+}
+@media (min-width: 1024px) {
+  #contact-container > div h1 {
+    padding: 60px 0;
+  }
+}
+#contact-container > div #contact-text {
+  padding: 20px 0;
+}
+@media (min-width: 768px) {
+  #contact-container > div #contact-text {
+    padding: 0;
+    grid-area: text;
+  }
+}
+@media (min-width: 1024px) {
+  #contact-container > div #contact-text {
+    padding: 0;
+  }
+}
+#contact-container > div #contact-text #fun-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+#contact-container > div #contact-text #fun-list li {
+  width: fit-content;
+  padding: 12px;
+  margin: 5px;
+  border: 2px solid #ECEDEE;
+  border-radius: 50px;
+}
+@media (min-width: 768px) {
+  #contact-container > div #contact-text #fun-list li {
+    padding: 20px;
+  }
+}
+@media (min-width: 768px) {
+  #contact-container > div #emails {
+    grid-area: email;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 1024px) {
+  #contact-container > div #emails {
+    display: block;
+  }
+}
+#contact-container > div #emails :nth-child(1) {
+  padding-bottom: 10px;
 }
 
 #play-container {
