@@ -24,7 +24,7 @@
 
 
         @include md {
-            grid-template-rows: 58px 60% auto auto;
+            grid-template-rows: 60px 60% auto auto;
             grid-template-columns: repeat(3, 3fr);
             grid-template-areas:
                 ". . ."
@@ -35,7 +35,7 @@
         }
 
         @include lg {
-            grid-template-rows: 58px auto 30%;
+            grid-template-rows: 60px auto 30%;
             grid-template-columns: repeat(4, 25%);
             grid-template-areas:
                 ". . . ."
@@ -71,22 +71,23 @@
             }
 
             .nav-text {
-                font-family: 'Hepta Slab', serif;
-                font-weight: 400;
-                font-size: rem-calc(48);
-                line-height: rem-calc(50);
+                font-family: 'Montagu Slab', serif;
+                //font-family: 'Hepta Slab', serif;
+                font-weight: 300;
+                font-size: rem-calc(58);
+                line-height: rem-calc(52);
                 text-align: center;
                 color:$offwhite;
                 @include md {
                     color: $verygreen;
                     text-align: left;
-                    font-size: rem-calc(65);
-                    line-height: rem-calc(60);
+                    font-size: rem-calc(70);
+                    line-height: rem-calc(62);
                 }
             
                 @include lg {
-                    font-size: rem-calc(60);
-                    line-height: rem-calc(55);
+                    font-size: rem-calc(80);
+                    line-height: rem-calc(70);
                 }
             }
 
@@ -166,15 +167,25 @@
             justify-content: center;
             background-color: $grass;
             padding-bottom: 15px;
-
+            a{
+                @include md{
+                    margin-top: -15px;
+                    margin-bottom: 15px;
+                    padding: 0 80px;
+                    text-align: center;
+                    color: $veryred;
+                }
+                @include lg{
+                    text-align: left;
+                    padding: 0;
+                }
+            }
             @include md {
                 background-color: $peachy;
-                padding: 0 50px 15px;
-                color: $veryred;
-                text-align: center;
+                
             }
             @include lg{
-                text-align: left;
+                
                 >a:link,
                 a:visited {
                     color: $veryred;
@@ -207,10 +218,6 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: flex-end;
-
-                    p {
-                        //padding-bottom: 15px;
-                    }
                 }
             }
 
@@ -225,7 +232,7 @@
                     padding-bottom: 0;
                 }
                 @include lg {
-                    padding-top: 20px;
+                    padding-top: 10px;
                     padding-bottom: 60px;
                 }
             }

@@ -1,0 +1,81 @@
+#contact-container{
+    background-color: $peachy;
+    @include md{
+        padding-top: 180px;
+    }
+    @include lg{
+        padding-top: 120px;
+    }
+    // height: 60vh;
+    >div{
+        h1{
+            color: $tangerine;
+        }
+        p, li{
+            color: $offwhite;
+        }
+        h4{
+            color: $tangerine;
+        }
+        @include md{
+            display: grid;
+            grid-template-columns: 60% 40%;
+            grid-template-areas: "title text"
+            "email text";
+        }
+        @include lg{
+            grid-template-columns: 65% 35%;
+            grid-template-areas: "title title"
+            "text email";
+        }
+        h1{
+            @include md{
+                grid-area: title;
+            }
+            @include lg{
+                padding: 60px 0;
+            }
+        }
+        #contact-text{
+            padding: 20px 0;
+            @include md{
+                padding: 0;
+                grid-area: text;
+            }
+            @include lg{
+                padding: 0;
+            }
+            
+            #fun-list{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 20px 0;
+                li{
+                    width: fit-content;
+                    padding: 12px;
+                    margin: 5px;
+                    border: 2px solid $offwhite;
+                    border-radius: 50px;
+                    @include md{
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+        #emails{
+            @include md{
+                grid-area: email;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+            @include lg{
+                display: block;
+            }
+            :nth-child(1){
+                padding-bottom: 10px;
+            }
+        }
+        
+    }
+}

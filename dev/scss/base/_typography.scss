@@ -1,23 +1,24 @@
 /* =============
     Typography
 ============= */
+// font-family: 'Montagu Slab', serif;
+// font-family: 'Hepta Slab', serif;
+// font-family: 'JetBrains Mono', monospace;
 
-// font-family: 'Gaegu', cursive;
-// font-family: 'Kosugi Maru', sans-serif;
-// font-family: 'Montserrat', sans-serif;
-// font-family: 'Space Mono', monospace;
-
-h1,
 h2,
 h3,
-h4,
-h5,
-h6{
+h5{
 	margin: 0;
 	padding: 0;
-	font-family: 'Hepta Slab', serif;
+	font-family: 'Montagu Slab', serif;
+	//font-family: 'Hepta Slab', serif;
 }
-
+h1, h4{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montagu Slab', serif;
+	//font-family: 'Hepta Slab', serif;
+}
 p, h6, li {
 	margin: 0;
 	padding: 0;
@@ -31,42 +32,43 @@ p, h6, li {
 // }
 
 h1 {
-	font-weight: 400;
-	font-size: rem-calc(100);
-	line-height: rem-calc(80);
+	font-weight: 300;
+	font-size: rem-calc(120);
+	line-height: rem-calc(95);
 
 
 	@include md {
 		font-size: rem-calc(180);
-		line-height: rem-calc(145);
+		line-height: rem-calc(140);
 
 	}
 
 	@include lg {
-		font-size: rem-calc(200);
-		line-height: rem-calc(164);
+		font-size: rem-calc(250);
+		line-height: rem-calc(180);
 	}
 }
 
 h2 {
-	font-weight: 400;
-	font-size: rem-calc(200);
-	line-height: rem-calc(148);
+	font-weight: 300;
+	font-size: rem-calc(60);
+	line-height: rem-calc(55);
 	// margin-bottom: -20px;
+	color: $matcha;
 
 	@include md {
-		font-size: rem-calc(200);
-		line-height: rem-calc(148);
+		font-size: rem-calc(130);
+		line-height: rem-calc(115);
 	}
 
 	@include lg {
-		font-size: rem-calc(200);
-		line-height: rem-calc(148);
+		font-size: rem-calc(160);
+		line-height: rem-calc(145);
 	}
 }
 
 h3 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: rem-calc(48);
 	line-height: rem-calc(50);
 	text-align: center;
@@ -84,7 +86,7 @@ h3 {
 }
 
 h4 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: rem-calc(30);
 	line-height: rem-calc(28);
 
@@ -94,17 +96,20 @@ h4 {
 	}
 
 	@include lg {
-		font-size: rem-calc(28);
-		line-height: rem-calc(28);
+		font-weight: 200;
+		font-size: rem-calc(37);
+		line-height: rem-calc(35);
 	}
 }
 
 h5 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: rem-calc(30);
-
+	@include md{
+		font-size: rem-calc(32);
+	}
 	@include lg {
-		font-size: rem-calc(30);
+		font-size: rem-calc(24);
 	}
 }
 h6{
@@ -118,12 +123,29 @@ p {
 	line-height: rem-calc(22);
 }
 
-// .bold {
-// 	font-family: 'JetBrains Mono', monospace;
-// 	font-weight: 700;
-// 	line-height: rem-calc(28);
-// 	font-size: rem-calc(18);
-// }
+.about-bodycopy{
+	color: $tangerine;
+	font-family: 'Hepta Slab', serif;
+	
+	font-weight: 400;
+	font-size: rem-calc(20);
+	line-height: rem-calc(27);
+
+	@include md {
+		font-size: rem-calc(30);
+		line-height: rem-calc(40);
+	}
+
+	@include lg {
+		font-size: rem-calc(38);
+		line-height: rem-calc(49);
+	}
+}
+
+.about-bold {
+	font-weight: 500;
+	color: $verygreen;
+}
 
 // .bold-italic {
 // 	font-family: 'JetBrains Mono', monospace;

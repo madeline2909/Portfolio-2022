@@ -12,11 +12,16 @@
                 
             }
             @include lg{
-                bottom: -30px;
+                bottom: -15px;
             }
         }
         #big-title{
             margin: 30px 5%;
+            svg{
+                path{
+                    fill: $verygreen;
+                }
+            }
             @include md{
                 margin: 0 3%;
             }
@@ -63,7 +68,9 @@
                     right:10%;
                 }
                 @include lg{
-                    bottom: -60%;
+                    position: relative;
+                    bottom: 8%;
+                    right: -70%;
                 }
             }
         }

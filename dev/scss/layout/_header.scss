@@ -1,12 +1,12 @@
 /* =============
     Header
 ============= */
-header {
+#header-1 {
     position: fixed;
     width: 100vw;
     z-index: 200;
     border-bottom: 2px solid $grass;
-    #line-4{
+    .line-4{
         opacity: 0;
     }
     >div {
@@ -21,28 +21,14 @@ header {
             grid-template-columns: (10% auto 10%);
         }
 
-        // @include md {
-        //     padding: 25px 30px;
-        // }
-
-        // a:link,
-        // a:visited {
-        //     color: $mainpink;
-        // }
-
-        // a:hover,
-        // a:active {
-        //     color: $bluegreen;
-        // }
-
-        #logo-container {
+        #logo-container-1 {
             padding: 15px 0;
             grid-area: logo;
             display: flex;
             justify-content: center;
             cursor: pointer;
             &:hover {
-                #logo {
+                #logo-1 {
                     path{
                         fill: $yellow;
                         transition: 0.5s;
@@ -54,7 +40,7 @@ header {
             }
         }
 
-        #burger-container {
+        #burger-container-1 {
             border-left: 2px solid $grass;
             //padding: 20px 0;
             grid-area: burger;
