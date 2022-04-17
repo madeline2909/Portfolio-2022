@@ -81,12 +81,14 @@ textarea {
     grid-template-columns: 20px auto 20px;
     @include md{
         grid-template-areas: ". container .";
-        grid-template-columns: 5% auto 5%;
+        grid-template-columns: 5vw auto 5vw;
     }
-    @include xl {
-        grid-template-columns: auto 1440px auto;
+    @include lg{
+        grid-template-columns: 5vw auto 5vw;
     }
-
+    // @include xl {
+    //     grid-template-columns: auto 1440px auto;
+    // }
     >div {
         grid-area: container;
     }
