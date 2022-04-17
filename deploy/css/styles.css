@@ -738,7 +738,7 @@ h2::-moz-selection {
 @media (min-width: 1440px) {
   #main-nav > div .nav-btn .nav-text {
     font-size: 5rem;
-    line-height: 4.6875rem;
+    line-height: 4.0625rem;
   }
 }
 #main-nav > div .nav-btn img {
