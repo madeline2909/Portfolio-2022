@@ -1,79 +1,251 @@
 #home-hero-container{
+    height: 100vh;
     overflow: hidden;
     width: 100%;
     background-color: $offwhite;
+    .about-bodycopy{
+        color: $tangerine;
+        mix-blend-mode: multiply;
+    }
+    // .about-bold{
+    //     color: $grass;
+    // }
     #home-title{
         
-        h6{
-            color: $verygreen;
+        :nth-child(1){
+            padding-bottom: 0;
+            margin-bottom: -5px;
+            
+            @include lg{
+            padding-bottom: 55px;
+            }
+        }
+        p{
+            color: $tangerine;
             position: relative;
             @include md{
                 bottom: 20px;
-                
             }
             @include lg{
                 bottom: -15px;
             }
         }
         #big-title{
-            margin: 30px 5%;
+            display: flex;
+            justify-content: center;
+
+            @include md{
+                padding: 15px 0 50px;
+            }
+            @include lg{
+                mix-blend-mode: multiply;
+                padding: 0;
+            }
             svg{
+                height: 115px;
+                width: 90%;
+                @include lg{
+                    height: auto;
+                    position: absolute;
+                    top: 15%;
+                }
                 path{
                     fill: $verygreen;
+                    @include lg{
+                    fill: $matcha;
+                    }
                 }
             }
             @include md{
-                margin: 0 3%;
             }
         }
     }
-    #home-hero{
+    #home-intro{
         >div{
             width: 100%;
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: flex-end;
             
             p{
-                font-size: rem-calc(20);
-                line-height: rem-calc(31);
-                color: $verygreen;
-                padding-bottom: 40px;
-                @include lg{
-                    padding-bottom: 0;
-                    font-size: rem-calc(14);
-                    line-height: rem-calc(22);
-                    width: 310px;
-                    color: $offwhite;
-                    position: absolute;
-                    bottom: 9%;
-                    right: 10%;
-                }
-            }
-            img{
-                display: none;
+                //padding-bottom: 0px;
                 @include md{
-                    display: block;
-                    width: 100%;
+                    width: 80%;
+                }
+                @include lg{
+                    width: 45%;
+                }
+                @include xl{
+                    width: 50%;
                 }
             }
             #featured-prj{
                 width: 50%;
+                height: auto;
                 position: absolute;
                 right: 10%;
+                bottom: -1%;
                 @include md{
-                    position: absolute;
-                    width: 310px;
-                    bottom: 0%;
-                    right:10%;
+                    width: 250px;
+                    //right: 30%;
                 }
                 @include lg{
-                    position: relative;
-                    bottom: 8%;
-                    right: -70%;
+                    right: 10%;
+                    width: 300px;
                 }
+                .featured-prj-fill{
+                    fill: $tangerine;
+                    @include lg{
+                        fill: $matcha;
+                    }
+                }
+                #featured-prj-stroke{
+                    stroke: $tangerine;
+                    @include lg{
+                        stroke: $matcha;
+                    }
+                } 
             }
         }
         
+    }
+}
+
+
+#home-selected{
+    background-color: $offwhite;
+    a:link,
+    a:visited {
+        border: none;
+        color: $tangerine;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover,
+        &:active {
+            color: $grass
+        }
+    }
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 60vh;
+        @include md{
+            height: 35vh;
+        }
+        @include lg{
+            height: 60vh;
+        }
+    }
+    @include lg{
+        padding: 100px 0;
+    }
+    >div{
+        @include md{
+            padding-top: 80px;
+            display: grid;
+            grid-template-columns: 5% 40% 5% 5% 40% 5%;
+            grid-template-areas: 
+            ". prj1 prj2 prj2 prj2 prj2"
+            "prj3 prj3 prj3 prj3 prj4 ."
+            ". prj5 prj6 prj6 prj6 prj6"
+            "prj7 prj7 prj7 prj7 prj8 ."
+            ". prj9 prj10 prj10 prj10 prj10"
+            ;
+        }
+        @include lg{
+            padding-top: 50px;
+            grid-template-columns: 5% 40% 5% 5% 35% 5% 5%;
+            grid-template-areas: 
+            ". prj1 prj2 prj2 prj2 prj2 prj2"
+            "prj3 prj3 prj3 prj4 prj4 . ."
+            ". prj5 prj6 prj6 prj6 prj6 ."
+            "prj7 prj7 prj7 prj8 prj8 . ."
+            ". prj9 prj10 prj10 prj10 prj10 prj10"
+            ;
+        }
+        .home-prj{
+            padding-bottom: 60px;
+            @include md{
+                padding-bottom: 70px;
+            }
+            .project-titles, p{
+                margin: 0 20px;
+                @include md{
+                    margin: 0;
+                }
+            }
+        }
+        .home-prj-gap{
+            @include md{
+                padding-right: 10px;
+            }
+            @include lg{
+                padding-right: 20px;
+            }
+        }
+        .home-prj-title-margin{
+            .project-titles, p{
+                @include md{
+                    margin-left: 5vw;
+                }
+            }
+        }
+        #home-prj-1{
+            @include md{
+                grid-area: prj1;
+            }
+        }
+        #home-prj-2{
+            @include md{
+                grid-area: prj2;
+
+            }
+        }
+        #home-prj-3{
+            @include md{
+                grid-area: prj3;
+
+            }
+        }
+        #home-prj-4{
+            @include md{
+                grid-area: prj4;
+
+            }
+        }
+        #home-prj-5{
+            @include md{
+                grid-area: prj5;
+
+            }
+        }
+        #home-prj-6{
+            @include md{
+                grid-area: prj6;
+
+            }
+        }
+        #home-prj-7{
+            @include md{
+                grid-area: prj7;
+
+            }
+        }
+        #home-prj-8{
+            @include md {
+                grid-area: prj8;
+                
+            }
+        }
+        #home-prj-9{
+            @include md{
+                grid-area: prj9;
+
+            }
+        }
+        #home-prj-10{
+            @include md{
+                grid-area: prj10;
+
+            }
+        }
     }
 }

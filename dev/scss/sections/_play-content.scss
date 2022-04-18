@@ -34,7 +34,7 @@
         padding-bottom: 100px;
     }
     @include xl{
-        grid-template-columns: 10vw auto 10vw;
+        grid-template-columns: 8vw auto 8vw;
     }
     #play-prj-container{
         grid-area: container;
@@ -70,10 +70,7 @@
                     width: 100%;
                 }
             }
-            .project-titles{
-                text-transform: uppercase;
-                padding-top: 20px;
-            }
+            
             p{
                 padding-bottom: 80px;
             }

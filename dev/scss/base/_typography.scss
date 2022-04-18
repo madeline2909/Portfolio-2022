@@ -142,8 +142,11 @@ p {
 		font-size: rem-calc(30);
 		line-height: rem-calc(40);
 	}
-
-	@include lg {
+	@include lg{
+		font-size: rem-calc(29);
+        line-height: rem-calc(36);
+	}
+	@include xl {
 		font-size: rem-calc(38);
 		line-height: rem-calc(49);
 	}
@@ -152,6 +155,10 @@ p {
 .about-bold {
 	font-weight: 500;
 	color: $verygreen;
+}
+.project-titles{
+	text-transform: uppercase;
+	padding-top: 20px;
 }
 
 //changing text highlight
