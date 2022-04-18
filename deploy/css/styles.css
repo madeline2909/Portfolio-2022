@@ -1500,7 +1500,7 @@ h2::-moz-selection {
 }
 @media (min-width: 768px) {
   #home-hero-container #home-title #big-title svg {
-    top: 10%;
+    top: 12%;
   }
 }
 #home-hero-container #home-title #big-title svg path {
