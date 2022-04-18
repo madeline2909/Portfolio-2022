@@ -62,17 +62,6 @@ textarea {
     }
 }
 
-// .hero-container {
-//     @include xl {
-//         display: grid;
-//         grid-template-areas: ". hero .";
-//         grid-template-columns: auto 1440px auto;
-//     }
-
-//     >div {
-//         grid-area: hero;
-//     }
-// }
 
 .grid-container {
     background-color: $offwhite;
@@ -148,6 +137,9 @@ textarea {
     @include lg {
         padding: 100px 0;
     }
+    @include xl{
+        padding: 130px 0;
+    };
 }
 
 .content-spacing {

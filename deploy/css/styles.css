@@ -503,6 +503,11 @@ textarea {
     padding: 100px 0;
   }
 }
+@media (min-width: 1440px) {
+  .heading-spacing {
+    padding: 130px 0;
+  }
+}
 
 .content-spacing {
   margin: 30px 0 0 0;
@@ -672,6 +677,12 @@ p {
   .about-bodycopy {
     font-size: 1.8125rem;
     line-height: 2.25rem;
+  }
+}
+@media (min-width: 1440px) {
+  .about-bodycopy {
+    font-size: 2rem;
+    line-height: 2.8125rem;
   }
 }
 
@@ -1635,6 +1646,11 @@ h2::-moz-selection {
   }
 }
 @media (min-width: 768px) {
+  #home-selected > div .home-prj-title-margin .project-titles, #home-selected > div .home-prj-title-margin p {
+    margin-left: 5vw;
+  }
+}
+@media (min-width: 1440px) {
   #home-selected > div .home-prj-title-margin .project-titles, #home-selected > div .home-prj-title-margin p {
     margin-left: 5vw;
   }
