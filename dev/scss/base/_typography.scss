@@ -146,10 +146,6 @@ p {
 		font-size: rem-calc(29);
         line-height: rem-calc(36);
 	}
-	@include xl {
-		font-size: rem-calc(38);
-		line-height: rem-calc(49);
-	}
 }
 
 .about-bold {

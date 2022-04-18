@@ -674,12 +674,6 @@ p {
     line-height: 2.25rem;
   }
 }
-@media (min-width: 1440px) {
-  .about-bodycopy {
-    font-size: 2.375rem;
-    line-height: 3.0625rem;
-  }
-}
 
 .about-bold {
   font-weight: 500;
@@ -1607,6 +1601,11 @@ h2::-moz-selection {
     padding-top: 50px;
     grid-template-columns: 5% 40% 5% 5% 35% 5% 5%;
     grid-template-areas: ". prj1 prj2 prj2 prj2 prj2 prj2" "prj3 prj3 prj3 prj4 prj4 . ." ". prj5 prj6 prj6 prj6 prj6 ." "prj7 prj7 prj7 prj8 prj8 . ." ". prj9 prj10 prj10 prj10 prj10 prj10";
+  }
+}
+@media (min-width: 1440px) {
+  #home-selected > div {
+    grid-template-columns: 10% 35% 5% 5% 35% 5% 5%;
   }
 }
 #home-selected > div .home-prj {

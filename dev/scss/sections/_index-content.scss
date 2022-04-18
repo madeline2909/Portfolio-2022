@@ -161,6 +161,9 @@
             ". prj9 prj10 prj10 prj10 prj10 prj10"
             ;
         }
+        @include xl{
+            grid-template-columns: 10% 35% 5% 5% 35% 5% 5%;
+        }
         .home-prj{
             padding-bottom: 60px;
             @include md{
