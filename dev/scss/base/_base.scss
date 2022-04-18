@@ -86,9 +86,9 @@ textarea {
     @include lg{
         grid-template-columns: 5vw auto 5vw;
     }
-    // @include xl {
-    //     grid-template-columns: auto 1440px auto;
-    // }
+    @include xl {
+        grid-template-columns: 10vw auto 10vw;
+    }
     >div {
         grid-area: container;
     }

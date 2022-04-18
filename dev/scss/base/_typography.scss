@@ -44,8 +44,11 @@ h1 {
 	}
 
 	@include lg {
-		font-size: rem-calc(250);
+		font-size: rem-calc(200);
 		line-height: rem-calc(180);
+	}
+	@include xl{
+		font-size: rem-calc(220);
 	}
 }
 
