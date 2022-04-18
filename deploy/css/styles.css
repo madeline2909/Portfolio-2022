@@ -500,7 +500,7 @@ textarea {
 }
 @media (min-width: 1440px) {
   .heading-spacing {
-    padding: 110px 0;
+    padding: 100px 0;
   }
 }
 
@@ -1458,6 +1458,11 @@ h2::-moz-selection {
     padding-bottom: 55px;
   }
 }
+@media (min-width: 1440px) {
+  #home-hero-container #home-title :nth-child(1) {
+    padding-bottom: 65px;
+  }
+}
 #home-hero-container #home-title p {
   color: #E8622B;
   position: relative;
@@ -1500,7 +1505,7 @@ h2::-moz-selection {
 }
 @media (min-width: 768px) {
   #home-hero-container #home-title #big-title svg {
-    top: 12%;
+    top: 14%;
   }
 }
 #home-hero-container #home-title #big-title svg path {

@@ -19,6 +19,9 @@
             @include lg{
             padding-bottom: 55px;
             }
+            @include xl{
+                padding-bottom: 65px;
+            }
         }
         p{
             color: $tangerine;
@@ -50,7 +53,7 @@
                     top: 15%;
                 }
                 @include md{
-                    top: 12%;
+                    top: 14%;
                 }
                 path{
                     fill: $verygreen;
