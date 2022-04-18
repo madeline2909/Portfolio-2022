@@ -505,7 +505,7 @@ textarea {
 }
 @media (min-width: 1440px) {
   .heading-spacing {
-    padding: 130px 0;
+    padding: 120px 0;
   }
 }
 
@@ -682,7 +682,7 @@ p {
 @media (min-width: 1440px) {
   .about-bodycopy {
     font-size: 2rem;
-    line-height: 2.8125rem;
+    line-height: 2.625rem;
   }
 }
 
@@ -1652,7 +1652,7 @@ h2::-moz-selection {
 }
 @media (min-width: 1440px) {
   #home-selected > div .home-prj-title-margin .project-titles, #home-selected > div .home-prj-title-margin p {
-    margin-left: 5vw;
+    margin-left: 10vw;
   }
 }
 @media (min-width: 768px) {
