@@ -481,11 +481,6 @@ textarea {
     grid-template-columns: 10vw auto 10vw;
   }
 }
-@media (min-width: 1440px) {
-  .grid-container-3 {
-    grid-template-columns: 15vw auto 15vw;
-  }
-}
 .grid-container-3 > div {
   grid-area: container;
 }
@@ -505,7 +500,7 @@ textarea {
 }
 @media (min-width: 1440px) {
   .heading-spacing {
-    padding: 120px 0;
+    padding: 110px 0;
   }
 }
 
@@ -1501,6 +1496,11 @@ h2::-moz-selection {
     height: auto;
     position: absolute;
     top: 15%;
+  }
+}
+@media (min-width: 768px) {
+  #home-hero-container #home-title #big-title svg {
+    top: 10%;
   }
 }
 #home-hero-container #home-title #big-title svg path {

@@ -49,14 +49,15 @@
                     position: absolute;
                     top: 15%;
                 }
+                @include md{
+                    top: 10%;
+                }
                 path{
                     fill: $verygreen;
                     @include lg{
                     fill: $matcha;
                     }
                 }
-            }
-            @include md{
             }
         }
     }

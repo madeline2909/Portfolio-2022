@@ -119,9 +119,9 @@ textarea {
     @include lg{
         grid-template-columns: 10vw auto 10vw;
     }
-    @include xl {
-        grid-template-columns: 15vw auto 15vw;
-    }
+    // @include xl {
+    //     grid-template-columns: 10vw auto 10vw;
+    // }
     >div {
         grid-area: container;
     }
@@ -138,7 +138,7 @@ textarea {
         padding: 100px 0;
     }
     @include xl{
-        padding: 120px 0;
+        padding: 110px 0;
     };
 }
 
