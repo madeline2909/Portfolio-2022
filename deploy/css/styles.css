@@ -555,7 +555,7 @@ h1 {
 @media (min-width: 1024px) {
   h1 {
     font-size: 12.5rem;
-    line-height: 11.25rem;
+    line-height: 8.75rem;
   }
 }
 @media (min-width: 1440px) {
@@ -677,7 +677,7 @@ p {
 @media (min-width: 1440px) {
   .about-bodycopy {
     font-size: 2rem;
-    line-height: 2.625rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -1569,43 +1569,44 @@ h2::-moz-selection {
   }
 }
 
-#home-selected {
+#home-content {
   background-color: #ECEDEE;
+  overflow: hidden;
 }
-#home-selected a:link,
-#home-selected a:visited {
+#home-content a:link,
+#home-content a:visited {
   border: none;
   color: #E8622B;
   cursor: pointer;
   transition: 0.5s;
 }
-#home-selected a:link:hover, #home-selected a:link:active,
-#home-selected a:visited:hover,
-#home-selected a:visited:active {
+#home-content a:link:hover, #home-content a:link:active,
+#home-content a:visited:hover,
+#home-content a:visited:active {
   color: #82AB40;
 }
-#home-selected img {
+#home-content img {
   object-fit: cover;
   width: 100%;
   height: 60vh;
 }
 @media (min-width: 768px) {
-  #home-selected img {
+  #home-content img {
     height: 35vh;
   }
 }
 @media (min-width: 1024px) {
-  #home-selected img {
+  #home-content img {
     height: 60vh;
   }
 }
 @media (min-width: 1024px) {
-  #home-selected {
+  #home-content {
     padding: 100px 0;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div {
+  #home-content #home-selected {
     padding-top: 80px;
     display: grid;
     grid-template-columns: 5% 40% 5% 5% 40% 5%;
@@ -1613,102 +1614,240 @@ h2::-moz-selection {
   }
 }
 @media (min-width: 1024px) {
-  #home-selected > div {
+  #home-content #home-selected {
     padding-top: 50px;
     grid-template-columns: 5% 40% 5% 5% 35% 5% 5%;
     grid-template-areas: ". prj1 prj2 prj2 prj2 prj2 prj2" "prj3 prj3 prj3 prj4 prj4 . ." ". prj5 prj6 prj6 prj6 prj6 ." "prj7 prj7 prj7 prj8 prj8 . ." ". prj9 prj10 prj10 prj10 prj10 prj10";
   }
 }
 @media (min-width: 1440px) {
-  #home-selected > div {
+  #home-content #home-selected {
     grid-template-columns: 10% 35% 5% 5% 35% 5% 5%;
   }
 }
-#home-selected > div .home-prj {
+#home-content #home-selected .home-prj {
   padding-bottom: 60px;
 }
 @media (min-width: 768px) {
-  #home-selected > div .home-prj {
+  #home-content #home-selected .home-prj {
     padding-bottom: 70px;
   }
 }
-#home-selected > div .home-prj .project-titles, #home-selected > div .home-prj p {
+#home-content #home-selected .home-prj .project-titles,
+#home-content #home-selected .home-prj p {
   margin: 0 20px;
 }
 @media (min-width: 768px) {
-  #home-selected > div .home-prj .project-titles, #home-selected > div .home-prj p {
+  #home-content #home-selected .home-prj .project-titles,
+#home-content #home-selected .home-prj p {
     margin: 0;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div .home-prj-gap {
+  #home-content #home-selected .home-prj-gap {
     padding-right: 10px;
   }
 }
 @media (min-width: 1024px) {
-  #home-selected > div .home-prj-gap {
+  #home-content #home-selected .home-prj-gap {
     padding-right: 20px;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div .home-prj-title-margin .project-titles, #home-selected > div .home-prj-title-margin p {
+  #home-content #home-selected .home-prj-title-margin .project-titles,
+#home-content #home-selected .home-prj-title-margin p {
     margin-left: 5vw;
   }
 }
 @media (min-width: 1440px) {
-  #home-selected > div .home-prj-title-margin .project-titles, #home-selected > div .home-prj-title-margin p {
+  #home-content #home-selected .home-prj-title-margin .project-titles,
+#home-content #home-selected .home-prj-title-margin p {
     margin-left: 10vw;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-1 {
+  #home-content #home-selected #home-prj-1 {
     grid-area: prj1;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-2 {
+  #home-content #home-selected #home-prj-2 {
     grid-area: prj2;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-3 {
+  #home-content #home-selected #home-prj-3 {
     grid-area: prj3;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-4 {
+  #home-content #home-selected #home-prj-4 {
     grid-area: prj4;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-5 {
+  #home-content #home-selected #home-prj-5 {
     grid-area: prj5;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-6 {
+  #home-content #home-selected #home-prj-6 {
     grid-area: prj6;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-7 {
+  #home-content #home-selected #home-prj-7 {
     grid-area: prj7;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-8 {
+  #home-content #home-selected #home-prj-8 {
     grid-area: prj8;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-9 {
+  #home-content #home-selected #home-prj-9 {
     grid-area: prj9;
   }
 }
 @media (min-width: 768px) {
-  #home-selected > div #home-prj-10 {
+  #home-content #home-selected #home-prj-10 {
     grid-area: prj10;
   }
+}
+#home-content #home-contact {
+  background-color: #ECEDEE;
+  padding: 100px 0;
+  height: 60vh;
+}
+@media (min-width: 768px) {
+  #home-content #home-contact {
+    height: 50vh;
+  }
+}
+@media (min-width: 1024px) {
+  #home-content #home-contact {
+    height: 80vh;
+  }
+}
+#home-content #home-contact > div {
+  position: relative;
+}
+#home-content #home-contact > div #home-contact-svg {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+}
+@media (min-width: 768px) {
+  #home-content #home-contact > div #home-contact-svg {
+    height: 50vh;
+  }
+}
+@media (min-width: 1024px) {
+  #home-content #home-contact > div #home-contact-svg {
+    height: 100vh;
+  }
+}
+#home-content #home-contact > div #home-contact-svg #home-contact-left svg {
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  left: -50%;
+  margin-top: -200px;
+}
+@media (min-width: 768px) {
+  #home-content #home-contact > div #home-contact-svg #home-contact-left svg {
+    margin-top: -100px;
+  }
+}
+@media (min-width: 1024px) {
+  #home-content #home-contact > div #home-contact-svg #home-contact-left svg {
+    margin-top: -100px;
+  }
+}
+#home-content #home-contact > div #home-contact-svg #home-contact-left svg path {
+  stroke: #CFD1A0;
+  stroke-width: 2px;
+}
+@media (min-width: 768px) {
+  #home-content #home-contact > div #home-contact-svg #home-contact-left svg path {
+    stroke: none;
+  }
+}
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow {
+  position: absolute;
+  z-index: 0;
+  right: -15%;
+  display: flex;
+  justify-content: flex-end;
+  top: 55%;
+}
+@media (min-width: 768px) {
+  #home-content #home-contact > div #home-contact-svg #home-contact-arrow {
+    right: -10%;
+    top: 10%;
+  }
+}
+@media (min-width: 1024px) {
+  #home-content #home-contact > div #home-contact-svg #home-contact-arrow {
+    margin-top: -100px;
+  }
+}
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow svg {
+  height: 300px;
+  width: fit-content;
+}
+@media (min-width: 768px) {
+  #home-content #home-contact > div #home-contact-svg #home-contact-arrow svg {
+    width: 400px;
+  }
+}
+@media (min-width: 1024px) {
+  #home-content #home-contact > div #home-contact-svg #home-contact-arrow svg {
+    width: fit-content;
+    height: 550px;
+  }
+}
+#home-content #home-contact > div #home-contact-text {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  #home-content #home-contact > div #home-contact-text {
+    top: 10%;
+  }
+}
+#home-content #home-contact > div #home-contact-text p, #home-content #home-contact > div #home-contact-text h1 {
+  padding-left: 5%;
+}
+@media (min-width: 1024px) {
+  #home-content #home-contact > div #home-contact-text p, #home-content #home-contact > div #home-contact-text h1 {
+    padding-left: 10%;
+  }
+}
+#home-content #home-contact > div #home-contact-text p {
+  color: #9B96C2;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #home-content #home-contact > div #home-contact-text p {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  #home-content #home-contact > div #home-contact-text p {
+    width: 150px;
+  }
+}
+#home-content #home-contact > div #home-contact-text h1 {
+  mix-blend-mode: multiply;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #E8622B;
 }
 
 #about-container {

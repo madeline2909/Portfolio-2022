@@ -1,120 +1,145 @@
-#home-hero-container{
+#home-hero-container {
     height: 100vh;
     overflow: hidden;
     width: 100%;
     background-color: $offwhite;
-    .about-bodycopy{
+
+    .about-bodycopy {
         color: $tangerine;
         mix-blend-mode: multiply;
     }
+
     // .about-bold{
     //     color: $grass;
     // }
-    #home-title{
-        
-        :nth-child(1){
+    #home-title {
+
+        :nth-child(1) {
             padding-bottom: 0;
             margin-bottom: -5px;
-            
-            @include lg{
-            padding-bottom: 55px;
+
+            @include lg {
+                padding-bottom: 55px;
             }
-            @include xl{
+
+            @include xl {
                 padding-bottom: 65px;
             }
         }
-        p{
+
+        p {
             color: $tangerine;
             position: relative;
-            @include md{
+
+            @include md {
                 bottom: 20px;
             }
-            @include lg{
+
+            @include lg {
                 bottom: -15px;
             }
         }
-        #big-title{
+
+        #big-title {
             display: flex;
             justify-content: center;
 
-            @include md{
+            @include md {
                 padding: 15px 0 50px;
             }
-            @include lg{
+
+            @include lg {
                 mix-blend-mode: multiply;
                 padding: 0;
             }
-            svg{
+
+            svg {
                 height: 115px;
                 width: 90%;
-                @include lg{
+
+                @include lg {
                     height: auto;
                     position: absolute;
                     top: 15%;
                 }
-                @include md{
+
+                @include md {
                     top: 14%;
                 }
-                path{
+
+                path {
                     fill: $verygreen;
-                    @include lg{
-                    fill: $matcha;
+
+                    @include lg {
+                        fill: $matcha;
                     }
                 }
             }
         }
     }
-    #home-intro{
-        >div{
+
+    #home-intro {
+        >div {
             width: 100%;
-            
-            p{
+
+            p {
+
                 //padding-bottom: 0px;
-                @include md{
+                @include md {
                     width: 80%;
                 }
-                @include lg{
+
+                @include lg {
                     width: 45%;
                 }
-                @include xl{
+
+                @include xl {
                     width: 50%;
                 }
             }
-            #featured-prj{
+
+            #featured-prj {
                 width: 50%;
                 height: auto;
                 position: absolute;
                 right: 10%;
                 bottom: -1%;
-                @include md{
+
+                @include md {
                     width: 250px;
                     //right: 30%;
                 }
-                @include lg{
+
+                @include lg {
                     right: 10%;
                     width: 300px;
                 }
-                .featured-prj-fill{
+
+                .featured-prj-fill {
                     fill: $tangerine;
-                    @include lg{
+
+                    @include lg {
                         fill: $matcha;
                     }
                 }
-                #featured-prj-stroke{
+
+                #featured-prj-stroke {
                     stroke: $tangerine;
-                    @include lg{
+
+                    @include lg {
                         stroke: $matcha;
                     }
-                } 
+                }
             }
         }
-        
+
     }
 }
 
 
-#home-selected{
+#home-content {
     background-color: $offwhite;
+    overflow: hidden;
     a:link,
     a:visited {
         border: none;
@@ -127,135 +152,281 @@
             color: $grass
         }
     }
-    img{
+
+    img {
         object-fit: cover;
         width: 100%;
         height: 60vh;
-        @include md{
+
+        @include md {
             height: 35vh;
         }
-        @include lg{
+
+        @include lg {
             height: 60vh;
         }
     }
-    @include lg{
+
+    @include lg {
         padding: 100px 0;
     }
-    >div{
-        @include md{
+
+    #home-selected {
+        @include md {
             padding-top: 80px;
             display: grid;
             grid-template-columns: 5% 40% 5% 5% 40% 5%;
-            grid-template-areas: 
-            ". prj1 prj2 prj2 prj2 prj2"
-            "prj3 prj3 prj3 prj3 prj4 ."
-            ". prj5 prj6 prj6 prj6 prj6"
-            "prj7 prj7 prj7 prj7 prj8 ."
-            ". prj9 prj10 prj10 prj10 prj10"
+            grid-template-areas:
+                ". prj1 prj2 prj2 prj2 prj2"
+                "prj3 prj3 prj3 prj3 prj4 ."
+                ". prj5 prj6 prj6 prj6 prj6"
+                "prj7 prj7 prj7 prj7 prj8 ."
+                ". prj9 prj10 prj10 prj10 prj10"
             ;
         }
-        @include lg{
+
+        @include lg {
             padding-top: 50px;
             grid-template-columns: 5% 40% 5% 5% 35% 5% 5%;
-            grid-template-areas: 
-            ". prj1 prj2 prj2 prj2 prj2 prj2"
-            "prj3 prj3 prj3 prj4 prj4 . ."
-            ". prj5 prj6 prj6 prj6 prj6 ."
-            "prj7 prj7 prj7 prj8 prj8 . ."
-            ". prj9 prj10 prj10 prj10 prj10 prj10"
+            grid-template-areas:
+                ". prj1 prj2 prj2 prj2 prj2 prj2"
+                "prj3 prj3 prj3 prj4 prj4 . ."
+                ". prj5 prj6 prj6 prj6 prj6 ."
+                "prj7 prj7 prj7 prj8 prj8 . ."
+                ". prj9 prj10 prj10 prj10 prj10 prj10"
             ;
         }
-        @include xl{
+
+        @include xl {
             grid-template-columns: 10% 35% 5% 5% 35% 5% 5%;
         }
-        .home-prj{
+
+        .home-prj {
             padding-bottom: 60px;
-            @include md{
+
+            @include md {
                 padding-bottom: 70px;
             }
-            .project-titles, p{
+
+            .project-titles,
+            p {
                 margin: 0 20px;
-                @include md{
+
+                @include md {
                     margin: 0;
                 }
             }
         }
-        .home-prj-gap{
-            @include md{
+
+        .home-prj-gap {
+            @include md {
                 padding-right: 10px;
             }
-            @include lg{
+
+            @include lg {
                 padding-right: 20px;
             }
         }
-        .home-prj-title-margin{
-            .project-titles, p{
-                @include md{
+
+        .home-prj-title-margin {
+
+            .project-titles,
+            p {
+                @include md {
                     margin-left: 5vw;
                 }
-                @include xl{
+
+                @include xl {
                     margin-left: 10vw;
                 }
             }
         }
-        #home-prj-1{
-            @include md{
+
+        #home-prj-1 {
+            @include md {
                 grid-area: prj1;
             }
         }
-        #home-prj-2{
-            @include md{
+
+        #home-prj-2 {
+            @include md {
                 grid-area: prj2;
 
             }
         }
-        #home-prj-3{
-            @include md{
+
+        #home-prj-3 {
+            @include md {
                 grid-area: prj3;
 
             }
         }
-        #home-prj-4{
-            @include md{
+
+        #home-prj-4 {
+            @include md {
                 grid-area: prj4;
 
             }
         }
-        #home-prj-5{
-            @include md{
+
+        #home-prj-5 {
+            @include md {
                 grid-area: prj5;
 
             }
         }
-        #home-prj-6{
-            @include md{
+
+        #home-prj-6 {
+            @include md {
                 grid-area: prj6;
 
             }
         }
-        #home-prj-7{
-            @include md{
+
+        #home-prj-7 {
+            @include md {
                 grid-area: prj7;
 
             }
         }
-        #home-prj-8{
+
+        #home-prj-8 {
             @include md {
                 grid-area: prj8;
-                
+
             }
         }
-        #home-prj-9{
-            @include md{
+
+        #home-prj-9 {
+            @include md {
                 grid-area: prj9;
 
             }
         }
-        #home-prj-10{
-            @include md{
+
+        #home-prj-10 {
+            @include md {
                 grid-area: prj10;
 
             }
         }
     }
+    #home-contact {
+        background-color: $offwhite;
+        padding: 100px 0;
+        height: 60vh;
+        @include md {
+            height: 50vh;
+        }
+        @include lg {
+            height: 80vh;
+        }
+    
+        >div {
+            position: relative;
+            #home-contact-svg{
+                
+                //position: relative;
+                display: flex;
+                justify-content: center;
+                width: 100vw;
+                height: 60vh;
+                @include md {
+                    height: 50vh;
+                }
+                @include lg {
+                    height: 100vh;
+                }
+    
+                #home-contact-left {
+                    svg{
+                        position: absolute;
+                        height: 600px;
+                        width: 100%;
+                        left: -50%;
+                        margin-top: -200px;
+                        @include md{
+                            margin-top: -100px;
+                        }
+                        @include lg{
+                            margin-top: -100px;
+                        }
+                        path{
+                            stroke: $matcha;
+                            stroke-width: 2px ;
+                            @include md{
+                                stroke: none;
+                            }
+                        }
+                    }
+                    
+                }
+        
+                #home-contact-arrow {
+                    //position: relative;
+                    position: absolute;
+                    z-index: 0;
+                    right: -15%;
+                    display: flex;
+                    justify-content: flex-end;
+                    top: 55%;
+                    //width: 100vw;
+                    
+                    @include md {
+                        right: -10%;
+                        top: 10%;
+                    }
+        
+                    @include lg {
+                        margin-top: -100px;
+                    }
+                    svg{
+                        height: 300px;
+                        width: fit-content;
+                        @include md{
+                            width: 400px;
+                        }
+                        @include lg{
+                        width: fit-content;
+                            height: 550px;
+                        }
+                    }
+                }
+            }
+            #home-contact-text{
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                width: 100vw;
+                @include md{
+                    top: 10%;
+                }
+                p,h1{
+                    padding-left: 5%;
+                    @include lg{
+                    padding-left: 10%;
+                    }
+                }
+                p {
+                    color: $lavender;
+                    margin-bottom: 20px;
+                    @include md{
+                    margin-bottom: 30px;
+                    }
+                    @include lg{
+                        width: 150px;
+                    }
+                }
+        
+                h1 {
+                    mix-blend-mode: multiply;
+                    -webkit-hyphens: auto;
+                    -ms-hyphens: auto;
+                    hyphens: auto;
+                    color: $tangerine;
+                }
+            }
+        }
+    }
 }
+

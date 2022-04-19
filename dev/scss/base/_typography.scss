@@ -45,10 +45,11 @@ h1 {
 
 	@include lg {
 		font-size: rem-calc(200);
-		line-height: rem-calc(180);
+		line-height: rem-calc(140);
 	}
 	@include xl{
 		font-size: rem-calc(220);
+		
 	}
 }
 
@@ -148,7 +149,7 @@ p {
 	}
 	@include xl {
 		font-size: rem-calc(32);
-		line-height: rem-calc(42);
+		line-height: rem-calc(40);
 	}
 }
 
