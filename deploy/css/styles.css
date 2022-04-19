@@ -728,7 +728,7 @@ h2::-moz-selection {
 ============= */
 #main-nav {
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   background-color: #9B96C2;
 }
 #main-nav > div {
@@ -982,7 +982,7 @@ h2::-moz-selection {
   display: grid;
   grid-gap: 0;
   grid-template-areas: "logo . burger";
-  grid-template-columns: 15% auto 20%;
+  grid-template-columns: 5% auto 20%;
 }
 @media (min-width: 1024px) {
   #header-1 > div {
@@ -1036,7 +1036,7 @@ h2::-moz-selection {
   display: grid;
   grid-gap: 0;
   grid-template-areas: "logo . burger";
-  grid-template-columns: 15% auto 20%;
+  grid-template-columns: 5% auto 20%;
 }
 @media (min-width: 1024px) {
   #header-2 > div {
@@ -1727,7 +1727,7 @@ h2::-moz-selection {
 }
 @media (min-width: 1024px) {
   #home-content #home-contact {
-    height: 80vh;
+    height: 60vh;
   }
 }
 #home-content #home-contact > div {
