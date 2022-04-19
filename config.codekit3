@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "33081",
 "files": {
+	"/cyberduck_u100604915.duck": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/cyberduck_u100604915.duck",
+		"oF": 0
+		},
 	"/deploy/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -63,6 +71,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/about/thisisme-badge.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/home/connect-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/home/connect-arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,

@@ -44,8 +44,12 @@ h1 {
 	}
 
 	@include lg {
-		font-size: rem-calc(250);
-		line-height: rem-calc(180);
+		font-size: rem-calc(200);
+		line-height: rem-calc(140);
+	}
+	@include xl{
+		font-size: rem-calc(220);
+		
 	}
 }
 
@@ -97,7 +101,11 @@ h4 {
 
 	@include lg {
 		font-weight: 200;
-		font-size: rem-calc(37);
+		font-size: rem-calc(34);
+		line-height: rem-calc(32);
+	}
+	@include xl{
+		font-size: rem-calc(40);
 		line-height: rem-calc(35);
 	}
 }
@@ -135,10 +143,13 @@ p {
 		font-size: rem-calc(30);
 		line-height: rem-calc(40);
 	}
-
-	@include lg {
-		font-size: rem-calc(38);
-		line-height: rem-calc(49);
+	@include lg{
+		font-size: rem-calc(29);
+        line-height: rem-calc(36);
+	}
+	@include xl {
+		font-size: rem-calc(32);
+		line-height: rem-calc(40);
 	}
 }
 
@@ -146,11 +157,33 @@ p {
 	font-weight: 500;
 	color: $verygreen;
 }
+.project-titles{
+	text-transform: uppercase;
+	padding-top: 20px;
+}
 
-// .bold-italic {
-// 	font-family: 'JetBrains Mono', monospace;
-// 	font-weight: 700;
-// 	font-style: italic;
-// 	line-height: rem-calc(28);
-// 	font-size: rem-calc(18);
-// }
+//changing text highlight
+h1::selection, h3::selection, h4::selection, h5::selection, h6::selection, li::selection, p::selection {
+	background: $matcha;
+	color: $grass; /* WebKit/Blink Browsers */
+}
+h1::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, li::-moz-selection, p::-moz-selection {
+	background: $matcha;
+	color: $grass; /* Gecko Browsers */
+}
+.about-bold::selection {
+	background: $offwhite;
+	color: $lavender;
+}
+.about-bold::-moz-selection{
+	background: $offwhite;
+	color: $lavender;
+}
+h2::selection{
+	background: $lavender;
+	color: $offwhite;
+}
+h2::-moz-selection {
+	background: $lavender;
+	color: $offwhite;
+}
