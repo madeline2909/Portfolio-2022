@@ -13,30 +13,32 @@
     //     color: $grass;
     // }
     #home-title {
-
+        
         :nth-child(1) {
             padding-bottom: 0;
             margin-bottom: -5px;
 
             @include lg {
-                padding-bottom: 55px;
+                //padding-top: 100px;
+                margin-bottom: -80px;
             }
 
             @include xl {
-                padding-bottom: 65px;
+                margin-bottom: -100px;
             }
         }
 
         p {
             color: $tangerine;
-            position: relative;
+            //margin-bottom: 20px;
 
             @include md {
+                position: relative;
                 bottom: 20px;
             }
 
             @include lg {
-                bottom: -15px;
+                bottom: 0px;
             }
         }
 
@@ -59,12 +61,12 @@
 
                 @include lg {
                     height: auto;
-                    position: absolute;
-                    top: 15%;
+                    //position: absolute;
+                    //top: 15%;
                 }
 
-                @include md {
-                    top: 14%;
+                @include xl {
+                    width: 1400px;
                 }
 
                 path {
@@ -84,17 +86,19 @@
 
             p {
 
-                //padding-bottom: 0px;
                 @include md {
                     width: 80%;
                 }
 
                 @include lg {
                     width: 45%;
+                    padding-top: 130px;
+
                 }
 
                 @include xl {
                     width: 50%;
+                    padding-top: 150px;
                 }
             }
 

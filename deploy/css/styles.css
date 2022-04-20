@@ -495,12 +495,12 @@ textarea {
 }
 @media (min-width: 1024px) {
   .heading-spacing {
-    padding: 100px 0;
+    padding: 160px 0;
   }
 }
 @media (min-width: 1440px) {
   .heading-spacing {
-    padding: 100px 0;
+    padding: 180px 0;
   }
 }
 
@@ -1455,26 +1455,26 @@ h2::-moz-selection {
 }
 @media (min-width: 1024px) {
   #home-hero-container #home-title :nth-child(1) {
-    padding-bottom: 55px;
+    margin-bottom: -80px;
   }
 }
 @media (min-width: 1440px) {
   #home-hero-container #home-title :nth-child(1) {
-    padding-bottom: 65px;
+    margin-bottom: -100px;
   }
 }
 #home-hero-container #home-title p {
   color: #E8622B;
-  position: relative;
 }
 @media (min-width: 768px) {
   #home-hero-container #home-title p {
+    position: relative;
     bottom: 20px;
   }
 }
 @media (min-width: 1024px) {
   #home-hero-container #home-title p {
-    bottom: -15px;
+    bottom: 0px;
   }
 }
 #home-hero-container #home-title #big-title {
@@ -1499,13 +1499,11 @@ h2::-moz-selection {
 @media (min-width: 1024px) {
   #home-hero-container #home-title #big-title svg {
     height: auto;
-    position: absolute;
-    top: 15%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
   #home-hero-container #home-title #big-title svg {
-    top: 14%;
+    width: 1400px;
   }
 }
 #home-hero-container #home-title #big-title svg path {
@@ -1527,11 +1525,13 @@ h2::-moz-selection {
 @media (min-width: 1024px) {
   #home-hero-container #home-intro > div p {
     width: 45%;
+    padding-top: 130px;
   }
 }
 @media (min-width: 1440px) {
   #home-hero-container #home-intro > div p {
     width: 50%;
+    padding-top: 150px;
   }
 }
 #home-hero-container #home-intro > div #featured-prj {
