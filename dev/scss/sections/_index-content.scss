@@ -375,7 +375,29 @@
                     justify-content: flex-end;
                     top: 55%;
                     //width: 100vw;
-                    
+                    #arrow-circle-button{
+                        //opacity: 0;
+                        mix-blend-mode: multiply;
+
+                    }
+                    a:link,
+                    a:visited {
+                        border: none;
+                        cursor: pointer;
+                        transition: 5s;
+                        circle{
+                            fill: transparent;
+
+                        }
+                        &:hover,
+                        &:active {
+                            circle{
+                                fill: $peachy;
+                            }
+    
+                        }
+                    }
+                   
                     @include md {
                         right: -10%;
                         top: 10%;
@@ -387,28 +409,37 @@
                     svg{
                         height: 300px;
                         width: fit-content;
+                        
                         @include md{
                             width: 400px;
                         }
                         @include lg{
                         width: fit-content;
-                            height: 550px;
+                        height: 550px;
+                        }
+                        @include xl{
+                            width: fit-content;
+                            height: 600px;
                         }
                     }
                 }
+                
             }
             #home-contact-text{
                 position: absolute;
                 z-index: 1;
                 top: 0;
-                width: 100vw;
+                //width: 100vw;
                 @include md{
                     top: 10%;
                 }
+                @include lg{
+                    //width: 1200px;
+                }
                 p,h1{
-                    padding-left: 5%;
+                    padding-left: 5vw;
                     @include lg{
-                    padding-left: 10%;
+                    padding-left: 10vw;
                     }
                 }
                 p {

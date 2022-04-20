@@ -1783,6 +1783,24 @@ h2::-moz-selection {
   justify-content: flex-end;
   top: 55%;
 }
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow #arrow-circle-button {
+  mix-blend-mode: multiply;
+}
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:link,
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:visited {
+  border: none;
+  cursor: pointer;
+  transition: 5s;
+}
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:link circle,
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:visited circle {
+  fill: transparent;
+}
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:link:hover circle, #home-content #home-contact > div #home-contact-svg #home-contact-arrow a:link:active circle,
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:visited:hover circle,
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:visited:active circle {
+  fill: #F89F77;
+}
 @media (min-width: 768px) {
   #home-content #home-contact > div #home-contact-svg #home-contact-arrow {
     right: -10%;
@@ -1809,11 +1827,16 @@ h2::-moz-selection {
     height: 550px;
   }
 }
+@media (min-width: 1440px) {
+  #home-content #home-contact > div #home-contact-svg #home-contact-arrow svg {
+    width: fit-content;
+    height: 600px;
+  }
+}
 #home-content #home-contact > div #home-contact-text {
   position: absolute;
   z-index: 1;
   top: 0;
-  width: 100vw;
 }
 @media (min-width: 768px) {
   #home-content #home-contact > div #home-contact-text {
@@ -1821,11 +1844,11 @@ h2::-moz-selection {
   }
 }
 #home-content #home-contact > div #home-contact-text p, #home-content #home-contact > div #home-contact-text h1 {
-  padding-left: 5%;
+  padding-left: 5vw;
 }
 @media (min-width: 1024px) {
   #home-content #home-contact > div #home-contact-text p, #home-content #home-contact > div #home-contact-text h1 {
-    padding-left: 10%;
+    padding-left: 10vw;
   }
 }
 #home-content #home-contact > div #home-contact-text p {
