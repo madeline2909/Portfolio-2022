@@ -46,7 +46,7 @@ textarea {
     }
 }
 
-.not-show-lg{
+.not-show-lg {
     display: block;
 
     @include lg {
@@ -54,7 +54,7 @@ textarea {
     }
 }
 
-.not-show-md{
+.not-show-md {
     display: block;
 
     @include md {
@@ -68,16 +68,20 @@ textarea {
     display: grid;
     grid-template-areas: ". container .";
     grid-template-columns: 20px auto 20px;
-    @include md{
+
+    @include md {
         grid-template-areas: ". container .";
         grid-template-columns: 5vw auto 5vw;
     }
-    @include lg{
+
+    @include lg {
         //grid-template-columns: 5vw auto 5vw;
     }
+
     @include xl {
         grid-template-columns: 8vw auto 8vw;
     }
+
     >div {
         grid-area: container;
     }
@@ -88,18 +92,22 @@ textarea {
     display: grid;
     grid-template-areas: ". container .";
     grid-template-columns: 20px auto 20px;
-    @include md{
+
+    @include md {
         grid-template-areas: ". container .";
         //grid-template-columns: 5vw auto 5vw;
         grid-template-columns: 10vw auto 10vw;
 
     }
-    @include lg{
+
+    @include lg {
         grid-template-columns: 10vw auto 10vw;
     }
+
     @include xl {
         grid-template-columns: 15vw auto 15vw;
     }
+
     >div {
         grid-area: container;
     }
@@ -110,15 +118,18 @@ textarea {
     display: grid;
     grid-template-areas: ". container .";
     grid-template-columns: 20px auto 20px;
-    @include md{
+
+    @include md {
         grid-template-areas: ". container .";
         grid-template-columns: 5vw auto 5vw;
         //grid-template-columns: 10vw auto 10vw;
 
     }
-    @include lg{
+
+    @include lg {
         grid-template-columns: 10vw auto 10vw;
     }
+
     // @include xl {
     //     grid-template-columns: 10vw auto 10vw;
     // }
@@ -137,9 +148,12 @@ textarea {
     @include lg {
         padding: 160px 0;
     }
-    @include xl{
+
+    @include xl {
         padding: 200px 0;
-    };
+    }
+
+    ;
 }
 
 .content-spacing {
@@ -151,5 +165,146 @@ textarea {
 
     @include lg {
         margin: 70px 0 0 0;
+    }
+}
+
+/* =======================================
+            for project pages
+======================================= */
+.prj-hero-container{
+    img{
+        object-fit: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+.prj-heading-spacing {
+    padding: 80px 0 10px;
+
+    @include md {
+        padding: 100px 0 20px;
+    }
+
+    @include lg {
+        padding: 110px 0 40px;
+    }
+
+    @include xl {
+        padding: 120px 0 50px;
+    }
+
+    ;
+}
+
+.prj-header {
+    color: $peachy;
+    .prj-captions {
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        @include md{
+            padding-top: 0;
+            display: block;
+        }
+        @include lg {
+            margin-bottom: 10px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        p {
+            padding: 10px 0;
+            width: 42vw;
+            @include md{
+                width: unset;
+            }
+            @include lg {
+                padding: 15px 0;
+            }
+        }
+
+        :nth-child(1),
+        :nth-child(2) {
+
+            @include md {
+                border-bottom: 1px solid $peachy;
+            }
+
+            @include lg {
+                border-bottom: 1.5px solid $peachy;
+            }
+        }
+
+        :nth-child(1) {
+            border-right: 1px solid $peachy;
+            padding-right: 10px;
+            @include md{
+                border-right: 0;
+                padding-top: 0;
+            }
+        }
+        :nth-child(3) {
+            @include md{
+                padding-bottom: 0;
+
+            }
+        }
+    }
+
+    @include md {
+        padding-bottom: 0px;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-areas: "title captions";
+
+        >h2 {
+            grid-area: title;
+        }
+
+        .prj-captions {
+            grid-area: captions;
+        }
+    }
+
+    @include lg {
+        display: grid;
+        grid-template-columns: 80% 20%;
+        grid-template-areas: "title captions";
+
+        >h2 {
+            grid-area: title;
+        }
+
+        .prj-captions {
+            grid-area: captions;
+        }
+    }
+}
+
+.prj-blurbs {
+    .project-titles {
+        color: $matcha;
+    }
+
+    p {
+        color: $midnight;
+        padding: 15px 0;
+    }
+
+    >div {
+        
+        @include lg {
+            display: flex;
+            justify-content: space-between;
+            grid-gap: 35px;
+        }
+        
+       >div{
+           width: auto;
+       }
+        
     }
 }

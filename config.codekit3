@@ -86,6 +86,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/home/contact-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/home/contact-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/home/featured-prj-badge.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -167,6 +177,19 @@
 		"iS": 2089,
 		"oA": 0,
 		"oAP": "/deploy/img/prj-img-demo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/deploy/img/work/prj-1/hoai-hero.png": {
+		"ft": 32768,
+		"iS": 1022285,
+		"oA": 0,
+		"oAP": "/deploy/img/work/prj-1/hoai-hero.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
