@@ -210,6 +210,52 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-3\/incase-thumbnail.png" : {
+      "ft" : 32768,
+      "iS" : 1080625,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-3\/incase-thumbnail.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-3\/open-box-thumbnail.gif" : {
+      "ft" : 4194304,
+      "iS" : 10558331,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-3\/open-box-thumbnail.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-4\/nama-open.gif" : {
+      "ft" : 4194304,
+      "iS" : 9534430,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-4\/nama-open.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-4\/nama-thumbnail.png" : {
+      "ft" : 32768,
+      "iS" : 1481195,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-4\/nama-thumbnail.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work\/prj-5\/flip-1.gif" : {
       "ft" : 4194304,
       "iS" : 8819350,
@@ -229,6 +275,42 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-6\/redwoods-main.png" : {
+      "ft" : 32768,
+      "iS" : 1763168,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-6\/redwoods-main.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-6\/redwoods-spreads.gif" : {
+      "ft" : 4194304,
+      "iS" : 5365421,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-6\/redwoods-spreads.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-6\/redwoods-thumbnail.jpg" : {
+      "ft" : 16384,
+      "iS" : 542587,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-6\/redwoods-thumbnail.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
