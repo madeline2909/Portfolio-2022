@@ -198,6 +198,29 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/deploy/img/work/prj-5/flip-1.gif": {
+		"ft": 4194304,
+		"iS": 8819350,
+		"oA": 0,
+		"oAP": "/deploy/img/work/prj-5/flip-1.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/deploy/img/work/prj-5/prj-5-thumbnail.png": {
+		"ft": 32768,
+		"iS": 1487246,
+		"oA": 0,
+		"oAP": "/deploy/img/work/prj-5/prj-5-thumbnail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
