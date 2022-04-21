@@ -1983,21 +1983,15 @@ h2::-moz-selection {
 }
 #home-content #home-contact > div #home-contact-svg #home-contact-arrow #arrow-circle-button {
   mix-blend-mode: multiply;
+  fill: #82AB40;
+  opacity: 0;
 }
-#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:link,
-#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:visited {
-  border: none;
-  cursor: pointer;
-  transition: 5s;
-}
-#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:link circle,
-#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:visited circle {
-  fill: transparent;
-}
-#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:link:hover circle, #home-content #home-contact > div #home-contact-svg #home-contact-arrow a:link:active circle,
-#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:visited:hover circle,
-#home-content #home-contact > div #home-contact-svg #home-contact-arrow a:visited:active circle {
-  fill: #F89F77;
+#home-content #home-contact > div #home-contact-svg #home-contact-arrow #arrow-circle-button:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  opacity: 100;
 }
 @media (min-width: 768px) {
   #home-content #home-contact > div #home-contact-svg #home-contact-arrow {

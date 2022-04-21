@@ -403,24 +403,33 @@
                     top: 55%;
                     #arrow-circle-button{
                         mix-blend-mode: multiply;
+                        fill: $grass;
+                        opacity: 0;
                     }
-                    a:link,
-                    a:visited {
-                        border: none;
-                        cursor: pointer;
-                        transition: 5s;
-                        circle{
-                            fill: transparent;
+                    #arrow-circle-button:hover{
+                        -webkit-transition: 0.5s ease-in-out;
+                        -moz-transition: 0.5s ease-in-out;
+                        -o-transition: 0.5s ease-in-out;
+                        transition: 0.5s ease-in-out;
+                        opacity: 100;
+                    }
+                    // a:link,
+                    // a:visited {
+                    //     border: none;
+                    //     cursor: pointer;
+                    //     transition: 5s;
+                    //     circle{
+                    //         fill: transparent;
 
-                        }
-                        &:hover,
-                        &:active {
-                            circle{
-                                fill: $peachy;
-                            }
+                    //     }
+                    //     &:hover,
+                    //     &:active {
+                    //         circle{
+                    //             fill: $peachy;
+                    //         }
     
-                        }
-                    }
+                    //     }
+                    // }
                    
                     @include md {
                         right: -10%;
