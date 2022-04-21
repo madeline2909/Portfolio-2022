@@ -524,7 +524,7 @@ textarea {
 .prj-hero-container img {
   object-fit: cover;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .prj-heading-spacing {
@@ -649,6 +649,12 @@ textarea {
     display: flex;
     justify-content: space-between;
     grid-gap: 35px;
+  }
+}
+@media (min-width: 1440px) {
+  .prj-blurbs > div {
+    padding: 0 5%;
+    grid-gap: 50px;
   }
 }
 .prj-blurbs > div > div {
@@ -1252,7 +1258,10 @@ h2::-moz-selection {
 }
 #footer-1 #footer-container-1 #left-footer-1 ul li {
   font-size: 0.875rem;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+}
+#footer-1 #footer-container-1 #left-footer-1 ul :last-child {
+  margin-bottom: 0;
 }
 #footer-1 #footer-container-1 #right-footer-1 ul {
   color: #82AB40;
