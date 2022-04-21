@@ -195,7 +195,7 @@
             .thumbnails {
                 object-fit: cover;
                 width: 100%;
-                height: 60vh;
+                height: 45vh;
                 //display: inline-block;
                 @include md {
                     height: 35vh;
@@ -263,10 +263,12 @@
         }
 
         #home-prj-2 {
+            
             @include md {
                 grid-area: prj2;
 
             }
+            
         }
 
         #home-prj-3 {
@@ -315,6 +317,9 @@
             @include md {
                 grid-area: prj9;
 
+            }
+            .thumbnails{
+                object-position: right;
             }
         }
 

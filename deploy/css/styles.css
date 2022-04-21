@@ -1785,7 +1785,7 @@ h2::-moz-selection {
 #home-content #home-selected .home-prj .thumbnails {
   object-fit: cover;
   width: 100%;
-  height: 60vh;
+  height: 45vh;
 }
 @media (min-width: 768px) {
   #home-content #home-selected .home-prj .thumbnails {
@@ -1889,6 +1889,9 @@ h2::-moz-selection {
   #home-content #home-selected #home-prj-9 {
     grid-area: prj9;
   }
+}
+#home-content #home-selected #home-prj-9 .thumbnails {
+  object-position: right;
 }
 @media (min-width: 768px) {
   #home-content #home-selected #home-prj-10 {

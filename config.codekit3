@@ -210,6 +210,29 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-2\/cadence-logo.gif" : {
+      "ft" : 4194304,
+      "iS" : 463206,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-2\/cadence-logo.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-2\/cadence-thumbnail.png" : {
+      "ft" : 32768,
+      "iS" : 1186325,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-2\/cadence-thumbnail.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work\/prj-3\/incase-thumbnail.png" : {
       "ft" : 32768,
       "iS" : 1080625,
@@ -313,6 +336,52 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-7\/books-thumbnail.png" : {
+      "ft" : 32768,
+      "iS" : 1406546,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-7\/books-thumbnail.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-7\/books.gif" : {
+      "ft" : 4194304,
+      "iS" : 2966515,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-7\/books.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-8\/cats-thumbnail.png" : {
+      "ft" : 32768,
+      "iS" : 415000,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-8\/cats-thumbnail.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-8\/footer.gif" : {
+      "ft" : 4194304,
+      "iS" : 25905375,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-8\/footer.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/index.html" : {
