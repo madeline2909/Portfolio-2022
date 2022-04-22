@@ -1,46 +1,45 @@
-// import {gsap} from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {gsap} from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
-//animating global caption
-
-// const captionAnimTL = gsap.timeline({paused:true});
-// captionAnimTL
-// .from(".caption", {
+//animating global header
+// const headerAnimTL = gsap.timeline({paused:true});
+// headerAnimTL
+// .from(".headerAnim", {
 //     duration: 0.5,
 //     xPercent: -20,
 //     alpha: 0
 // })
 
-// export function captionAnimation(){
+// export function headerAnimation(){
 
 //     ScrollTrigger.create({
-//         animation: captionAnimTL,
+//         animation: headerAnimTL,
 //         toggleActions: "play none none none",
-//         trigger: ".caption",
+//         trigger: ".headerAnim",
 //         start: "top 80%",
 //         //markers: true,
-//         id: "caption"
+//         id: "header"
 //     });
 // }
 
-// //page titles animation
-// const titleAnimTL = gsap.timeline({paused:true});
-// titleAnimTL
-// .from(".page-title", {
-//     yPercent: -100,
-//     alpha: 0,
-//     duration:0.5
-// })
+//page titles animation
+const headerAnimTL = gsap.timeline({paused:true});
+headerAnimTL
+.from(".headerAnim", {
+    yPercent: -50,
+    alpha: 0,
+    duration:0.75
+})
 
-// export function titleAnimation(){
+export function headerAnimation(){
 
-//     ScrollTrigger.create({
-//         animation:titleAnimTL,
-//         trigger: ".hero-container",
-//         id: "page title",
-//         //markers: true,
-//         toggleActions: "play none none none"
-//     });
-// }
+    ScrollTrigger.create({
+        animation:headerAnimTL,
+        trigger: ".hero-container",
+        id: "header",
+        //markers: true,
+        toggleActions: "play none none none"
+    });
+}
