@@ -195,95 +195,99 @@ textarea {
         padding: 120px 0 50px;
     }
 }
-
-.prj-header {
-    color: $peachy;
-    .prj-captions {
-        padding-top: 20px;
-        display: flex;
-        justify-content: space-between;
-        @include md{
-            padding-top: 0;
-            display: block;
-        }
-        @include lg {
-            margin-bottom: 10px;
-
+.prj-header-container{
+    position: relative;
+    .prj-header {
+        color: $peachy;
+        .prj-captions {
+            padding-top: 20px;
             display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-        }
-
-        p {
-            padding: 10px 0;
-            width: 42vw;
+            justify-content: space-between;
             @include md{
-                width: unset;
-            }
-            @include lg {
-                padding: 15px 0;
-            }
-        }
-
-        :nth-child(1),
-        :nth-child(2) {
-
-            @include md {
-                border-bottom: 1px solid $peachy;
-            }
-
-            @include lg {
-                border-bottom: 1.5px solid $peachy;
-            }
-        }
-
-        :nth-child(1) {
-            border-right: 1px solid $peachy;
-            padding-right: 10px;
-            @include md{
-                border-right: 0;
                 padding-top: 0;
+                display: block;
+            }
+            @include lg {
+                margin-bottom: 10px;
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+    
+            p {
+                padding: 10px 0;
+                width: 42vw;
+                @include md{
+                    width: unset;
+                }
+                @include lg {
+                    padding: 15px 0;
+                }
+            }
+    
+            :nth-child(1),
+            :nth-child(2) {
+    
+                @include md {
+                    border-bottom: 1px solid $peachy;
+                }
+    
+                @include lg {
+                    border-bottom: 1.5px solid $peachy;
+                }
+            }
+    
+            :nth-child(1) {
+                border-right: 1px solid $peachy;
+                padding-right: 10px;
+                @include md{
+                    border-right: 0;
+                    padding-top: 0;
+                }
+            }
+            :nth-child(3) {
+                @include md{
+                    padding-bottom: 0;
+    
+                }
             }
         }
-        :nth-child(3) {
-            @include md{
-                padding-bottom: 0;
-
+    
+        @include md {
+            padding-bottom: 0px;
+            display: grid;
+            grid-template-columns: 75% 25%;
+            grid-template-areas: "title captions";
+    
+            >h2 {
+                grid-area: title;
+            }
+    
+            .prj-captions {
+                grid-area: captions;
             }
         }
-    }
-
-    @include md {
-        padding-bottom: 0px;
-        display: grid;
-        grid-template-columns: 75% 25%;
-        grid-template-areas: "title captions";
-
-        >h2 {
-            grid-area: title;
-        }
-
-        .prj-captions {
-            grid-area: captions;
-        }
-    }
-
-    @include lg {
-        display: grid;
-        grid-template-columns: 80% 20%;
-        grid-template-areas: "title captions";
-
-        >h2 {
-            grid-area: title;
-        }
-
-        .prj-captions {
-            grid-area: captions;
+    
+        @include lg {
+            display: grid;
+            grid-template-columns: 80% 20%;
+            grid-template-areas: "title captions";
+    
+            >h2 {
+                grid-area: title;
+            }
+    
+            .prj-captions {
+                grid-area: captions;
+            }
         }
     }
 }
 
+
 .prj-blurbs {
+    position: relative;
     .project-titles {
         color: $matcha;
     }
@@ -310,4 +314,7 @@ textarea {
        }
         
     }
+}
+.prj-gallery{
+    position: relative;
 }

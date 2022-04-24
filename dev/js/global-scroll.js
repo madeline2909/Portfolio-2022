@@ -33,7 +33,7 @@ export function heroPinning(){
         //id: "hero pinning",
         pin: true,
         pinSpacing: false,
-        markers: true,
+        //markers: true,
         start: "top top",
         scrub: 1,
         toggleActions: "restart none none reverse"
