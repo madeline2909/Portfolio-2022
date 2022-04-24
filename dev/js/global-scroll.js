@@ -3,26 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-//animating global header
-// const headerAnimTL = gsap.timeline({paused:true});
-// headerAnimTL
-// .from(".headerAnim", {
-//     duration: 0.5,
-//     xPercent: -20,
-//     alpha: 0
-// })
 
-// export function headerAnimation(){
-
-//     ScrollTrigger.create({
-//         animation: headerAnimTL,
-//         toggleActions: "play none none none",
-//         trigger: ".headerAnim",
-//         start: "top 80%",
-//         //markers: true,
-//         id: "header"
-//     });
-// }
 
 //page titles animation
 const headerAnimTL = gsap.timeline({paused:true});
@@ -41,5 +22,20 @@ export function headerAnimation(){
         id: "header",
         //markers: true,
         toggleActions: "play none none none"
+    });
+}
+
+ //pinning prj hero images
+export function heroPinning(){
+
+    ScrollTrigger.create({
+        trigger: ".prj-hero-container",
+        //id: "hero pinning",
+        pin: true,
+        pinSpacing: false,
+        markers: true,
+        start: "top top",
+        scrub: 1,
+        toggleActions: "restart none none reverse"
     });
 }

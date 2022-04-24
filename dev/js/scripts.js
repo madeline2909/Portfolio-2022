@@ -3,7 +3,7 @@
 
 
 //Scroll Trigger stuffs
-// import {titleAnimation} from "./global-scroll.js";
+import {heroPinning} from "./global-scroll.js";
 import {headerAnimation} from "./global-scroll.js";
 // import {footerAnimation} from "./sections/footer-scroll.js";
 // import {indexTitleAnimation} from "./sections/index-scroll.js";
@@ -28,8 +28,8 @@ import {menuBgSelect} from "./main-nav/nav-global.js";
 // fancyBox();
 
 // //calling the scrolltrigger functions
-// titleAnimation();
 headerAnimation();
+heroPinning();
 // indexTitleAnimation();
 // contactAnimation();
 // contactPinning();

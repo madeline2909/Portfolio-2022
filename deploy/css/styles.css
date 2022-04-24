@@ -2159,9 +2159,15 @@ h2::-moz-selection {
   }
 }
 
-#prj-1-container {
-  height: auto;
+#prj-1-container, #prj-1-blurbs {
+  position: relative;
 }
+
+#prj-1-gallery-1 img {
+  height: 100%;
+  width: 100%;
+}
+
 #prj-2-container {
   height: 100vh;
 }
