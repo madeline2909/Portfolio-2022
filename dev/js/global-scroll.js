@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 const headerAnimTL = gsap.timeline({paused:true});
 headerAnimTL
 .from(".headerAnim", {
-    yPercent: -50,
+    xPercent: -20,
     alpha: 0,
     duration:0.75
 })
@@ -20,6 +20,26 @@ export function headerAnimation(){
         animation:headerAnimTL,
         trigger: ".hero-container",
         id: "header",
+        //markers: true,
+        toggleActions: "play none none none"
+    });
+}
+
+//caption animation
+const captionAnimTL = gsap.timeline({paused:true});
+captionAnimTL
+.from(".captionAnim", {
+    xPercent: 20,
+    alpha: 0,
+    duration:0.75
+})
+
+export function captionAnimation(){
+
+    ScrollTrigger.create({
+        animation:captionAnimTL,
+        trigger: ".hero-container",
+        id: "caption",
         //markers: true,
         toggleActions: "play none none none"
     });
