@@ -233,21 +233,21 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-2\/cadence-logo.gif" : {
+    "\/deploy\/img\/work\/prj-2\/flip-1.gif" : {
       "ft" : 4194304,
-      "iS" : 463206,
+      "iS" : 8819350,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-2\/cadence-logo.gif",
+      "oAP" : "\/deploy\/img\/work\/prj-2\/flip-1.gif",
       "oF" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-2\/cadence-thumbnail.png" : {
+    "\/deploy\/img\/work\/prj-2\/prj-2-thumbnail.png" : {
       "ft" : 32768,
-      "iS" : 1186325,
+      "iS" : 1487246,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-2\/cadence-thumbnail.png",
+      "oAP" : "\/deploy\/img\/work\/prj-2\/prj-2-thumbnail.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -302,27 +302,27 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-5\/flip-1.gif" : {
-      "ft" : 4194304,
-      "iS" : 8819350,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-5\/flip-1.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-5\/prj-5-thumbnail.png" : {
+    "\/deploy\/img\/work\/prj-5\/cats-thumbnail.png" : {
       "ft" : 32768,
-      "iS" : 1487246,
+      "iS" : 415000,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-5\/prj-5-thumbnail.png",
+      "oAP" : "\/deploy\/img\/work\/prj-5\/cats-thumbnail.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-5\/footer.gif" : {
+      "ft" : 4194304,
+      "iS" : 25905375,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-5\/footer.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/img\/work\/prj-6\/redwoods-main.png" : {
@@ -384,27 +384,27 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-8\/cats-thumbnail.png" : {
-      "ft" : 32768,
-      "iS" : 415000,
+    "\/deploy\/img\/work\/prj-8\/cadence-logo.gif" : {
+      "ft" : 4194304,
+      "iS" : 463206,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-8\/cats-thumbnail.png",
+      "oAP" : "\/deploy\/img\/work\/prj-8\/cadence-logo.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-8\/cadence-thumbnail.png" : {
+      "ft" : 32768,
+      "iS" : 1186325,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-8\/cadence-thumbnail.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-8\/footer.gif" : {
-      "ft" : 4194304,
-      "iS" : 25905375,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-8\/footer.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/index.html" : {
