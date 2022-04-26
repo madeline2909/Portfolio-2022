@@ -3,8 +3,18 @@
     font-weight: 300;
 	font-size: rem-calc(14);
 	line-height: rem-calc(22);
+    --fancybox-bg: rgba(17, 37, 53, 0.85);
 }
+.fancybox__caption {
+    max-width: 80%;
+    /* Prevent opacity change when dragging up/down */
+    --fancybox-opacity: 1;
+  }
 
+  .fancybox__slide {
+    padding: 40px 0;
+  }
+  
 // a[data-fancybox] img {
 //     cursor: zoom-in;
 //   }
@@ -37,10 +47,6 @@
 //   .carousel__button.is-close {
 //     top: 30px;
 //     right: 30px;
-//   }
-
-//   .fancybox__slide {
-//     padding: 0;
 //   }
 
 //   .fancybox__thumbs {

@@ -519,6 +519,20 @@ textarea {
   }
 }
 
+.prj-spacing {
+  padding: 30px 0;
+}
+@media (min-width: 768px) {
+  .prj-spacing {
+    padding: 60px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .prj-spacing {
+    padding: 70px 0;
+  }
+}
+
 /* =======================================
             for project pages
 ======================================= */
@@ -671,10 +685,16 @@ textarea {
 .prj-gallery {
   position: relative;
 }
+@media (min-width: 1024px) {
+  .prj-gallery .project-titles {
+    margin-left: 5vw;
+    color: #CFD1A0;
+    margin-bottom: 30px;
+  }
+}
 
 .next-prj {
   background-color: #ECEDEE;
-  padding-top: 0;
 }
 @media (min-width: 1024px) {
   .next-prj > div {
@@ -1210,6 +1230,17 @@ h2::-moz-selection {
   font-weight: 300;
   font-size: 0.875rem;
   line-height: 1.375rem;
+  --fancybox-bg: rgba(17, 37, 53, 0.85);
+}
+
+.fancybox__caption {
+  max-width: 80%;
+  /* Prevent opacity change when dragging up/down */
+  --fancybox-opacity: 1;
+}
+
+.fancybox__slide {
+  padding: 40px 0;
 }
 
 /* =============
@@ -2258,9 +2289,12 @@ h2::-moz-selection {
   }
 }
 
+#prj-1-gallery-1 {
+  padding-bottom: 0;
+}
 #prj-1-gallery-1 img {
-  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 #prj-2-gallery-1 img {

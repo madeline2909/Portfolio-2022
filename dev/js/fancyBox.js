@@ -7,7 +7,8 @@ export function fancyBox(){
             display: [
               { id: "close", position: "right" }
             ]
-          }
+        },
+        Thumbs: false
     });
     
 }
