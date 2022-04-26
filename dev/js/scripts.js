@@ -25,9 +25,9 @@ import {menuBgSelect} from "./main-nav/nav-global.js";
 //fancybox and tinyslider
 // import {tinySliderFunc} from "./tinyslider.js";
 // tinySliderFunc();
-// import {fancyBox} from "./fancyBox.js";
+import {fancyBox} from "./fancyBox.js";
 // tinySlider();
-// fancyBox();
+fancyBox();
 
 // //calling the scrolltrigger functions
 headerAnimation();

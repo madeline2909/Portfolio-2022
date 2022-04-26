@@ -1,3 +1,4 @@
+@import "fancybox.css";
 /* =============
     Mixins
 ============= */
@@ -732,7 +733,7 @@ textarea {
   }
 }
 .next-prj > div .next-prj-img .next-prj-thumbnail {
-  background-color: #CFD1A0;
+  background-color: #82AB40;
   height: 25vh;
 }
 @media (min-width: 768px) {
@@ -746,8 +747,7 @@ textarea {
   }
 }
 .next-prj > div .next-prj-img .next-prj-thumbnail img {
-  mix-blend-mode: multiply;
-  opacity: 70%;
+  opacity: 40%;
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -1203,6 +1203,13 @@ h2::-moz-selection {
     padding-top: 10px;
     padding-bottom: 60px;
   }
+}
+
+.fancybox__container {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
 }
 
 /* =============
