@@ -562,6 +562,7 @@ textarea {
 }
 
 .prj-header-container {
+  background-color: #fff;
   position: relative;
 }
 .prj-header-container .prj-header {
@@ -657,6 +658,7 @@ textarea {
 
 .prj-blurbs {
   position: relative;
+  background-color: #fff;
 }
 .prj-blurbs .project-titles {
   color: #CFD1A0;
@@ -684,6 +686,11 @@ textarea {
 
 .prj-gallery {
   position: relative;
+  background-color: #fff;
+}
+.prj-gallery a img {
+  object-fit: contain;
+  width: 100%;
 }
 @media (min-width: 1024px) {
   .prj-gallery .project-titles {
@@ -693,9 +700,6 @@ textarea {
   }
 }
 
-.next-prj {
-  background-color: #ECEDEE;
-}
 @media (min-width: 1024px) {
   .next-prj > div {
     display: grid;
@@ -1461,6 +1465,63 @@ h2::-moz-selection {
 #footer-2 #footer-container-2 #right-footer-2 ul li a:visited:hover,
 #footer-2 #footer-container-2 #right-footer-2 ul li a:visited:active {
   color: #D42128;
+}
+
+/* =============
+    Footer
+============= */
+#footer-3 {
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+#footer-3 #footer-container-3 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #82AB40;
+  margin: 0 5vw;
+  padding: 30px 0;
+}
+@media (min-width: 768px) {
+  #footer-3 #footer-container-3 {
+    padding: 35px 0;
+  }
+}
+#footer-3 #footer-container-3 #left-footer-3 ul {
+  color: #82AB40;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#footer-3 #footer-container-3 #left-footer-3 ul li {
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+#footer-3 #footer-container-3 #left-footer-3 ul :last-child {
+  margin-bottom: 0;
+}
+#footer-3 #footer-container-3 #right-footer-3 ul {
+  color: #82AB40;
+  align-items: right;
+}
+#footer-3 #footer-container-3 #right-footer-3 ul li {
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+  text-align: right;
+}
+#footer-3 #footer-container-3 #right-footer-3 ul li a:link,
+#footer-3 #footer-container-3 #right-footer-3 ul li a:visited {
+  color: #82AB40;
+}
+#footer-3 #footer-container-3 #right-footer-3 ul li a:link:hover, #footer-3 #footer-container-3 #right-footer-3 ul li a:link:active,
+#footer-3 #footer-container-3 #right-footer-3 ul li a:visited:hover,
+#footer-3 #footer-container-3 #right-footer-3 ul li a:visited:active {
+  color: #F2B029;
+}
+#footer-3 #footer-container-3 #right-footer-3 ul :last-child {
+  margin-bottom: 0;
 }
 
 #work-container {

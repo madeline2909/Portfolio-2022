@@ -208,6 +208,7 @@ textarea {
     }
 }
 .prj-header-container{
+    background-color: #fff;
     position: relative;
     .prj-header {
         color: $peachy;
@@ -300,6 +301,8 @@ textarea {
 
 .prj-blurbs {
     position: relative;
+    background-color: #fff;
+    
     .project-titles {
         color: $matcha;
     }
@@ -329,6 +332,14 @@ textarea {
 }
 .prj-gallery{
     position: relative;
+    background-color: #fff;
+
+    a{
+        img{
+            object-fit: contain;
+            width: 100%;
+        }
+    }
     .project-titles{
         @include lg{
             margin-left: 5vw;
@@ -338,7 +349,7 @@ textarea {
     }
 }
 .next-prj{
-    background-color: $offwhite;
+    //background-color: $offwhite;
     >div{
         @include lg{
             display: grid;
