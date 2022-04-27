@@ -333,7 +333,13 @@ textarea {
 .prj-gallery{
     position: relative;
     background-color: #fff;
-
+    .grid-container-3{
+        background-color: #fff;
+    }
+    video{
+       // object-fit: contain;
+        width: 100%;
+    }
     a{
         img{
             object-fit: contain;
@@ -342,7 +348,6 @@ textarea {
     }
     .project-titles{
         @include lg{
-            margin-left: 5vw;
             color: $matcha;
             margin-bottom: 30px;
         }

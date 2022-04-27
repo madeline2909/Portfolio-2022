@@ -688,13 +688,18 @@ textarea {
   position: relative;
   background-color: #fff;
 }
+.prj-gallery .grid-container-3 {
+  background-color: #fff;
+}
+.prj-gallery video {
+  width: 100%;
+}
 .prj-gallery a img {
   object-fit: contain;
   width: 100%;
 }
 @media (min-width: 1024px) {
   .prj-gallery .project-titles {
-    margin-left: 5vw;
     color: #CFD1A0;
     margin-bottom: 30px;
   }
@@ -986,6 +991,27 @@ h2::selection {
 h2::-moz-selection {
   background: #9B96C2;
   color: #ECEDEE;
+}
+
+/* =============
+    Buttons
+============= */
+.button {
+  width: fit-content;
+  padding: 12px;
+  color: #CFD1A0;
+  border: 2px solid #CFD1A0;
+  border-radius: 50px;
+}
+@media (min-width: 768px) {
+  .button {
+    padding: 20px;
+  }
+}
+.button:hover, .button:active {
+  transition: 0.5s;
+  border: 2px solid #F2B029;
+  color: #F2B029;
 }
 
 /* =============
