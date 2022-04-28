@@ -194,6 +194,11 @@
             }
         }
     }
+    #prj-1-web-4{
+        @include lg{
+            padding: 0 50px ;
+        }
+    }
 }
 
 #prj-1-gallery-merch{

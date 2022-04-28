@@ -2598,6 +2598,11 @@ h2::-moz-selection {
 #prj-1-gallery-web #prj-1-web-3 > div a:nth-child(3) img {
   object-fit: cover;
 }
+@media (min-width: 1024px) {
+  #prj-1-gallery-web #prj-1-web-4 {
+    padding: 0 50px;
+  }
+}
 
 #prj-1-gallery-merch {
   padding-bottom: 0;
