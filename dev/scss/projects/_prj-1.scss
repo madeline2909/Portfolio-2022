@@ -1,3 +1,16 @@
+.prj-blurbs{
+    >div{
+        @include md{
+            #prj-1-blurb-1{
+                margin-right: 15px;
+            }
+            #prj-1-blurb-2{
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
 //*******************************************//
 //***************GALLERY BRANDING************//
 
@@ -53,25 +66,54 @@
 //*******************************************//
 //***************GALLERY WEB************//
 
-#prj-1-gallery-3{
+#prj-1-gallery-web{
     #prj-1-web-titles{
         display: flex;
         justify-content: space-between;
-        padding: 0 20px;
+        padding: 0 20px 30px;
         @include md{
-            padding: 0 5vw;
+            padding: 0 5vw 30px;
         }
         @include lg{
-            padding: 0 10vw;
+            padding: 0 10vw 30px;
         }
         .project-titles{
            margin: 0;
            padding: 0;
         }
-        a{
+        >div{
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            height: 100%;
+        }
+        a{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
+    #prj-1-web-1{
+        
+        >div{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            @include lg{
+                grid-gap: 10px;
+            }
+            a{
+                width: 48%;
+                padding: 0 2px;
+                @include md{
+                    width: 48%;
+                    padding: 3px 5px;
+                }
+                @include lg{
+                    padding: 0;
+                }
+            }
         }
     }
 }

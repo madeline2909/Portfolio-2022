@@ -3,19 +3,20 @@
 ============= */
 .button {
     width: fit-content;
-    padding: 10px;
+    text-align: center;
+    padding: 10px 20px;
     color: $matcha;
     border: 1px solid $matcha;
     border-radius: 50px;
     @include md{
-        padding: 15px;
+        padding: 15px 20px;
         border: 1.5px solid $matcha;
     }
     &:hover,
     &:active {
         transition: 0.5s;
         //background-color: rgba($color: white, $alpha: 0.5);
-        border: 2px solid $yellow;
+        border: 1.5px solid $yellow;
         color: $yellow;
     }
 }

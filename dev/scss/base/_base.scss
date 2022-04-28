@@ -181,14 +181,14 @@ textarea {
 }
 
 .gallery-spacing {
-    padding: 15px 0;
+    padding: 30px 0;
 
     @include md {
-        padding: 20px 0;
+        padding: 40px 0;
     }
 
     @include lg {
-        padding: 25px 0;
+        padding: 50px 0;
     }
 }
 
@@ -332,12 +332,6 @@ textarea {
             display: flex;
             justify-content: space-between;
             //grid-gap: 35px;
-            #prj-1-blurb-1{
-                    margin-right: 15px;
-            }
-            #prj-1-blurb-2{
-                margin-left: 15px;
-            }
         }
         @include lg {
             display: flex;
