@@ -1,8 +1,77 @@
+//*******************************************//
+//***************GALLERY BRANDING************//
+
 #prj-1-gallery-1{
-    img{
-        width: 100%;
-        object-fit: cover;
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5%;
+            }
+        }
+        div{
+            @include md{
+                display: flex;
+                justify-content: space-between;
+                gap: 40px;
+                //height: 40vh;
+            }
+            @include lg{
+                gap: 20px;
+                height: 70vh;
+            }
+            
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 200px;
+                @include md{
+                    height: 300px;
+                }
+                @include lg{
+                    height: 100%;
+                }
+            }
+            
+        }
     }
-    //for the final gallery
-    padding-bottom: 0;
+    // //for the final gallery
+    // padding-bottom: 0;
+}
+#prj-1-gallery-2{
+    >div{
+        div:first-child{
+            img{
+                padding: 10px 0 20px;
+                @include md{
+                    padding: 20px 0 30px;
+                }
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY WEB************//
+
+#prj-1-gallery-3{
+    #prj-1-web-titles{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        @include md{
+            padding: 0 5vw;
+        }
+        @include lg{
+            padding: 0 10vw;
+        }
+        .project-titles{
+           margin: 0;
+           padding: 0;
+        }
+        a{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
 }

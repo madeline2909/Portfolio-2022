@@ -3,12 +3,13 @@
 ============= */
 .button {
     width: fit-content;
-    padding: 12px;
+    padding: 10px;
     color: $matcha;
-    border: 2px solid $matcha;
+    border: 1px solid $matcha;
     border-radius: 50px;
     @include md{
-        padding: 20px;
+        padding: 15px;
+        border: 1.5px solid $matcha;
     }
     &:hover,
     &:active {

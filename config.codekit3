@@ -222,6 +222,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-1\/.money.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-1\/.money.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/work\/prj-1\/.web-trim.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-1\/.web-trim.gif.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/work\/prj-1\/branding\/hoai-content-asset.png" : {
       "ft" : 32768,
       "iS" : 108852,
@@ -363,16 +379,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-1\/money.gif" : {
-      "ft" : 4194304,
-      "iS" : 5273224,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-1\/money.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/img\/work\/prj-1\/posters.png" : {
@@ -635,25 +641,13 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-1\/web-trim.gif" : {
-      "ft" : 4194304,
-      "iS" : 11310379,
+    "\/deploy\/img\/work\/prj-2\/.flip-1.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-1\/web-trim.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-2\/flip-1.gif" : {
-      "ft" : 4194304,
-      "iS" : 8819350,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-2\/flip-1.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
+      "oAP" : "\/deploy\/img\/work\/prj-2\/.flip-1.gif.icloud",
+      "oF" : 0
     },
     "\/deploy\/img\/work\/prj-2\/prj-2-thumbnail.png" : {
       "ft" : 32768,
@@ -668,6 +662,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-3\/.open-box-thumbnail.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-3\/.open-box-thumbnail.gif.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/work\/prj-3\/incase-thumbnail.png" : {
       "ft" : 32768,
       "iS" : 1080625,
@@ -681,25 +683,13 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-3\/open-box-thumbnail.gif" : {
-      "ft" : 4194304,
-      "iS" : 10558331,
+    "\/deploy\/img\/work\/prj-4\/.nama-open.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-3\/open-box-thumbnail.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-4\/nama-open.gif" : {
-      "ft" : 4194304,
-      "iS" : 9534430,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-4\/nama-open.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
+      "oAP" : "\/deploy\/img\/work\/prj-4\/.nama-open.gif.icloud",
+      "oF" : 0
     },
     "\/deploy\/img\/work\/prj-4\/nama-thumbnail.png" : {
       "ft" : 32768,
@@ -714,6 +704,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-5\/.footer.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-5\/.footer.gif.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/work\/prj-5\/cats-thumbnail.png" : {
       "ft" : 32768,
       "iS" : 415000,
@@ -727,15 +725,13 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-5\/footer.gif" : {
-      "ft" : 4194304,
-      "iS" : 25905375,
+    "\/deploy\/img\/work\/prj-6\/.redwoods-spreads.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-5\/footer.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
+      "oAP" : "\/deploy\/img\/work\/prj-6\/.redwoods-spreads.gif.icloud",
+      "oF" : 0
     },
     "\/deploy\/img\/work\/prj-6\/redwoods-main.png" : {
       "ft" : 32768,
@@ -748,16 +744,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-6\/redwoods-spreads.gif" : {
-      "ft" : 4194304,
-      "iS" : 5365421,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-6\/redwoods-spreads.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/img\/work\/prj-6\/redwoods-thumbnail.jpg" : {
@@ -773,6 +759,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-7\/.books.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-7\/.books.gif.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/work\/prj-7\/books-thumbnail.png" : {
       "ft" : 32768,
       "iS" : 1406546,
@@ -784,16 +778,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-7\/books.gif" : {
-      "ft" : 4194304,
-      "iS" : 2966515,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-7\/books.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/img\/work\/prj-8\/cadence-logo.gif" : {

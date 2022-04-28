@@ -180,9 +180,22 @@ textarea {
     }
 }
 
+.gallery-spacing {
+    padding: 15px 0;
+
+    @include md {
+        padding: 20px 0;
+    }
+
+    @include lg {
+        padding: 25px 0;
+    }
+}
+
 /* =======================================
             for project pages
 ======================================= */
+
 .prj-hero-container{
     //padding-top: 10px;
     img{
@@ -193,18 +206,18 @@ textarea {
 }
 
 .prj-heading-spacing {
-    padding: 80px 0 10px;
+    padding: 80px 0 30px;
 
     @include md {
-        padding: 100px 0 20px;
+        padding: 100px 0 60px;
     }
 
     @include lg {
-        padding: 110px 0 40px;
+        padding: 110px 0 70px;
     }
 
     @include xl {
-        padding: 120px 0 50px;
+        padding: 120px 0 70px;
     }
 }
 .prj-header-container{
@@ -305,6 +318,7 @@ textarea {
     
     .project-titles {
         color: $matcha;
+        padding-top: 0;
     }
 
     p {
@@ -314,6 +328,17 @@ textarea {
 
     >div {
         
+        @include md {
+            display: flex;
+            justify-content: space-between;
+            //grid-gap: 35px;
+            #prj-1-blurb-1{
+                    margin-right: 15px;
+            }
+            #prj-1-blurb-2{
+                margin-left: 15px;
+            }
+        }
         @include lg {
             display: flex;
             justify-content: space-between;
@@ -333,7 +358,7 @@ textarea {
 .prj-gallery{
     position: relative;
     background-color: #fff;
-    .grid-container-3{
+    .grid-container-3, .grid-container, .grid-container-2{
         background-color: #fff;
     }
     video{
@@ -347,9 +372,10 @@ textarea {
         }
     }
     .project-titles{
+        color: $matcha;
+        padding-bottom: 30px;
         @include lg{
-            color: $matcha;
-            margin-bottom: 30px;
+            padding-bottom: 30px;
         }
     }
 }
