@@ -47,8 +47,7 @@
             
         }
     }
-    // //for the final gallery
-    // padding-bottom: 0;
+    
 }
 #prj-1-gallery-2{
     >div{
@@ -95,13 +94,12 @@
         }
     }
     #prj-1-web-1{
-        
         >div{
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             @include lg{
-                grid-gap: 10px;
+                grid-gap: 15px;
             }
             a{
                 width: 48%;
@@ -115,5 +113,124 @@
                 }
             }
         }
+    }
+    #prj-1-web-2{
+        display: grid;
+        grid-template-columns: auto 5px auto;
+        grid-template-areas: 
+        "web2-1 . web2-2" "web2-3 . web2-4" "web2-5 . web2-6"
+        ;
+        @include md{
+            grid-template-columns: auto 10px auto;
+        }
+        @include lg{
+            grid-template-columns: auto 15px auto;
+        }
+        a:nth-child(1){
+            grid-area: web2-1;
+            @include md{
+                padding-bottom: 10px;
+            }
+        }
+        a:nth-child(2){
+            grid-area: web2-2;
+            @include md{
+                padding-bottom: 10px;
+            }
+        }
+        a:nth-child(3){
+            grid-area: web2-3;
+            @include md{
+                padding-bottom: 10px;
+            }
+        }
+        a:nth-child(4){
+            grid-area: web2-4;
+            @include md{
+                padding-bottom: 10px;
+            }
+        }
+        a:nth-child(5){
+            grid-area: web2-5;
+        }
+        a:nth-child(6){
+            grid-area: web2-6;
+        }
+    }
+    #prj-1-web-3{
+        >div{
+            display: grid;
+            grid-template-columns: auto 5px auto;
+            grid-template-rows: auto 5px auto;
+            grid-template-areas: "web3-1 . web3-2" "web3-1 . ." "web3-1 . web3-3";
+            
+            @include md{
+                grid-template-columns: auto 10px auto;
+                grid-template-rows: auto 10px auto;
+            }
+            @include lg{
+                grid-template-columns: auto 15px auto;
+                grid-template-rows: auto 15px auto;
+            }
+            a{
+                img{
+                    height: 100%;
+                }
+            }
+            a:nth-child(1){
+                grid-area: web3-1;
+            }
+            a:nth-child(2){
+                grid-area: web3-2;
+                img{
+                    object-fit: cover;
+                }
+            }
+            a:nth-child(3){
+                grid-area: web3-3;
+                img{
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+#prj-1-gallery-merch{
+    //for the final gallery
+    padding-bottom: 0;
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 30px;
+        }
+        @include lg{
+            padding: 0 10vw 30px;
+        }
+    }
+    #prj-1-merch-1{
+        >div{
+            @include md{
+                display: flex;
+                justify-content: center;
+            }
+            @include lg{
+                grid-gap: 10px;
+            }
+            a{
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    @include md{
+                        width: 40vw;
+                        height: 100%;
+                    }
+                    
+                }
+            }
+        }
+    }
+    #prj-1-merch-3{
+        padding-bottom: 0;
     }
 }
