@@ -3013,9 +3013,16 @@ h2::-moz-selection {
   }
 }
 
-#prj-4-gallery-1 img {
-  height: 100%;
-  width: 100%;
+@media (min-width: 1024px) {
+  #prj-4-gallery-brand > div h5 {
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #prj-4-flat > div h5 {
+    margin-left: 5%;
+  }
 }
 
 #prj-5-gallery-1 img {

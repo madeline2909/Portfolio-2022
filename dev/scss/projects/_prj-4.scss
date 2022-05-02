@@ -1,6 +1,24 @@
-#prj-4-gallery-1{
-    img{
-        height: 100%;
-        width: 100%;
+//*******************************************//
+//***************GALLERY BRAND************//
+
+#prj-4-gallery-brand{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5%;
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY FLAT PATTERN************//
+#prj-4-flat{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5%;
+            }
+        }
     }
 }
