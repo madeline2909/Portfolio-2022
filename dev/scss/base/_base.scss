@@ -283,7 +283,7 @@ textarea {
         @include md {
             padding-bottom: 0px;
             display: grid;
-            grid-template-columns: 75% 25%;
+            grid-template-columns: 77% 23%;
             grid-template-areas: "title captions";
     
             >h2 {
@@ -327,11 +327,15 @@ textarea {
     }
 
     >div {
-        
         @include md {
             display: flex;
             justify-content: space-between;
-            //grid-gap: 35px;
+            >div:nth-child(1){
+                margin-right: 15px;
+            }
+            >div:nth-child(2){
+                margin-left: 15px;
+            }
         }
         @include lg {
             display: flex;

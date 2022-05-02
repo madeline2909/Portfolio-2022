@@ -646,7 +646,7 @@ textarea {
   .prj-header-container .prj-header {
     padding-bottom: 0px;
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 77% 23%;
     grid-template-areas: "title captions";
   }
   .prj-header-container .prj-header > h2 {
@@ -686,6 +686,12 @@ textarea {
   .prj-blurbs > div {
     display: flex;
     justify-content: space-between;
+  }
+  .prj-blurbs > div > div:nth-child(1) {
+    margin-right: 15px;
+  }
+  .prj-blurbs > div > div:nth-child(2) {
+    margin-left: 15px;
   }
 }
 @media (min-width: 1024px) {
@@ -2419,15 +2425,6 @@ h2::-moz-selection {
   }
 }
 
-@media (min-width: 768px) {
-  .prj-blurbs > div #prj-1-blurb-1 {
-    margin-right: 15px;
-  }
-  .prj-blurbs > div #prj-1-blurb-2 {
-    margin-left: 15px;
-  }
-}
-
 @media (min-width: 1024px) {
   #prj-1-gallery-1 > div h5 {
     margin-left: 5%;
@@ -2629,12 +2626,12 @@ h2::-moz-selection {
 }
 @media (min-width: 768px) {
   #prj-1-gallery-merch .project-titles {
-    padding: 0 5vw 30px;
+    padding: 0 5vw 40px;
   }
 }
 @media (min-width: 1024px) {
   #prj-1-gallery-merch .project-titles {
-    padding: 0 10vw 30px;
+    padding: 0 10vw 40px;
   }
 }
 @media (min-width: 768px) {
@@ -2662,9 +2659,137 @@ h2::-moz-selection {
   padding-bottom: 0;
 }
 
-#prj-2-gallery-1 img {
+@media (min-width: 1024px) {
+  #prj-2-cover-1 > div h5 {
+    margin-left: 5%;
+  }
+}
+@media (min-width: 768px) {
+  #prj-2-cover-1 > div > div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+#prj-2-cover-1 > div > div a {
+  flex-basis: 49%;
+}
+#prj-2-cover-1 > div > div a img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  #prj-2-cover-1 > div > div a img {
+    height: 30vh;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-2-cover-1 > div > div a img {
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  #prj-2-cover-1 > div > div a:nth-child(1) img {
+    object-position: -75px 0;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-2-cover-1 > div > div a:nth-child(1) img {
+    object-position: unset;
+  }
+}
+
+@media (min-width: 768px) {
+  #prj-2-cover-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+#prj-2-cover-2 a {
+  flex-basis: 32%;
+}
+
+@media (min-width: 1024px) {
+  #prj-2-layout-1 > div h5 {
+    margin-left: 5%;
+  }
+}
+#prj-2-layout-1 > div iframe {
+  height: 30vh;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #prj-2-layout-1 > div iframe {
+    height: 45vh;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-2-layout-1 > div iframe {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 768px) {
+  #prj-2-layout-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+#prj-2-layout-2 a {
+  flex-basis: 32%;
+}
+
+#prj-2-gallery-detail {
+  padding-bottom: 0;
+}
+#prj-2-gallery-detail .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-2-gallery-detail .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-2-gallery-detail .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+#prj-2-gallery-detail #prj-2-detail-1, #prj-2-gallery-detail #prj-2-detail-2 {
+  padding-bottom: 0;
+}
+#prj-2-gallery-detail #prj-2-detail-1 > div, #prj-2-gallery-detail #prj-2-detail-2 > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#prj-2-gallery-detail #prj-2-detail-1 > div a, #prj-2-gallery-detail #prj-2-detail-2 > div a {
+  flex-basis: 49%;
+  padding-bottom: 5px;
+}
+@media (min-width: 768px) {
+  #prj-2-gallery-detail #prj-2-detail-1 > div a, #prj-2-gallery-detail #prj-2-detail-2 > div a {
+    padding-bottom: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-2-gallery-detail #prj-2-detail-1 > div a, #prj-2-gallery-detail #prj-2-detail-2 > div a {
+    padding-bottom: 20px;
+  }
+}
+#prj-2-gallery-detail #prj-2-detail-1 > div a img, #prj-2-gallery-detail #prj-2-detail-2 > div a img {
+  object-fit: cover;
+  height: 20vh;
+}
+@media (min-width: 768px) {
+  #prj-2-gallery-detail #prj-2-detail-1 > div a img, #prj-2-gallery-detail #prj-2-detail-2 > div a img {
+    height: 25vh;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-2-gallery-detail #prj-2-detail-1 > div a img, #prj-2-gallery-detail #prj-2-detail-2 > div a img {
+    height: 55vh;
+  }
 }
 
 #prj-3-gallery-1 img {

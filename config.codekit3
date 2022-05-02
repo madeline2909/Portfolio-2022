@@ -209,6 +209,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/next-btn\/next-prj-3.png" : {
+      "ft" : 32768,
+      "iS" : 141918,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/next-btn\/next-prj-3.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/next-btn\/next-prj-4.png" : {
+      "ft" : 32768,
+      "iS" : 90272,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/next-btn\/next-prj-4.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/prj-img-demo.png" : {
       "ft" : 32768,
       "iS" : 2089,
@@ -795,7 +821,7 @@
       "oAP" : "\/deploy\/img\/work\/prj-2\/15.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -943,6 +969,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-2\/youtube thumbnail.jpg" : {
+      "ft" : 16384,
+      "iS" : 159826,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-2\/youtube thumbnail.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1233,19 +1272,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-3\/next-prj-3.png" : {
-      "ft" : 32768,
-      "iS" : 141918,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-3\/next-prj-3.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/work\/prj-3\/open-box-2.gif" : {
       "ft" : 4194304,
       "iS" : 27100010,
@@ -1473,19 +1499,6 @@
       "iS" : 1134668,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work\/prj-4\/nama-thumbnail.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-4\/next-prj-4.png" : {
-      "ft" : 32768,
-      "iS" : 90272,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-4\/next-prj-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

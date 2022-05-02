@@ -1,16 +1,3 @@
-.prj-blurbs{
-    >div{
-        @include md{
-            #prj-1-blurb-1{
-                margin-right: 15px;
-            }
-            #prj-1-blurb-2{
-                margin-left: 15px;
-            }
-        }
-    }
-}
-
 //*******************************************//
 //***************GALLERY BRANDING************//
 
@@ -201,16 +188,19 @@
     }
 }
 
+//*******************************************//
+//***************GALLERY merch************//
+
 #prj-1-gallery-merch{
     //for the final gallery
     padding-bottom: 0;
     .project-titles{
         padding: 0 20px 30px;
         @include md{
-            padding: 0 5vw 30px;
+            padding: 0 5vw 40px;
         }
         @include lg{
-            padding: 0 10vw 30px;
+            padding: 0 10vw 40px;
         }
     }
     #prj-1-merch-1{
