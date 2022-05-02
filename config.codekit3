@@ -986,6 +986,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-3\/book-flip.gif" : {
+      "ft" : 4194304,
+      "iS" : 13621284,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-3\/book-flip.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/img\/work\/prj-3\/booklet-1.png" : {
       "ft" : 32768,
       "iS" : 832139,
