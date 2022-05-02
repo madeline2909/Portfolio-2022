@@ -2681,6 +2681,11 @@ h2::-moz-selection {
 #prj-2-cover-1 > div > div a {
   flex-basis: 49%;
 }
+@media (min-width: 1024px) {
+  #prj-2-cover-1 > div > div a {
+    flex-basis: 49.5%;
+  }
+}
 #prj-2-cover-1 > div > div a img {
   height: 100%;
   width: 100%;
@@ -2716,6 +2721,11 @@ h2::-moz-selection {
 #prj-2-cover-2 a {
   flex-basis: 32%;
 }
+@media (min-width: 1024px) {
+  #prj-2-cover-2 a {
+    flex-basis: 32.7%;
+  }
+}
 
 @media (min-width: 1024px) {
   #prj-2-layout-1 > div h5 {
@@ -2746,6 +2756,11 @@ h2::-moz-selection {
 #prj-2-layout-2 a {
   flex-basis: 32%;
 }
+@media (min-width: 1024px) {
+  #prj-2-layout-2 a {
+    flex-basis: 32.7%;
+  }
+}
 
 #prj-2-gallery-detail {
   padding-bottom: 0;
@@ -2763,9 +2778,6 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
-#prj-2-gallery-detail #prj-2-detail-1, #prj-2-gallery-detail #prj-2-detail-2 {
-  padding-bottom: 0;
-}
 #prj-2-gallery-detail #prj-2-detail-1 > div, #prj-2-gallery-detail #prj-2-detail-2 > div {
   display: flex;
   justify-content: space-between;
@@ -2782,7 +2794,8 @@ h2::-moz-selection {
 }
 @media (min-width: 1024px) {
   #prj-2-gallery-detail #prj-2-detail-1 > div a, #prj-2-gallery-detail #prj-2-detail-2 > div a {
-    padding-bottom: 20px;
+    flex-basis: 49.5%;
+    padding-bottom: 10px;
   }
 }
 #prj-2-gallery-detail #prj-2-detail-1 > div a img, #prj-2-gallery-detail #prj-2-detail-2 > div a img {
@@ -2798,6 +2811,9 @@ h2::-moz-selection {
   #prj-2-gallery-detail #prj-2-detail-1 > div a img, #prj-2-gallery-detail #prj-2-detail-2 > div a img {
     height: 55vh;
   }
+}
+#prj-2-gallery-detail #prj-2-detail-2 {
+  padding-bottom: 0;
 }
 
 @media (min-width: 1024px) {
@@ -2831,7 +2847,6 @@ h2::-moz-selection {
     grid-template-columns: 3fr 7fr;
     grid-template-rows: 50vh 50vh;
     grid-template-areas: "box1 box3" "box2 box3";
-    grid-gap: 20px;
   }
 }
 #prj-3-outbox-1 > div > div img {
@@ -2856,6 +2871,11 @@ h2::-moz-selection {
 }
 #prj-3-outbox-2 a {
   flex-basis: 49%;
+}
+@media (min-width: 1024px) {
+  #prj-3-outbox-2 a {
+    flex-basis: 49.5%;
+  }
 }
 #prj-3-outbox-2 a img {
   object-fit: cover;
@@ -2894,7 +2914,6 @@ h2::-moz-selection {
   #prj-3-gallery-inbox #prj-3-inbox-1 > div {
     grid-template-rows: 50vh 100vh 50vh 50vh;
     grid-template-areas: "inbox1 inbox2" "inbox3 inbox3" "inbox4 inbox5" "inbox4 inbox6";
-    grid-gap: 20px;
   }
 }
 #prj-3-gallery-inbox #prj-3-inbox-1 > div a:nth-child(1) {
@@ -2919,6 +2938,79 @@ h2::-moz-selection {
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+@media (min-width: 1024px) {
+  #prj-3-detail-1 > div h5 {
+    margin-left: 5%;
+  }
+}
+
+#prj-3-detail-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#prj-3-detail-2 a {
+  flex-basis: 49%;
+  margin-bottom: 8px;
+}
+@media (min-width: 768px) {
+  #prj-3-detail-2 a {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-3-detail-2 a {
+    flex-basis: 49.5%;
+  }
+}
+#prj-3-detail-2 a img {
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  #prj-3-web > div h5 {
+    margin-left: 5%;
+  }
+}
+
+#prj-3-process {
+  padding-bottom: 0;
+}
+#prj-3-process .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-3-process .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-3-process .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+#prj-3-process > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#prj-3-process > div a {
+  flex-basis: 49%;
+  padding-bottom: 5px;
+}
+@media (min-width: 768px) {
+  #prj-3-process > div a {
+    padding-bottom: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-3-process > div a {
+    flex-basis: 24.3%;
+    padding-bottom: 0;
+  }
 }
 
 #prj-4-gallery-1 img {

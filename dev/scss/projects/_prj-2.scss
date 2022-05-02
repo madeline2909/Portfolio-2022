@@ -14,6 +14,9 @@
             }
             a{
                 flex-basis: 49%;
+                @include lg{
+                    flex-basis: 49.5%;
+                }
                 img{
                     height: 100%;
                     width: 100%;
@@ -47,6 +50,9 @@
     }
     a{
         flex-basis: 32%;
+        @include lg{
+            flex-basis: 32.7%;
+        }
     }
 }
 
@@ -79,6 +85,9 @@
     }
     a{
         flex-basis: 32%;
+        @include lg{
+            flex-basis: 32.7%;
+        }
     }
 }
 
@@ -110,7 +119,8 @@
                     padding-bottom: 15px;
                 }
                 @include lg{
-                    padding-bottom: 20px;
+                    flex-basis: 49.5%;
+                    padding-bottom: 10px;
                 }
                 img{
                     object-fit: cover;
@@ -124,6 +134,8 @@
                 }
             }
         }
+    }
+    #prj-2-detail-2{
         padding-bottom: 0;
     }
 }
