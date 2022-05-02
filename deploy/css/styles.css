@@ -1613,9 +1613,14 @@ h2::-moz-selection {
 }
 @media (min-width: 768px) {
   #work-container-2 {
-    grid-template-areas: ". container container";
+    grid-template-areas: ". container .";
     grid-template-columns: 5% auto 5%;
     padding-bottom: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  #work-container-2 {
+    grid-template-areas: ". container container";
   }
 }
 @media (min-width: 1440px) {
@@ -1647,7 +1652,7 @@ h2::-moz-selection {
 }
 @media (min-width: 768px) {
   #work-container-2 #work-prj-container #work-prj-grid-container .work-project {
-    flex-basis: 47%;
+    flex-basis: 49%;
   }
 }
 @media (min-width: 1024px) {
@@ -1657,6 +1662,18 @@ h2::-moz-selection {
 }
 #work-container-2 #work-prj-container #work-prj-grid-container .work-project img {
   width: 100%;
+  object-fit: cover;
+  height: 45vh;
+}
+@media (min-width: 768px) {
+  #work-container-2 #work-prj-container #work-prj-grid-container .work-project img {
+    height: 35vh;
+  }
+}
+@media (min-width: 1024px) {
+  #work-container-2 #work-prj-container #work-prj-grid-container .work-project img {
+    height: 55vh;
+  }
 }
 #work-container-2 #work-prj-container #work-prj-grid-container p {
   padding-bottom: 80px;
