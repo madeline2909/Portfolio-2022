@@ -3392,9 +3392,48 @@ h2::-moz-selection {
   }
 }
 
-#prj-7-gallery-1 img {
-  height: 100%;
-  width: 100%;
+#prj-7-book1 .project-titles, #prj-7-book2 .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-7-book1 .project-titles, #prj-7-book2 .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-7-book1 .project-titles, #prj-7-book2 .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+#prj-7-book1 > div, #prj-7-book2 > div {
+  display: flex;
+  justify-content: space-between;
+}
+#prj-7-book1 > div a, #prj-7-book2 > div a {
+  flex-basis: 49%;
+}
+@media (min-width: 1024px) {
+  #prj-7-book1 > div a, #prj-7-book2 > div a {
+    flex-basis: 49.5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #prj-7-process > div h5 {
+    margin-left: 5vw;
+  }
+}
+#prj-7-process > div div {
+  display: flex;
+  justify-content: space-between;
+}
+#prj-7-process > div div a {
+  flex-basis: 49%;
+}
+@media (min-width: 1024px) {
+  #prj-7-process > div div a {
+    flex-basis: 49.5%;
+  }
 }
 
 #prj-8-gallery-1 img {

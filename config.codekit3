@@ -2142,6 +2142,32 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-7\/sketch1.jpg" : {
+      "ft" : 16384,
+      "iS" : 64200,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-7\/sketch1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-7\/sketch2.jpg" : {
+      "ft" : 16384,
+      "iS" : 74875,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-7\/sketch2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work\/prj-8\/cats-thumbnail.png" : {
       "ft" : 32768,
       "iS" : 415000,

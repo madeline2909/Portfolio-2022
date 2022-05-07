@@ -1,6 +1,43 @@
-#prj-7-gallery-1{
-    img{
-        height: 100%;
-        width: 100%;
+//*******************************************//
+//***************GALLERY COVER************//
+
+#prj-7-book1, #prj-7-book2{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        a{
+            flex-basis: 49%;
+            @include lg{
+                flex-basis: 49.5%;
+            }
+        }
+    }
+}
+#prj-7-process{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+        div{
+            display: flex;
+            justify-content: space-between;
+            a{
+                flex-basis: 49%;
+                @include lg{
+                    flex-basis: 49.5%;
+                }
+            }
+        }
     }
 }
