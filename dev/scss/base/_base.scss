@@ -330,14 +330,8 @@ textarea {
         @include md {
             display: flex;
             justify-content: space-between;
-            // >div:nth-child(1){
-            //     margin-right: 15px;
-            // }
-            // >div:nth-child(2){
-            //     margin-left: 15px;
-            // }
             div{
-                flex-basis: 48%;
+                flex-basis: 48.5%;
             }
         }
         >div:nth-child(1){
@@ -346,14 +340,8 @@ textarea {
                 margin-bottom: 0;
             }
         }
-        @include lg {
-            display: flex;
-            justify-content: space-between;
-            grid-gap: 35px;
-        }
         @include xl{
-            padding: 0 5vw;
-            grid-gap: 50px;
+            padding: 0 3vw;
         }
         
        >div{

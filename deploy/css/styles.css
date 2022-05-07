@@ -688,7 +688,7 @@ textarea {
     justify-content: space-between;
   }
   .prj-blurbs > div div {
-    flex-basis: 48%;
+    flex-basis: 48.5%;
   }
 }
 .prj-blurbs > div > div:nth-child(1) {
@@ -699,17 +699,9 @@ textarea {
     margin-bottom: 0;
   }
 }
-@media (min-width: 1024px) {
-  .prj-blurbs > div {
-    display: flex;
-    justify-content: space-between;
-    grid-gap: 35px;
-  }
-}
 @media (min-width: 1440px) {
   .prj-blurbs > div {
-    padding: 0 5vw;
-    grid-gap: 50px;
+    padding: 0 3vw;
   }
 }
 .prj-blurbs > div > div {
