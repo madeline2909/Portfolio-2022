@@ -2435,7 +2435,7 @@ h2::-moz-selection {
 
 @media (min-width: 1024px) {
   #prj-1-gallery-1 > div h5 {
-    margin-left: 5%;
+    margin-left: 5vw;
   }
 }
 @media (min-width: 768px) {
@@ -2669,7 +2669,7 @@ h2::-moz-selection {
 
 @media (min-width: 1024px) {
   #prj-2-cover-1 > div h5 {
-    margin-left: 5%;
+    margin-left: 5vw;
   }
 }
 @media (min-width: 768px) {
@@ -2729,7 +2729,7 @@ h2::-moz-selection {
 
 @media (min-width: 1024px) {
   #prj-2-layout-1 > div h5 {
-    margin-left: 5%;
+    margin-left: 5vw;
   }
 }
 #prj-2-layout-1 > div iframe {
@@ -2818,13 +2818,13 @@ h2::-moz-selection {
 
 @media (min-width: 1024px) {
   #prj-3-gallery-brand > div h5 {
-    margin-left: 5%;
+    margin-left: 5vw;
   }
 }
 
 @media (min-width: 1024px) {
   #prj-3-outbox-1 > div h5 {
-    margin-left: 5%;
+    margin-left: 5vw;
   }
 }
 #prj-3-outbox-1 > div > div {
@@ -2942,7 +2942,7 @@ h2::-moz-selection {
 
 @media (min-width: 1024px) {
   #prj-3-detail-1 > div h5 {
-    margin-left: 5%;
+    margin-left: 5vw;
   }
 }
 
@@ -2972,7 +2972,7 @@ h2::-moz-selection {
 
 @media (min-width: 1024px) {
   #prj-3-web > div h5 {
-    margin-left: 5%;
+    margin-left: 5vw;
   }
 }
 
@@ -3015,13 +3015,13 @@ h2::-moz-selection {
 
 @media (min-width: 1024px) {
   #prj-4-gallery-brand > div h5 {
-    margin-left: 5%;
+    margin-left: 5vw;
   }
 }
 
 @media (min-width: 1024px) {
   #prj-4-flat > div h5 {
-    margin-left: 5%;
+    margin-left: 5vw;
   }
 }
 
