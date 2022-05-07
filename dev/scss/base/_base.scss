@@ -330,11 +330,14 @@ textarea {
         @include md {
             display: flex;
             justify-content: space-between;
-            >div:nth-child(1){
-                margin-right: 15px;
-            }
-            >div:nth-child(2){
-                margin-left: 15px;
+            // >div:nth-child(1){
+            //     margin-right: 15px;
+            // }
+            // >div:nth-child(2){
+            //     margin-left: 15px;
+            // }
+            div{
+                flex-basis: 48%;
             }
         }
         >div:nth-child(1){
