@@ -2078,7 +2078,7 @@ h2::-moz-selection {
   top: 0;
   opacity: 0;
   width: 100%;
-  height: 60vh;
+  height: 45vh;
 }
 @media (min-width: 768px) {
   #home-content #home-selected .home-prj .thumbnails-hover {
@@ -2144,6 +2144,9 @@ h2::-moz-selection {
     grid-area: prj5;
   }
 }
+#home-content #home-selected #home-prj-5 .thumbnails {
+  object-position: right;
+}
 @media (min-width: 768px) {
   #home-content #home-selected #home-prj-6 {
     grid-area: prj6;
@@ -2163,9 +2166,6 @@ h2::-moz-selection {
   #home-content #home-selected #home-prj-9 {
     grid-area: prj9;
   }
-}
-#home-content #home-selected #home-prj-9 .thumbnails {
-  object-position: right;
 }
 @media (min-width: 768px) {
   #home-content #home-selected #home-prj-10 {
