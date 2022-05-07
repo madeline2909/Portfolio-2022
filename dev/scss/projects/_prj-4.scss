@@ -35,6 +35,9 @@
         @include lg{
             padding: 0 10vw 40px;
         }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
     }
     
     #prj-4-mockup-1{
@@ -95,6 +98,9 @@
         }
         @include lg{
             padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
         }
     }
     >div{

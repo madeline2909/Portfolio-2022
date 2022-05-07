@@ -2493,6 +2493,11 @@ h2::-moz-selection {
     padding: 0 10vw 30px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-1-gallery-web #prj-1-web-titles {
+    padding: 0 13vw 30px;
+  }
+}
 #prj-1-gallery-web #prj-1-web-titles .project-titles {
   margin: 0;
   padding: 0;
@@ -2644,6 +2649,11 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-1-gallery-merch .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
 @media (min-width: 768px) {
   #prj-1-gallery-merch #prj-1-merch-1 > div {
     display: flex;
@@ -2780,6 +2790,11 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-2-gallery-detail .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
 #prj-2-gallery-detail #prj-2-detail-1 > div, #prj-2-gallery-detail #prj-2-detail-2 > div {
   display: flex;
   justify-content: space-between;
@@ -2897,6 +2912,11 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-3-gallery-inbox .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
 #prj-3-gallery-inbox #prj-3-inbox-1 > div {
   display: grid;
   grid-template-columns: 50fr 50fr;
@@ -2994,6 +3014,11 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-3-process .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
 #prj-3-process > div {
   display: flex;
   justify-content: space-between;
@@ -3038,6 +3063,11 @@ h2::-moz-selection {
 @media (min-width: 1024px) {
   #prj-4-mockup .project-titles {
     padding: 0 10vw 40px;
+  }
+}
+@media (min-width: 1440px) {
+  #prj-4-mockup .project-titles {
+    padding: 0 13vw 40px;
   }
 }
 #prj-4-mockup #prj-4-mockup-1 > div {
@@ -3099,6 +3129,11 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-4-process .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
 #prj-4-process > div {
   display: flex;
   justify-content: space-between;
@@ -3149,6 +3184,11 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-5-station .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
 
 #prj-5-store .project-titles {
   padding: 0 20px 30px;
@@ -3161,6 +3201,11 @@ h2::-moz-selection {
 @media (min-width: 1024px) {
   #prj-5-store .project-titles {
     padding: 0 10vw 40px;
+  }
+}
+@media (min-width: 1440px) {
+  #prj-5-store .project-titles {
+    padding: 0 13vw 40px;
   }
 }
 #prj-5-store #prj-5-store-1 > div {
@@ -3264,6 +3309,11 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-5-process .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
 #prj-5-process > div {
   display: flex;
   justify-content: space-between;
@@ -3324,6 +3374,11 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-6-layout .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
 #prj-6-layout > div {
   display: flex;
   flex-wrap: wrap;
@@ -3359,6 +3414,11 @@ h2::-moz-selection {
     padding: 0 10vw 40px;
   }
 }
+@media (min-width: 1440px) {
+  #prj-6-process .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
 #prj-6-process > div {
   display: flex;
   justify-content: space-between;
@@ -3392,6 +3452,11 @@ h2::-moz-selection {
 @media (min-width: 1024px) {
   #prj-7-book1 .project-titles, #prj-7-book2 .project-titles {
     padding: 0 10vw 40px;
+  }
+}
+@media (min-width: 1440px) {
+  #prj-7-book1 .project-titles, #prj-7-book2 .project-titles {
+    padding: 0 13vw 40px;
   }
 }
 #prj-7-book1 > div, #prj-7-book2 > div {

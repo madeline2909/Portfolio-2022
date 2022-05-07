@@ -63,6 +63,9 @@
         @include lg{
             padding: 0 10vw 30px;
         }
+        @include xl{
+            padding: 0 13vw 30px;
+        }
         .project-titles{
            margin: 0;
            padding: 0;
@@ -201,6 +204,9 @@
         }
         @include lg{
             padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
         }
     }
     #prj-1-merch-1{

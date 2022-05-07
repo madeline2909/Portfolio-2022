@@ -33,6 +33,9 @@
         @include lg{
             padding: 0 10vw 40px;
         }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
     }
 }
 
@@ -46,6 +49,9 @@
         }
         @include lg{
             padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
         }
     }
     #prj-5-store-1{
@@ -150,6 +156,9 @@
         }
         @include lg{
             padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
         }
     }
     >div{
