@@ -708,7 +708,7 @@ textarea {
 }
 @media (min-width: 1440px) {
   .prj-blurbs > div {
-    padding: 0 5%;
+    padding: 0 5vw;
     grid-gap: 50px;
   }
 }
