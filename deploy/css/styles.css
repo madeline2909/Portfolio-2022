@@ -3288,9 +3288,108 @@ h2::-moz-selection {
   }
 }
 
-#prj-6-gallery-1 img {
-  height: 100%;
+@media (min-width: 1024px) {
+  #prj-6-masthead > div h5 {
+    margin-left: 5vw;
+  }
+}
+
+#prj-6-cover #prj-6-cover-1 > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+#prj-6-cover #prj-6-cover-1 > div > div a {
+  flex-basis: 49%;
+}
+@media (min-width: 1024px) {
+  #prj-6-cover #prj-6-cover-1 > div > div a {
+    flex-basis: 49.5%;
+  }
+}
+#prj-6-cover #prj-6-cover-1 > div > div a img {
+  object-fit: cover;
+  height: 30vh;
   width: 100%;
+}
+@media (min-width: 1024px) {
+  #prj-6-cover #prj-6-cover-1 > div > div a img {
+    height: 50vh;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-6-cover #prj-6-cover-1 > div > div a img {
+    height: 90vh;
+  }
+}
+
+#prj-6-layout .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-6-layout .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-6-layout .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+#prj-6-layout > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#prj-6-layout > div a {
+  flex-basis: 49%;
+}
+@media (min-width: 1024px) {
+  #prj-6-layout > div a {
+    flex-basis: 49.5%;
+  }
+}
+#prj-6-layout > div a img {
+  padding-bottom: 5px;
+}
+@media (min-width: 768px) {
+  #prj-6-layout > div a img {
+    padding-bottom: 10px;
+  }
+}
+
+#prj-6-process .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-6-process .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-6-process .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+#prj-6-process > div {
+  display: flex;
+  justify-content: space-between;
+}
+#prj-6-process > div a {
+  flex-basis: 32%;
+}
+@media (min-width: 1024px) {
+  #prj-6-process > div a {
+    flex-basis: 32.7%;
+  }
+}
+#prj-6-process > div a img {
+  object-fit: cover;
+  height: 20vh;
+}
+@media (min-width: 1024px) {
+  #prj-6-process > div a img {
+    height: 50vh;
+  }
 }
 
 #prj-7-gallery-1 img {
