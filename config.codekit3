@@ -235,6 +235,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/next-btn\/next-prj-5.png" : {
+      "ft" : 32768,
+      "iS" : 268345,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/next-btn\/next-prj-5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/next-btn\/next-prj-6.png" : {
+      "ft" : 32768,
+      "iS" : 270884,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/next-btn\/next-prj-6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/next-btn\/next-prj-7.png" : {
+      "ft" : 32768,
+      "iS" : 123353,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/next-btn\/next-prj-7.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/prj-img-demo.png" : {
       "ft" : 32768,
       "iS" : 2089,
@@ -1353,7 +1392,7 @@
     },
     "\/deploy\/img\/work\/prj-4\/nama-5.png" : {
       "ft" : 32768,
-      "iS" : 410510,
+      "iS" : 346750,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work\/prj-4\/nama-5.png",
       "oF" : 0,
@@ -1784,19 +1823,6 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-5\/next-prj-5.png" : {
-      "ft" : 32768,
-      "iS" : 268345,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-5\/next-prj-5.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/work\/prj-6\/1st-cover.jpg" : {
       "ft" : 16384,
       "iS" : 376338,
@@ -1819,19 +1845,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-6\/next-prj-6.png" : {
-      "ft" : 32768,
-      "iS" : 270884,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-6\/next-prj-6.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2127,19 +2140,6 @@
       "oF" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-7\/next-prj-7.png" : {
-      "ft" : 32768,
-      "iS" : 123353,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-7\/next-prj-7.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/work\/prj-8\/cats-thumbnail.png" : {

@@ -781,26 +781,39 @@ textarea {
   z-index: 2;
   margin-right: -50vw;
   margin-left: 5%;
-  width: 800px;
+  margin-top: 80px;
 }
 @media (min-width: 768px) {
   .next-prj > div .next-prj-img .next-arrow {
     position: relative;
-    margin-right: -30vw;
+    margin-top: 125px;
+    margin-right: -40vw;
     margin-left: 5%;
-    width: 600px;
   }
 }
 @media (min-width: 1024px) {
   .next-prj > div .next-prj-img .next-arrow {
-    width: 500px;
-    margin-top: 80px;
-    margin-right: -200px;
+    margin-top: 180px;
+    margin-right: -300px;
     margin-left: 5%;
+  }
+}
+.next-prj > div .next-prj-img .next-arrow svg {
+  width: 280px;
+}
+@media (min-width: 768px) {
+  .next-prj > div .next-prj-img .next-arrow svg {
+    width: 600px;
+  }
+}
+@media (min-width: 1024px) {
+  .next-prj > div .next-prj-img .next-arrow svg {
+    width: 500px;
   }
 }
 .next-prj > div .next-prj-img .next-prj-thumbnail {
   background-color: #82AB40;
+  width: 100%;
   height: 25vh;
 }
 @media (min-width: 768px) {
@@ -3025,9 +3038,254 @@ h2::-moz-selection {
   }
 }
 
-#prj-5-gallery-1 img {
+#prj-4-mockup .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-4-mockup .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-4-mockup .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+#prj-4-mockup #prj-4-mockup-1 > div {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  grid-template-areas: "mockup1 mockup3" "mockup2 mockup3";
+  grid-gap: 5px;
+}
+@media (min-width: 768px) {
+  #prj-4-mockup #prj-4-mockup-1 > div {
+    grid-gap: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-4-mockup #prj-4-mockup-1 > div {
+    grid-gap: 15px;
+  }
+}
+#prj-4-mockup #prj-4-mockup-1 > div a:nth-child(1) {
+  grid-area: mockup1;
+}
+#prj-4-mockup #prj-4-mockup-1 > div a:nth-child(2) {
+  grid-area: mockup2;
+}
+#prj-4-mockup #prj-4-mockup-1 > div a:nth-child(3) {
+  grid-area: mockup3;
+}
+#prj-4-mockup #prj-4-mockup-1 > div a img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#prj-4-mockup #prj-4-mockup-2 {
+  display: flex;
+  justify-content: space-between;
+}
+#prj-4-mockup #prj-4-mockup-2 a {
+  flex-basis: 49%;
+}
+@media (min-width: 1024px) {
+  #prj-4-mockup #prj-4-mockup-2 a {
+    flex-basis: 49.5%;
+  }
+}
+#prj-4-mockup a:last-child img {
+  padding-bottom: 0;
+}
+
+#prj-4-process .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-4-process .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-4-process .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+#prj-4-process > div {
+  display: flex;
+  justify-content: space-between;
+}
+#prj-4-process > div a {
+  flex-basis: 32%;
+}
+@media (min-width: 1024px) {
+  #prj-4-process > div a {
+    flex-basis: 32.7%;
+  }
+}
+
+#prj-5-brand {
+  padding-bottom: 0;
+}
+@media (min-width: 1024px) {
+  #prj-5-brand > div h5 {
+    margin-left: 5vw;
+  }
+}
+
+#prj-5-logo {
+  object-fit: cover;
+  height: 40vh;
+}
+@media (min-width: 768px) {
+  #prj-5-logo {
+    height: 50vh;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-5-logo {
+    height: 100vh;
+  }
+}
+
+#prj-5-station .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-5-station .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-5-station .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+
+#prj-5-store .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-5-store .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-5-store .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+#prj-5-store #prj-5-store-1 > div {
+  display: grid;
+  grid-template-rows: 20vh 20vh;
+  grid-template-columns: 40fr 10fr 50fr;
+  grid-template-areas: "store1 store1 store2" "store3 store3 store4";
+  grid-gap: 5px;
+}
+@media (min-width: 768px) {
+  #prj-5-store #prj-5-store-1 > div {
+    grid-template-areas: "store1 store1 store2" "store3 store4 store4";
+    grid-template-rows: 25vh 40vh;
+    grid-gap: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-5-store #prj-5-store-1 > div {
+    grid-template-rows: 60vh 80vh;
+    grid-gap: 15px;
+  }
+}
+#prj-5-store #prj-5-store-1 > div a:nth-child(1) {
+  grid-area: store1;
+}
+#prj-5-store #prj-5-store-1 > div a:nth-child(2) {
+  grid-area: store2;
+}
+#prj-5-store #prj-5-store-1 > div a:nth-child(3) {
+  grid-area: store3;
+}
+#prj-5-store #prj-5-store-1 > div a:nth-child(4) {
+  grid-area: store4;
+}
+#prj-5-store #prj-5-store-1 > div a img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#prj-5-store #prj-5-store-2 {
+  display: flex;
+  justify-content: space-between;
+}
+#prj-5-store #prj-5-store-2 a {
+  flex-basis: 49%;
+}
+@media (min-width: 1024px) {
+  #prj-5-store #prj-5-store-2 a {
+    flex-basis: 49.5%;
+  }
+}
+#prj-5-store #prj-5-store-2 a img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  #prj-5-product-1 > div h5 {
+    margin-left: 5vw;
+  }
+}
+#prj-5-product-1 > div > div {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-template-areas: "merch1 merch2";
+  grid-gap: 5px;
+}
+@media (min-width: 768px) {
+  #prj-5-product-1 > div > div {
+    grid-gap: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-5-product-1 > div > div {
+    grid-gap: 15px;
+  }
+}
+#prj-5-product-1 > div > div a:nth-child(1) {
+  grid-area: merch1;
+}
+#prj-5-product-1 > div > div a:nth-child(2) {
+  grid-area: merch2;
+}
+#prj-5-product-1 > div > div a img {
+  object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+#prj-5-process .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-5-process .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-5-process .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+#prj-5-process > div {
+  display: flex;
+  justify-content: space-between;
+}
+#prj-5-process > div a {
+  flex-basis: 32%;
+}
+@media (min-width: 1024px) {
+  #prj-5-process > div a {
+    flex-basis: 32.7%;
+  }
 }
 
 #prj-6-gallery-1 img {

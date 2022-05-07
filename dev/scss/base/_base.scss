@@ -416,24 +416,32 @@ textarea {
                 z-index: 2;
                 margin-right: -50vw;
                 margin-left: 5%;
-                width: 800px;
+                margin-top: 80px;
                 @include md{
                     position: relative;
-                    margin-right: -30vw;
+                    margin-top: 125px;
+                    margin-right: -40vw;
                     margin-left: 5%;
-                    width: 600px;
                 }
                 @include lg{
-                    width: 500px;
-                    margin-top: 80px;
-                    margin-right: -200px;
+                    margin-top: 180px;
+                    margin-right: -300px;
                     margin-left: 5%;
-
+                }
+                svg{
+                    width: 280px;
+                    @include md{
+                        width: 600px;
+                    }
+                    @include lg{
+                        width: 500px;
+                    }
                 }
             }
             .next-prj-thumbnail{
                 background-color: $grass;
-                //width: 40vw;
+                width: 100%;
+
                 height: 25vh;
                 @include md{
                     height: 30vh;
