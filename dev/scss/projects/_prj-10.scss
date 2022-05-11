@@ -1,6 +1,9 @@
-#prj-10-gallery-1{
-    img{
-        height: 100%;
-        width: 100%;
+#prj-10-gallery{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
     }
 }

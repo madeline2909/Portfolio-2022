@@ -1,6 +1,58 @@
-#prj-9-gallery-1{
-    img{
-        height: 100%;
-        width: 100%;
+//*******************************************//
+//***************GALLERY RESEARCH************//
+#prj-9-research{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
     }
+    #prj-9-sketch{
+        display: flex;
+        justify-content: space-between;
+        a{
+            flex-basis: 49%;
+            @include lg{
+                flex-basis: 49.5%;
+            }
+        }
+    }
+}
+//*******************************************//
+//***************GALLERY RESEARCH************//
+#prj-9-brand{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY RESEARCH************//
+#prj-9-prototype{
+    h5{
+        @include lg{
+            margin-left: 5vw;
+        }
+    }
+    iframe{
+        height: 30vh;
+        width: 100%;
+        @include md{
+            height: 45vh;
+        }
+        @include lg{
+            height: 100vh;
+        }
+    }
+    padding-bottom: 0;
 }

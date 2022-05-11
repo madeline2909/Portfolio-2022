@@ -1,6 +1,57 @@
-#prj-11-gallery-1{
-    img{
-        height: 100%;
-        width: 100%;
+
+//*******************************************//
+//***************GALLERY illust************//
+#prj-11-hero{
+    object-position: -1000px;
+    @include lg{
+        object-position: unset;
     }
 }
+#prj-11-anim{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    iframe{
+        height: 30vh;
+        width: 100%;
+        @include md{
+            height: 32vh;
+        }
+        @include lg{
+            height: 80vh;
+        }
+    }
+    #prj-11-gifs{
+        >div{
+            >div{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                a{
+                    flex-basis: 49%;
+                    @include lg{
+                        flex-basis: 49.5%;
+                    }
+                    img{
+                        padding-bottom: 5px;
+                        @include md{
+                            padding-bottom: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        padding-bottom: 0;
+    }
+    padding-bottom: 0;
+}
+
