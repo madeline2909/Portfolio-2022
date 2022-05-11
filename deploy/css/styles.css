@@ -3517,7 +3517,7 @@ h2::-moz-selection {
 #prj-8-web-1 div > div a img {
   padding-bottom: 5px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #prj-8-web-1 div > div a img {
     padding-bottom: 8px;
   }
@@ -3541,7 +3541,7 @@ h2::-moz-selection {
 }
 @media (min-width: 768px) {
   #prj-8-web-2 > div a img {
-    margin-bottom: 8px;
+    padding-bottom: 8px;
   }
 }
 
