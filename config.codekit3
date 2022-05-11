@@ -25,6 +25,38 @@
       "oAP" : "\/deploy\/about.html",
       "oF" : 0
     },
+    "\/deploy\/book-covers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/book-covers.html",
+      "oF" : 0
+    },
+    "\/deploy\/cadence-cycling.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/cadence-cycling.html",
+      "oF" : 0
+    },
+    "\/deploy\/cats-of-japan.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/cats-of-japan.html",
+      "oF" : 0
+    },
+    "\/deploy\/coloring-book.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/coloring-book.html",
+      "oF" : 0
+    },
     "\/deploy\/contact.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -56,6 +88,22 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/film-photography.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/film-photography.html",
+      "oF" : 0
+    },
+    "\/deploy\/hoai-exhibition.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/hoai-exhibition.html",
+      "oF" : 0
     },
     "\/deploy\/img\/about\/about-pic-demo.png" : {
       "ft" : 32768,
@@ -3009,6 +3057,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/in-case-of-human.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/in-case-of-human.html",
+      "oF" : 0
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3028,6 +3084,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/my-childhood-story.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/my-childhood-story.html",
+      "oF" : 0
+    },
     "\/deploy\/play.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3036,132 +3100,52 @@
       "oAP" : "\/deploy\/play.html",
       "oF" : 0
     },
-    "\/deploy\/project-1.html" : {
+    "\/deploy\/redwoods.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/project-1.html",
+      "oAP" : "\/deploy\/redwoods.html",
       "oF" : 0
     },
-    "\/deploy\/project-2.html" : {
+    "\/deploy\/senior-showcase.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/project-2.html",
+      "oAP" : "\/deploy\/senior-showcase.html",
       "oF" : 0
     },
-    "\/deploy\/project-3.html" : {
+    "\/deploy\/sophie-calendar.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/project-3.html",
+      "oAP" : "\/deploy\/sophie-calendar.html",
       "oF" : 0
     },
-    "\/deploy\/project-4.html" : {
+    "\/deploy\/the-butterfly-dream.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/project-4.html",
+      "oAP" : "\/deploy\/the-butterfly-dream.html",
       "oF" : 0
     },
-    "\/deploy\/project-5.html" : {
+    "\/deploy\/tsukioka-yoshitoshi.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/project-5.html",
+      "oAP" : "\/deploy\/tsukioka-yoshitoshi.html",
       "oF" : 0
     },
-    "\/deploy\/project-6.html" : {
+    "\/deploy\/vegan-nama-chocolate.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/project-6.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-7.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-7.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-8.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-8.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-9.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-9.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-10.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-10.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-11.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-11.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-12.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-12.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-13.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-13.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-14.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-14.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-15.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-15.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-16.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-16.html",
+      "oAP" : "\/deploy\/vegan-nama-chocolate.html",
       "oF" : 0
     },
     "\/deploy\/work.html" : {
@@ -3172,13 +3156,53 @@
       "oAP" : "\/deploy\/work.html",
       "oF" : 0
     },
+    "\/deploy\/you.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/you.html",
+      "oF" : 0
+    },
     "\/dev\/about.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/about.html",
-      "oF" : 2
+      "oF" : 3
+    },
+    "\/dev\/book-covers.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/book-covers.html",
+      "oF" : 3
+    },
+    "\/dev\/cadence-cycling.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/cadence-cycling.html",
+      "oF" : 3
+    },
+    "\/dev\/cats-of-japan.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/cats-of-japan.html",
+      "oF" : 3
+    },
+    "\/dev\/coloring-book.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/coloring-book.html",
+      "oF" : 3
     },
     "\/dev\/contact.kit" : {
       "cB" : 0,
@@ -3186,7 +3210,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/contact.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/content\/about-content.kit" : {
       "cB" : 0,
@@ -3227,6 +3251,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/work-content.html",
       "oF" : 0
+    },
+    "\/dev\/film-photography.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/film-photography.html",
+      "oF" : 3
     },
     "\/dev\/global\/footer-2.kit" : {
       "cB" : 0,
@@ -3292,13 +3324,29 @@
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
+    "\/dev\/hoai-exhibition.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/hoai-exhibition.html",
+      "oF" : 3
+    },
+    "\/dev\/in-case-of-human.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/in-case-of-human.html",
+      "oF" : 3
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/js\/fancyBox.js" : {
       "bF" : 4,
@@ -3388,141 +3436,21 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/my-childhood-story.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/my-childhood-story.html",
+      "oF" : 3
+    },
     "\/dev\/play.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/play.html",
-      "oF" : 2
-    },
-    "\/dev\/project-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-1.html",
       "oF" : 3
-    },
-    "\/dev\/project-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-2.html",
-      "oF" : 2
-    },
-    "\/dev\/project-3.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-3.html",
-      "oF" : 2
-    },
-    "\/dev\/project-4.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-4.html",
-      "oF" : 2
-    },
-    "\/dev\/project-5.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-5.html",
-      "oF" : 2
-    },
-    "\/dev\/project-6.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-6.html",
-      "oF" : 2
-    },
-    "\/dev\/project-7.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-7.html",
-      "oF" : 2
-    },
-    "\/dev\/project-8.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-8.html",
-      "oF" : 2
-    },
-    "\/dev\/project-9.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-9.html",
-      "oF" : 2
-    },
-    "\/dev\/project-10.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-10.html",
-      "oF" : 2
-    },
-    "\/dev\/project-11.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-11.html",
-      "oF" : 2
-    },
-    "\/dev\/project-12.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-12.html",
-      "oF" : 2
-    },
-    "\/dev\/project-13.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-13.html",
-      "oF" : 2
-    },
-    "\/dev\/project-14.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-14.html",
-      "oF" : 2
-    },
-    "\/dev\/project-15.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-15.html",
-      "oF" : 2
-    },
-    "\/dev\/project-16.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-16.html",
-      "oF" : 2
     },
     "\/dev\/projects\/prj-1-content.kit" : {
       "cB" : 0,
@@ -3651,6 +3579,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/projects\/prj-16-content.html",
       "oF" : 1
+    },
+    "\/dev\/redwoods.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/redwoods.html",
+      "oF" : 3
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -4207,13 +4143,61 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/senior-showcase.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/senior-showcase.html",
+      "oF" : 3
+    },
+    "\/dev\/sophie-calendar.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/sophie-calendar.html",
+      "oF" : 3
+    },
+    "\/dev\/the-butterfly-dream.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/the-butterfly-dream.html",
+      "oF" : 3
+    },
+    "\/dev\/tsukioka-yoshitoshi.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/tsukioka-yoshitoshi.html",
+      "oF" : 3
+    },
+    "\/dev\/vegan-nama-chocolate.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/vegan-nama-chocolate.html",
+      "oF" : 3
+    },
     "\/dev\/work.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/work.html",
-      "oF" : 2
+      "oF" : 3
+    },
+    "\/dev\/you.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/you.html",
+      "oF" : 3
     },
     "\/Gruntfile.js" : {
       "bF" : 0,

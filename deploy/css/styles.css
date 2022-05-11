@@ -1825,9 +1825,14 @@ h2::-moz-selection {
 }
 @media (min-width: 768px) {
   #play-container-2 {
-    grid-template-areas: ". container container";
-    grid-template-columns: 5vw auto 5vw;
+    grid-template-areas: ". container .";
+    grid-template-columns: 5% auto 5%;
     padding-bottom: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  #play-container-2 {
+    grid-template-areas: ". container container";
   }
 }
 @media (min-width: 1440px) {
@@ -1859,7 +1864,7 @@ h2::-moz-selection {
 }
 @media (min-width: 768px) {
   #play-container-2 #play-prj-container #play-prj-grid-container .play-project {
-    flex-basis: 47%;
+    flex-basis: 49%;
   }
 }
 @media (min-width: 1024px) {
@@ -1869,6 +1874,21 @@ h2::-moz-selection {
 }
 #play-container-2 #play-prj-container #play-prj-grid-container .play-project img {
   width: 100%;
+  object-fit: cover;
+  height: 45vh;
+}
+@media (min-width: 768px) {
+  #play-container-2 #play-prj-container #play-prj-grid-container .play-project img {
+    height: 35vh;
+  }
+}
+@media (min-width: 1024px) {
+  #play-container-2 #play-prj-container #play-prj-grid-container .play-project img {
+    height: 55vh;
+  }
+}
+#play-container-2 #play-prj-container #play-prj-grid-container .placeholder {
+  opacity: 0;
 }
 #play-container-2 #play-prj-container #play-prj-grid-container p {
   padding-bottom: 80px;
