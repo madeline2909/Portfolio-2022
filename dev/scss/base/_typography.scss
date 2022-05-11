@@ -134,6 +134,12 @@ p {
 	font-size: rem-calc(14);
 	line-height: rem-calc(22);
 }
+.bold{
+	font-weight: 500;
+}
+.italic{
+	font-style: italic;
+}
 
 .about-bodycopy{
 	color: $tangerine;

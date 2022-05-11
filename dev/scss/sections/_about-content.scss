@@ -57,13 +57,95 @@
                 width: 50%;
                 height: 100%;
                 position: relative;
-                top: -30px;
+                top: -70px;
                 @include md{
                     width: 310px;
-                    top: -70px;
+                    top: -130px;
                 }
             }       
         }
    
+    }
+    #resume-container{
+        margin-top: -60px;
+        @include md{
+            margin-top: -100px;
+            display: grid;
+            grid-template-columns: 28% 72%;
+            grid-template-areas: "resume-l resume-r";
+            grid-gap: 20px;
+        }
+        @include lg{
+            display: grid;
+            grid-template-columns: 25% 75%;
+            grid-template-areas: "resume-l resume-r";
+            grid-gap: 30px;
+        }
+        .resume-content{
+            color: $verygreen;
+        }
+        #resume-left{
+            grid-area: resume-l;
+            .about-bodycopy{
+                padding-bottom: 10px;
+                @include lg{
+                    padding-bottom: 25px;
+                }
+            }
+            .resume-content{
+                p{
+                    padding-bottom: 10px;
+                    @include lg{
+                        padding-bottom: 25px;
+                    }
+                }
+            }
+        }
+        #resume-right{
+            grid-area: resume-r;
+            .about-bodycopy{
+                padding-bottom: 10px;
+                @include md{
+                    padding-bottom: 0;
+                }
+            }
+            >div{
+                >div{
+                    padding-bottom: 10px;
+                    @include md{
+                        padding: 10px 0;
+                        display: grid;
+                        grid-template-columns: 75fr 25fr;
+                        grid-template-areas: "place date" "title title";
+                        border-bottom: solid 1px $tangerine;
+                    }
+                    @include lg{
+                        padding: 25px 0;
+                        border-bottom: solid 1.5px $tangerine;
+                        display: grid;
+                        grid-template-columns: 52fr 20fr 28fr;
+                        grid-template-areas: "place date title";
+                    }
+                    p:nth-child(1){
+                        grid-area: place;
+                    }
+                    p:nth-child(2){
+                        grid-area: date;
+                    }
+                    p:nth-child(3){
+                        grid-area: title;
+                        @include md{
+                            padding-top: 10px;
+                        }
+                        @include lg{
+                            padding-top: 0;
+                        }
+                    }
+                }
+                div:last-child{
+                    border-bottom: none;
+                }
+            }
+        }
     }
 }
