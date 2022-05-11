@@ -48,26 +48,24 @@
             }
             img{
                 padding-bottom: 5px;
-                @include lg{
-                    padding-bottom: 8px;
+                @include md{
+                    margin-bottom: 8px;
                 }
             }
         }
     }
 }
 #prj-8-web-gif{
-    margin: 30px 0;
-        @include md {
-            margin: 40px 0;
-        }
-        @include lg {
-            margin: 50px 0;
-        }
     .prj-8-gif{
-        outline: solid 2px #F0DBDA;
+        outline: solid 1.5px #F0DBDA;
         margin-bottom: 5px;
+        @include md{
+            margin-bottom: 15px;
+        }
         @include lg{
             margin-bottom: 10px;
+            outline: solid 2px #F0DBDA;
         }
     }
+    padding-bottom: 0;
 }
