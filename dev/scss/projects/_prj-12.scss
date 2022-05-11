@@ -1,5 +1,146 @@
+#prj-12-hero{
+    object-position: -150px;
+    @include lg{
+        object-position: unset;
+    }
+}
 #prj-12-container{
-    height: 100vh;
-    >div{
+    .prj-header{
+        h2{
+        	line-height: rem-calc(60);
+        
+            @include md {
+                line-height: rem-calc(100);
+            }
+        
+            @include lg {
+                line-height: rem-calc(130);
+            }
+            @include xl{
+                line-height: rem-calc(145);
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY ILLUST************//
+#prj-12-illust {
+    >div {
+        h5 {
+            @include lg {
+                margin-left: 5vw;
+            }
+        }
+
+        >div {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            a {
+                flex-basis: 32%;
+
+                @include lg {
+                    flex-basis: 32.7%;
+                }
+
+                img {
+                    padding-bottom: 5px;
+
+                    @include md {
+                        padding-bottom: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY BIG & SMALL************//
+#prj-12-big,
+#prj-12-small {
+    .project-titles {
+        padding: 0 20px 30px;
+
+        @include md {
+            padding: 0 5vw 40px;
+        }
+
+        @include lg {
+            padding: 0 10vw 40px;
+        }
+
+        @include xl {
+            padding: 0 13vw 40px;
+        }
+    }
+
+    >section {
+        >div {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            a {
+                flex-basis: 49%;
+
+                @include lg {
+                    flex-basis: 49.5%;
+                }
+
+                img {
+                    padding-bottom: 5px;
+
+                    @include md {
+                        padding-bottom: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#prj-12-small {
+    >section {
+        padding-bottom: 0;
+    }
+}
+
+
+//*******************************************//
+//***************GALLERY STICKER************//
+#prj-12-sticker {
+    >div {
+        h5 {
+            @include lg {
+                margin-left: 5vw;
+            }
+        }
+
+        >a {
+            img {
+                padding-bottom: 5px;
+
+                @include md {
+                    padding-bottom: 10px;
+
+                }
+            }
+        }
+
+        >div {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                flex-basis: 49%;
+
+                @include lg {
+                    flex-basis: 49.5%;
+                }
+            }
+        }
     }
 }

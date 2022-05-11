@@ -1,5 +1,237 @@
-#prj-1-container{
-    height: 100vh;
+//*******************************************//
+//***************GALLERY BRANDING************//
+
+#prj-1-gallery-1{
     >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+        div{
+            @include md{
+                display: flex;
+                justify-content: space-between;
+                gap: 40px;
+                //height: 40vh;
+            }
+            @include lg{
+                gap: 20px;
+                height: 70vh;
+            }
+            
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 200px;
+                @include md{
+                    height: 300px;
+                }
+                @include lg{
+                    height: 100%;
+                }
+            }
+            
+        }
+    }
+    
+}
+#prj-1-gallery-2{
+    >div{
+        div:first-child{
+            img{
+                padding: 10px 0 20px;
+                @include md{
+                    padding: 20px 0 30px;
+                }
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY WEB************//
+
+#prj-1-gallery-web{
+    #prj-1-web-titles{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 30px;
+        }
+        @include lg{
+            padding: 0 10vw 30px;
+        }
+        @include xl{
+            padding: 0 13vw 30px;
+        }
+        .project-titles{
+           margin: 0;
+           padding: 0;
+        }
+        >div{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 100%;
+        }
+        a{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
+    #prj-1-web-1{
+        >div{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            @include lg{
+                grid-gap: 15px;
+            }
+            a{
+                width: 48%;
+                padding: 0 2px;
+                @include md{
+                    width: 48%;
+                    padding: 3px 5px;
+                }
+                @include lg{
+                    padding: 0;
+                }
+            }
+        }
+    }
+    #prj-1-web-2{
+        display: grid;
+        grid-template-columns: auto 5px auto;
+        grid-template-areas: 
+        "web2-1 . web2-2" "web2-3 . web2-4" "web2-5 . web2-6"
+        ;
+        @include md{
+            grid-template-columns: auto 10px auto;
+        }
+        @include lg{
+            grid-template-columns: auto 15px auto;
+        }
+        a:nth-child(1){
+            grid-area: web2-1;
+            @include md{
+                padding-bottom: 10px;
+            }
+        }
+        a:nth-child(2){
+            grid-area: web2-2;
+            @include md{
+                padding-bottom: 10px;
+            }
+        }
+        a:nth-child(3){
+            grid-area: web2-3;
+            @include md{
+                padding-bottom: 10px;
+            }
+        }
+        a:nth-child(4){
+            grid-area: web2-4;
+            @include md{
+                padding-bottom: 10px;
+            }
+        }
+        a:nth-child(5){
+            grid-area: web2-5;
+        }
+        a:nth-child(6){
+            grid-area: web2-6;
+        }
+    }
+    #prj-1-web-3{
+        >div{
+            display: grid;
+            grid-template-columns: auto 5px auto;
+            grid-template-rows: auto 5px auto;
+            grid-template-areas: "web3-1 . web3-2" "web3-1 . ." "web3-1 . web3-3";
+            
+            @include md{
+                grid-template-columns: auto 10px auto;
+                grid-template-rows: auto 10px auto;
+            }
+            @include lg{
+                grid-template-columns: auto 15px auto;
+                grid-template-rows: auto 15px auto;
+            }
+            a{
+                img{
+                    height: 100%;
+                }
+            }
+            a:nth-child(1){
+                grid-area: web3-1;
+            }
+            a:nth-child(2){
+                grid-area: web3-2;
+                img{
+                    object-fit: cover;
+                }
+            }
+            a:nth-child(3){
+                grid-area: web3-3;
+                img{
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    #prj-1-web-4{
+        @include lg{
+            padding: 0 50px ;
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY merch************//
+
+#prj-1-gallery-merch{
+    //for the final gallery
+    padding-bottom: 0;
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    #prj-1-merch-1{
+        >div{
+            @include md{
+                display: flex;
+                justify-content: center;
+            }
+            @include lg{
+                grid-gap: 10px;
+            }
+            a{
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                    @include md{
+                        width: 40vw;
+                        height: 100%;
+                    }
+                    
+                }
+            }
+        }
+    }
+    #prj-1-merch-3{
+        padding-bottom: 0;
     }
 }

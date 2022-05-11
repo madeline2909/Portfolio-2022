@@ -1,46 +1,61 @@
-// import {gsap} from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {gsap} from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
-//animating global caption
 
-// const captionAnimTL = gsap.timeline({paused:true});
-// captionAnimTL
-// .from(".caption", {
-//     duration: 0.5,
-//     xPercent: -20,
-//     alpha: 0
-// })
 
-// export function captionAnimation(){
+//page titles animation
+const headerAnimTL = gsap.timeline({paused:true});
+headerAnimTL
+.from(".headerAnim", {
+    xPercent: -20,
+    alpha: 0,
+    duration:0.75
+})
 
-//     ScrollTrigger.create({
-//         animation: captionAnimTL,
-//         toggleActions: "play none none none",
-//         trigger: ".caption",
-//         start: "top 80%",
-//         //markers: true,
-//         id: "caption"
-//     });
-// }
+export function headerAnimation(){
 
-// //page titles animation
-// const titleAnimTL = gsap.timeline({paused:true});
-// titleAnimTL
-// .from(".page-title", {
-//     yPercent: -100,
-//     alpha: 0,
-//     duration:0.5
-// })
+    ScrollTrigger.create({
+        animation:headerAnimTL,
+        trigger: ".hero-container",
+        id: "header",
+        //markers: true,
+        toggleActions: "play none none none"
+    });
+}
 
-// export function titleAnimation(){
+//caption animation
+const captionAnimTL = gsap.timeline({paused:true});
+captionAnimTL
+.from(".captionAnim", {
+    xPercent: 20,
+    alpha: 0,
+    duration:0.75
+})
 
-//     ScrollTrigger.create({
-//         animation:titleAnimTL,
-//         trigger: ".hero-container",
-//         id: "page title",
-//         //markers: true,
-//         toggleActions: "play none none none"
-//     });
-// }
+export function captionAnimation(){
+
+    ScrollTrigger.create({
+        animation:captionAnimTL,
+        trigger: ".hero-container",
+        id: "caption",
+        //markers: true,
+        toggleActions: "play none none none"
+    });
+}
+
+ //pinning prj hero images
+export function heroPinning(){
+
+    ScrollTrigger.create({
+        trigger: ".prj-hero-container",
+        //id: "hero pinning",
+        pin: true,
+        pinSpacing: false,
+        //markers: true,
+        start: "top top",
+        scrub: 1,
+        toggleActions: "restart none none reverse"
+    });
+}

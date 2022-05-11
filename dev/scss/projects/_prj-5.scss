@@ -1,5 +1,174 @@
-#prj-5-container{
-    height: 100vh;
+//*******************************************//
+//***************GALLERY BRAND************//
+
+#prj-5-brand{
     >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+    }
+    padding-bottom: 0;
+}
+#prj-5-logo{
+    object-fit: cover;
+    height: 40vh;
+    //padding: 0 10vw;
+    @include md{
+        height: 50vh;
+    }
+    @include lg{
+        height: 100vh;
+    }
+}
+//*******************************************//
+//***************GALLERY STATIONERY************//
+#prj-5-station{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY STOREFRONT************//
+#prj-5-store{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    #prj-5-store-1{
+        >div{
+            display: grid;
+            grid-template-rows: 20vh 20vh;
+            grid-template-columns: 40fr 10fr 50fr;
+            grid-template-areas: "store1 store1 store2" 
+            "store3 store3 store4";
+            grid-gap: 5px;
+            @include md{
+                grid-template-areas: "store1 store1 store2" 
+                "store3 store4 store4";
+                grid-template-rows: 25vh 40vh;
+                grid-gap: 10px;
+            }
+            @include lg{
+                grid-template-rows: 60vh 80vh;
+                grid-gap: 15px;
+            }
+            a:nth-child(1){
+                grid-area: store1;
+            }
+            a:nth-child(2){
+                grid-area: store2;
+            }
+            a:nth-child(3){
+                grid-area: store3;
+            }
+            a:nth-child(4){
+                grid-area: store4;
+            }
+            a{
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    #prj-5-store-2{
+        display: flex;
+        justify-content: space-between;
+        a{
+            flex-basis: 49%;
+            @include lg{
+                flex-basis: 49.5%;
+            }
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY STOREFRONT************//
+#prj-5-product-1{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+        >div{
+            display: grid;
+            grid-template-columns: 6fr 4fr;
+            grid-template-areas: "merch1 merch2";
+            grid-gap: 5px;
+            @include md{
+                grid-gap: 10px;
+            }
+            @include lg{
+                grid-gap: 15px;
+            }
+            a:nth-child(1){
+                grid-area: merch1;
+            }
+            a:nth-child(2){
+                grid-area: merch2;
+            }
+            a{
+                img{
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+//*******************************************//
+//***************GALLERY PROCESS************//
+#prj-5-process{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        a{
+            flex-basis: 32%;
+            @include lg{
+                flex-basis: 32.7%;
+            }
+        }
     }
 }

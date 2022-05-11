@@ -4,7 +4,8 @@
     "grunt-codekit": "^1.2.1"
   },
   "dependencies": {
-    "gsap": "^3.10.2",
+    "@fancyapps/ui": "^4.0.26",
+    "gsap": "^3.10.4",
     "jquery": "^3.6.0"
   }
 }

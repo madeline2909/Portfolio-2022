@@ -1,5 +1,144 @@
-#prj-2-container{
-    height: 100vh;
+//*******************************************//
+//***************GALLERY COVERS************//
+#prj-2-cover-1{
     >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+        >div{
+            @include md{
+                display: flex;
+                justify-content: space-between;
+            }
+            a{
+                flex-basis: 49%;
+                @include lg{
+                    flex-basis: 49.5%;
+                }
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    @include md{
+                        height: 30vh;
+                    }
+                    @include lg{
+                        height: 100%;
+                    }
+                }
+            }
+            a:nth-child(1){
+                img{
+                    @include md{
+                        object-position: -75px 0;
+                    }
+                    @include lg{
+                        object-position: unset;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+#prj-2-cover-2{
+    @include md{
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        flex-basis: 32%;
+        @include lg{
+            flex-basis: 32.7%;
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY COVERS************//
+
+#prj-2-layout-1{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+        iframe{
+            height: 30vh;
+            width: 100%;
+            @include md{
+                height: 45vh;
+            }
+            @include lg{
+                height: 80vh;
+            }
+        }
+    }
+}
+#prj-2-layout-2{
+    @include md{
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        flex-basis: 32%;
+        @include lg{
+            flex-basis: 32.7%;
+        }
+    }
+}
+
+
+//*******************************************//
+//***************GALLERY DETAILS************//
+
+#prj-2-gallery-detail{
+    //for the final gallery
+    padding-bottom: 0;
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    #prj-2-detail-1, #prj-2-detail-2{
+        >div{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            a{
+                flex-basis: 49%;
+                padding-bottom: 5px;
+                @include md{
+                    padding-bottom: 15px;
+                }
+                @include lg{
+                    flex-basis: 49.5%;
+                    padding-bottom: 10px;
+                }
+                img{
+                    object-fit: cover;
+                    height: 20vh;
+                    @include md{
+                        height: 25vh;
+                    }
+                    @include lg{
+                        height: 55vh;
+                    }
+                }
+            }
+        }
+    }
+    #prj-2-detail-2{
+        padding-bottom: 0;
     }
 }

@@ -46,7 +46,7 @@ textarea {
     }
 }
 
-.not-show-lg{
+.not-show-lg {
     display: block;
 
     @include lg {
@@ -54,7 +54,7 @@ textarea {
     }
 }
 
-.not-show-md{
+.not-show-md {
     display: block;
 
     @include md {
@@ -68,16 +68,20 @@ textarea {
     display: grid;
     grid-template-areas: ". container .";
     grid-template-columns: 20px auto 20px;
-    @include md{
+
+    @include md {
         grid-template-areas: ". container .";
         grid-template-columns: 5vw auto 5vw;
     }
-    @include lg{
+
+    @include lg {
         //grid-template-columns: 5vw auto 5vw;
     }
+
     @include xl {
         grid-template-columns: 8vw auto 8vw;
     }
+
     >div {
         grid-area: container;
     }
@@ -88,18 +92,22 @@ textarea {
     display: grid;
     grid-template-areas: ". container .";
     grid-template-columns: 20px auto 20px;
-    @include md{
+
+    @include md {
         grid-template-areas: ". container .";
         //grid-template-columns: 5vw auto 5vw;
         grid-template-columns: 10vw auto 10vw;
 
     }
-    @include lg{
+
+    @include lg {
         grid-template-columns: 10vw auto 10vw;
     }
+
     @include xl {
         grid-template-columns: 15vw auto 15vw;
     }
+
     >div {
         grid-area: container;
     }
@@ -110,15 +118,18 @@ textarea {
     display: grid;
     grid-template-areas: ". container .";
     grid-template-columns: 20px auto 20px;
-    @include md{
+
+    @include md {
         grid-template-areas: ". container .";
         grid-template-columns: 5vw auto 5vw;
         //grid-template-columns: 10vw auto 10vw;
 
     }
-    @include lg{
+
+    @include lg {
         grid-template-columns: 10vw auto 10vw;
     }
+
     // @include xl {
     //     grid-template-columns: 10vw auto 10vw;
     // }
@@ -135,11 +146,14 @@ textarea {
     }
 
     @include lg {
-        padding: 100px 0;
+        padding: 160px 0;
     }
-    @include xl{
-        padding: 100px 0;
-    };
+
+    @include xl {
+        padding: 200px 0;
+    }
+
+    ;
 }
 
 .content-spacing {
@@ -152,4 +166,291 @@ textarea {
     @include lg {
         margin: 70px 0 0 0;
     }
+}
+
+.prj-spacing {
+    padding: 30px 0;
+
+    @include md {
+        padding: 60px 0;
+    }
+
+    @include lg {
+        padding: 70px 0;
+    }
+}
+
+.gallery-spacing {
+    padding: 30px 0;
+
+    @include md {
+        padding: 40px 0;
+    }
+
+    @include lg {
+        padding: 50px 0;
+    }
+}
+
+/* =======================================
+            for project pages
+======================================= */
+
+.prj-hero-container{
+    //padding-top: 10px;
+    img{
+        object-fit: cover;
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+.prj-heading-spacing {
+    padding: 80px 0 30px;
+
+    @include md {
+        padding: 100px 0 60px;
+    }
+
+    @include lg {
+        padding: 110px 0 70px;
+    }
+
+    @include xl {
+        padding: 120px 0 70px;
+    }
+}
+.prj-header-container{
+    background-color: #fff;
+    position: relative;
+    .prj-header {
+        color: $peachy;
+        .prj-captions {
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            @include md{
+                padding-top: 0;
+                display: block;
+            }
+            @include lg {
+                margin-bottom: 10px;
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+            }
+    
+            p {
+                padding: 10px 0;
+                width: 42vw;
+                @include md{
+                    width: unset;
+                }
+                @include lg {
+                    padding: 15px 0;
+                }
+            }
+    
+            :nth-child(1),
+            :nth-child(2) {
+    
+                @include md {
+                    border-bottom: 1px solid $peachy;
+                }
+    
+                @include lg {
+                    border-bottom: 1.5px solid $peachy;
+                }
+            }
+    
+            :nth-child(1) {
+                border-right: 1px solid $peachy;
+                padding-right: 10px;
+                @include md{
+                    border-right: 0;
+                    padding-top: 0;
+                }
+            }
+            :nth-child(3) {
+                @include md{
+                    padding-bottom: 0;
+    
+                }
+            }
+        }
+    
+        @include md {
+            padding-bottom: 0px;
+            display: grid;
+            grid-template-columns: 77% 23%;
+            grid-template-areas: "title captions";
+    
+            >h2 {
+                grid-area: title;
+            }
+    
+            .prj-captions {
+                grid-area: captions;
+            }
+        }
+    
+        @include lg {
+            display: grid;
+            grid-template-columns: 80% 20%;
+            grid-template-areas: "title captions";
+    
+            >h2 {
+                grid-area: title;
+            }
+    
+            .prj-captions {
+                grid-area: captions;
+            }
+        }
+    }
+}
+
+
+.prj-blurbs {
+    position: relative;
+    background-color: #fff;
+    
+    .project-titles {
+        color: $matcha;
+        padding-top: 0;
+    }
+
+    p {
+        color: $midnight;
+        padding: 15px 0;
+    }
+
+    >div {
+        @include md {
+            display: flex;
+            justify-content: space-between;
+            div{
+                flex-basis: 48.5%;
+            }
+        }
+        >div:nth-child(1){
+            margin-bottom: 40px;
+            @include md{
+                margin-bottom: 0;
+            }
+        }
+        @include xl{
+            padding: 0 3vw;
+        }
+        
+       >div{
+           width: auto;
+       }
+        
+    }
+}
+.prj-gallery{
+    position: relative;
+    background-color: #fff;
+    .grid-container-3, .grid-container, .grid-container-2{
+        background-color: #fff;
+    }
+    video{
+       // object-fit: contain;
+        width: 100%;
+    }
+    a{
+        img{
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+    .project-titles{
+        color: $matcha;
+        padding-bottom: 30px;
+        @include lg{
+            padding-bottom: 30px;
+        }
+    }
+}
+.next-prj{
+    //background-color: $offwhite;
+    >div{
+        @include lg{
+            display: grid;
+            grid-template-columns: 42% 58%;
+            grid-template-areas: "text img";
+        }
+        h2{
+            color: $matcha;
+            grid-area: text;
+            margin-left: 5%;
+            margin-bottom: 30px;
+            @include md{
+                margin-left: 5vw;
+                margin-bottom: 50px;
+            }
+
+            @include lg{
+                margin-top: 30px;
+            }
+            @include xl{
+                margin-left: 8vw;
+            }
+        }
+        .next-prj-img{
+            grid-area: img;
+            display: flex;
+            .next-arrow{
+                position: relative;
+                z-index: 2;
+                margin-right: -50vw;
+                margin-left: 5%;
+                margin-top: 80px;
+                @include md{
+                    position: relative;
+                    margin-top: 125px;
+                    margin-right: -40vw;
+                    margin-left: 5%;
+                }
+                @include lg{
+                    margin-top: 180px;
+                    margin-right: -300px;
+                    margin-left: 5%;
+                }
+                svg{
+                    width: 280px;
+                    @include md{
+                        width: 600px;
+                    }
+                    @include lg{
+                        width: 500px;
+                    }
+                }
+            }
+            .next-prj-thumbnail{
+                background-color: $grass;
+                width: 100%;
+
+                height: 25vh;
+                @include md{
+                    height: 30vh;
+                }
+                @include lg{
+                height: 50vh;
+                }
+                img{
+                    opacity: 40%;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+    
+        }
+    }
+
+    
+    
 }

@@ -61,13 +61,17 @@ h2 {
 	color: $matcha;
 
 	@include md {
-		font-size: rem-calc(130);
-		line-height: rem-calc(115);
+		font-size: rem-calc(105);
+		line-height: rem-calc(90);
 	}
 
 	@include lg {
-		font-size: rem-calc(160);
-		line-height: rem-calc(145);
+		font-size: rem-calc(130);
+		line-height: rem-calc(115);
+	}
+	@include xl{
+		font-size: rem-calc(150);
+		line-height: rem-calc(135);
 	}
 }
 
@@ -130,7 +134,16 @@ p {
 	font-size: rem-calc(14);
 	line-height: rem-calc(22);
 }
+.bold{
+	font-weight: 500;
+}
+.italic{
+	font-style: italic;
+}
 
+li{
+	font-weight: 300;
+}
 .about-bodycopy{
 	color: $tangerine;
 	font-family: 'Hepta Slab', serif;
@@ -163,11 +176,11 @@ p {
 }
 
 //changing text highlight
-h1::selection, h3::selection, h4::selection, h5::selection, h6::selection, li::selection, p::selection {
+h1::selection, h3::selection, h4::selection, h5::selection, h6::selection, li::selection, span::selection, p::selection {
 	background: $matcha;
 	color: $grass; /* WebKit/Blink Browsers */
 }
-h1::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, li::-moz-selection, p::-moz-selection {
+h1::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, li::-moz-selection,span::selection, p::-moz-selection {
 	background: $matcha;
 	color: $grass; /* Gecko Browsers */
 }

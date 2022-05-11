@@ -1,5 +1,117 @@
-#prj-4-container{
-    height: 100vh;
+//*******************************************//
+//***************GALLERY BRAND************//
+
+#prj-4-gallery-brand{
     >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
     }
 }
+
+//*******************************************//
+//***************GALLERY FLAT PATTERN************//
+#prj-4-flat{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY MOCKUP************//
+
+#prj-4-mockup{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    
+    #prj-4-mockup-1{
+        >div{
+            display: grid;
+            grid-template-columns: 50fr 50fr;
+            grid-template-areas: 
+            "mockup1 mockup3" "mockup2 mockup3";
+            grid-gap: 5px;
+            @include md{
+                grid-gap: 10px;
+            }
+            @include lg{
+                grid-gap: 15px;
+            }
+            a:nth-child(1){
+                grid-area: mockup1;
+            }
+            a:nth-child(2){
+                grid-area: mockup2;
+            }
+            a:nth-child(3){
+                grid-area: mockup3;
+            }
+            a{
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    #prj-4-mockup-2{
+        display: flex;
+        justify-content: space-between;
+        a{
+            flex-basis: 49%;
+            @include lg{
+                flex-basis: 49.5%;
+            }
+        }
+    }
+    a:last-child{
+        img{
+            padding-bottom: 0;
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY DETAIL************//
+#prj-4-process{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        a{
+            flex-basis: 32%;
+            @include lg{
+                flex-basis: 32.7%;
+            }
+        }
+    }
+}
+

@@ -1,5 +1,215 @@
-#prj-3-container{
-    height: 100vh;
+//*******************************************//
+//***************GALLERY BRAND************//
+
+#prj-3-gallery-brand{
     >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY OUTER BOX************//
+
+#prj-3-outbox-1{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+        >div{
+            display: grid;
+            grid-template-columns: 5fr 5fr;
+            grid-template-rows: 20vh 40vh;
+            grid-template-areas: "box1 box2"
+            "box3 box3";
+            grid-gap: 5px;
+            @include md{
+                grid-template-columns: 4fr 6fr;
+                grid-template-rows: 25vh 25vh;
+                grid-template-areas: "box1 box3"
+                "box2 box3";
+                grid-gap: 15px;
+            }
+            @include lg{
+                grid-template-columns: 3fr 7fr;
+                grid-template-rows: 50vh 50vh;
+                grid-template-areas: "box1 box3"
+                "box2 box3";
+            }
+            img{
+                object-fit: cover;
+                height: 100%;
+            }
+            a:nth-child(1){
+                grid-area: box1;
+            }
+            a:nth-child(2){
+                grid-area: box2;
+            }
+            a:nth-child(3){
+                grid-area: box3;
+            }
+        }
+    }
+}
+
+#prj-3-outbox-2{
+    @include md{
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        flex-basis: 49%;
+        @include lg{
+            flex-basis: 49.5%;
+        }
+        img{
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+}
+
+#prj-3-gallery-inbox{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    #prj-3-inbox-1{
+        >div{
+                display: grid;
+                grid-template-columns: 50fr 50fr;
+                grid-template-rows: 15vh 30vh 15vh 15vh;
+                grid-template-areas: "inbox1 inbox2" "inbox3 inbox3" "inbox4 inbox5" "inbox4 inbox6"
+                ;
+                grid-gap: 5px;
+            @include md{
+                grid-template-columns: 50fr 50fr;
+                grid-template-rows: 25vh 50vh 25vh 25vh;
+                grid-template-areas: "inbox1 inbox2" "inbox3 inbox3" "inbox4 inbox5" "inbox4 inbox6"
+                ;
+                grid-gap: 15px;
+            }
+            @include lg{
+                grid-template-rows: 50vh 100vh 50vh 50vh;
+                grid-template-areas: "inbox1 inbox2" "inbox3 inbox3" "inbox4 inbox5" "inbox4 inbox6"
+                ;
+            }
+            a:nth-child(1){
+                grid-area: inbox1;
+            }
+            a:nth-child(2){
+                grid-area: inbox2;
+            }
+            a:nth-child(3){
+                grid-area: inbox3;
+            }
+            a:nth-child(4){
+                grid-area: inbox4;
+            }
+            a:nth-child(5){
+                grid-area: inbox5;
+            }
+            a:nth-child(6){
+                grid-area: inbox6;
+            }
+            img{
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY DETAILS************//
+#prj-3-detail-1{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+    }
+}
+#prj-3-detail-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    a{
+        flex-basis: 49%;
+        margin-bottom: 8px;
+
+        @include md{
+            margin-bottom: 15px;
+        }
+        @include lg{
+            flex-basis: 49.5%;
+        }
+        img{
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY WEB************//
+#prj-3-web{
+    >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
+    }
+}
+
+//*******************************************//
+//***************GALLERY PROCESS************//
+#prj-3-process{
+    padding-bottom: 0;
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        a{
+            flex-basis: 49%;
+            padding-bottom: 5px;
+            @include md{
+                padding-bottom: 15px;
+            }
+            @include lg{
+                flex-basis: 24.3%;
+                padding-bottom: 0;
+            }
+            
+        }
     }
 }

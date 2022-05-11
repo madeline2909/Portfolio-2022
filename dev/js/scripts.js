@@ -3,8 +3,10 @@
 
 
 //Scroll Trigger stuffs
-// import {titleAnimation} from "./global-scroll.js";
-// import {captionAnimation} from "./global-scroll.js";
+import {heroPinning} from "./global-scroll.js";
+import {headerAnimation} from "./global-scroll.js";
+import {captionAnimation} from "./global-scroll.js";
+
 // import {footerAnimation} from "./sections/footer-scroll.js";
 // import {indexTitleAnimation} from "./sections/index-scroll.js";
 // import {galleryAnimation} from "./sections/gallery-scroll.js";
@@ -23,13 +25,15 @@ import {menuBgSelect} from "./main-nav/nav-global.js";
 //fancybox and tinyslider
 // import {tinySliderFunc} from "./tinyslider.js";
 // tinySliderFunc();
-// import {fancyBox} from "./fancyBox.js";
 // tinySlider();
-// fancyBox();
+import {fancyBox} from "./fancyBox.js";
+fancyBox();
 
 // //calling the scrolltrigger functions
-// titleAnimation();
-// captionAnimation();
+headerAnimation();
+captionAnimation();
+heroPinning();
+
 // indexTitleAnimation();
 // contactAnimation();
 // contactPinning();

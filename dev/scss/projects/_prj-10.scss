@@ -1,5 +1,9 @@
-#prj-10-container{
-    height: 100vh;
+#prj-10-gallery{
     >div{
+        h5{
+            @include lg{
+                margin-left: 5vw;
+            }
+        }
     }
 }

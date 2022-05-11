@@ -9,11 +9,14 @@
 @import "base/_base";
 @import "base/_typography";
 
+//fancybox
+@import "fancybox.css";
+
 // Components Styles
 @import "components/_buttons";
 @import "components/_forms";
 @import "components/_navigation";
-@import "components/_tiny-slider";
+//@import "components/_tiny-slider";
 @import "components/_fancy-box";
 
 // Layout Styles
@@ -21,6 +24,8 @@
 @import "layout/_header-2";
 @import "layout/_footer";
 @import "layout/_footer-2";
+@import "layout/_footer-3";
+
 
 
 // Sections Styles
@@ -47,6 +52,8 @@
 @import "projects/_prj-14";
 @import "projects/_prj-15";
 @import "projects/_prj-16";
+
+
 
 
 

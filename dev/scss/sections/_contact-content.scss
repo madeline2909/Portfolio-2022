@@ -2,8 +2,10 @@
     background-color: $peachy;
     @include md{
         padding-top: 180px;
+        height: 55vh;
     }
     @include lg{
+        height: auto;
         padding-top: 120px;
     }
     // height: 60vh;
@@ -13,6 +15,15 @@
         }
         p, li{
             color: $offwhite;
+            .button{
+                border: 1px solid $offwhite;
+                &:hover,
+                &:active {
+                    transition: 0.5s;
+                    background-color: $offwhite;
+                    color: $peachy;
+                }
+            }
         }
         h4{
             color: $tangerine;
@@ -50,15 +61,8 @@
                 display: flex;
                 flex-wrap: wrap;
                 padding: 20px 0;
-                li{
-                    width: fit-content;
-                    padding: 12px;
+                li {
                     margin: 5px;
-                    border: 2px solid $offwhite;
-                    border-radius: 50px;
-                    @include md{
-                        padding: 20px;
-                    }
                 }
             }
         }
@@ -72,8 +76,8 @@
             @include lg{
                 display: block;
             }
-            :nth-child(1){
-                padding-bottom: 10px;
+            h4:nth-child(1){
+                padding-bottom: 15px;
             }
         }
         

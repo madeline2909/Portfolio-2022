@@ -8,7 +8,7 @@
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;500&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Montagu+Slab:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;500&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,500&family=Montagu+Slab:wght@200;300;400&display=swap" rel="stylesheet">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/bb64da5fe1.js" crossorigin="anonymous"></script>
     <!-- FancyBox -->
@@ -16,9 +16,11 @@
     <!-- TinySlider -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script><![endif]-->
-
-    <title>madeline's portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="format-detection" content="telephone=no" />
+</head>
+<head>
+  <title>passion projects</title>
 </head>
 
 <body>
@@ -46,18 +48,18 @@
           <div>
               <div class="nav-btn" id="nav-work-btn">
                   <a class="nav-text" href="work.html">work
-                      <img src="img/nav/nav-img-demo.png" alt="demo">
+                      <img src="img/nav/work.png" alt="demo">
                   </a>
               </div>
               <div class="nav-btn"  id="nav-play-btn">
                   <a class="nav-text" href="play.html">
                   play
-                  <img src="img/nav/nav-img-demo.png" alt="demo"></a>
+                  <img src="img/nav/play.png" alt="demo"></a>
               </div>
               <div class="nav-btn"  id="nav-about-btn">
                   <a class="nav-text" href="about.html">
                   about
-                  <img src="img/nav/nav-img-demo.png" alt="demo"></a>
+                  <img src="img/nav/about.png" alt="demo"></a>
               </div>
               <div class="nav-btn" id="nav-contact-btn">
                   <a class="nav-text" href="contact.html">want to work with me?
@@ -73,10 +75,10 @@
               </div>
           </div>
       </nav>
-  <section id="play-container" class="grid-container heading-spacing">
+  <section id="play-container" class="hero-container grid-container heading-spacing">
             <div id="play-prj-title">
-                <h1>play</h1>
-                <ul id="play-prj-caption">
+                <h1 class="headerAnim">play</h1>
+                <ul id="play-prj-caption" class="captionAnim">
                     <li>animation</li>
                     <li>calendar design</li>
                     <li>illustration</li>
@@ -90,42 +92,40 @@
             <div id="play-prj-container">
                 <ul id="play-prj-grid-container">
                     <li class="play-project">
-                        <a href="project-11.html">
-                        <img src="img/prj-img-demo.png" alt="demo">
+                        <a href="my-childhood-story.html">
+                        <img src="img/play/prj-11/s2-5-on-the-table.gif" alt="anim gif">
                         <h5 class="project-titles">my childhood story</h5>
                         <p>animation \ illustration</p>
                         </a>
                     </li>
                     <li class="play-project">
-                        <a href="project-12.html">
-                        <img src="img/prj-img-demo.png" alt="demo">
+                        <a href="sophie-calendar.html">
+                        <img src="img/play/prj-12/product-details.png" alt="sophie calendar">
                         <h5 class="project-titles">Sophie Calendar 2021</h5>
                         <p>illustration</p>
                         </a>
                     </li>
                     <li class="play-project">
-                        <a href="project-13.html">
+                        <a href="coloring-book.html">
                         <img src="img/prj-img-demo.png" alt="demo">
-                        <h5 class="project-titles">Deep-sea coloring book</h5>
+                        <h5 class="project-titles">Coloring book</h5>
                         <p>publication design \ illustration</p></a>
                     </li>
                     <li class="play-project">
-                        <a href="project-14.html">
-                        <img src="img/prj-img-demo.png" alt="demo">
-                        <h5 class="project-titles">Drexel K-pop Club</h5>
-                        <p>photography</p></a>
-                    </li>
-                    <li class="play-project">
-                        <a href="project-15.html">
+                        <a href="the-butterfly-dream.html">
                         <img src="img/prj-img-demo.png" alt="demo">
                         <h5 class="project-titles">The Butterfly Dream</h5>
-                        <p>social media</p></a>
+                        <p>illustration</p></a>
                     </li>
                     <li class="play-project">
-                        <a href="project-16.html">
+                        <a href="film-photography.html">
                         <img src="img/prj-img-demo.png" alt="demo">
                         <h5 class="project-titles">Film photography</h5>
-                        <p>illustration</p></a>
+                        <p>photography</p></a>
+                    </li>
+                    <li class="placeholder show-for-md play-project">
+                        <img src="img/prj-img-demo.png" alt="demo">
+                        <h5 class="project-titles">Film photography</h5>
                     </li>
                 </ul>
             </div>
@@ -136,15 +136,15 @@
               <div id="footer-container-1">
                   <div id="left-footer-1">
                       <ul>
-                          <li>thank you for visiting <3 </li>
+                          <li>coded with love <3 </li>
                           <li>madeline nguyen © 2022</li>
                       </ul>
                   </div>
                   <div id="right-footer-1">
                       <ul>
-                          <li><a href="https://www.instagram.com/tangerine.n9/">INSTAGRAM</a></li>
-                          <li><a href="https://www.behance.net/madeline2909?tracking_source=search_users%7Cmadeline%20nguyen">BEHANCE</a></li>
-                          <li><a href="https://www.linkedin.com/in/madeline-nguyen-290900/">LINKEDIN</a></li>
+                          <li><a href="https://www.instagram.com/tangerine.n9/" target="_blank">INSTAGRAM</a></li>
+                          <li><a href="https://www.behance.net/madeline2909?tracking_source=search_users%7Cmadeline%20nguyen" target="_blank">BEHANCE</a></li>
+                          <li><a href="https://www.linkedin.com/in/madeline-nguyen-290900/" target="_blank">LINKEDIN</a></li>
                       </ul>
                   </div>
               </div>
