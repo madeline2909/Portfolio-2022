@@ -138,6 +138,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/favicon.ico",
+      "oF" : 0
+    },
     "\/deploy\/img\/home\/connect-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
