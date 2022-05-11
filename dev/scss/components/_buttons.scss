@@ -16,7 +16,7 @@
     &:active {
         transition: 0.5s;
         //background-color: rgba($color: white, $alpha: 0.5);
-        border: 1.5px solid $yellow;
-        color: $yellow;
+        background-color: $matcha;
+        color: $offwhite;
     }
 }

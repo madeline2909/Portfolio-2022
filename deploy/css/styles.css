@@ -973,6 +973,10 @@ p {
   font-style: italic;
 }
 
+li {
+  font-weight: 300;
+}
+
 .about-bodycopy {
   color: #E8622B;
   font-family: "Hepta Slab", serif;
@@ -1060,8 +1064,8 @@ h2::-moz-selection {
 }
 .button:hover, .button:active {
   transition: 0.5s;
-  border: 1.5px solid #F2B029;
-  color: #F2B029;
+  background-color: #CFD1A0;
+  color: #f2f2f3;
 }
 
 /* =============
@@ -1510,7 +1514,12 @@ h2::-moz-selection {
   justify-content: space-between;
   border-top: 2px solid #f2f2f3;
   margin: 0 5vw;
-  padding: 30px 0 20px 0;
+  padding: 30px 0;
+}
+@media (min-width: 768px) {
+  #footer-2 #footer-container-2 {
+    padding: 35px 0;
+  }
 }
 #footer-2 #footer-container-2 #left-footer-2 ul {
   color: #f2f2f3;
@@ -1518,11 +1527,13 @@ h2::-moz-selection {
   height: 100%;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 7px;
 }
 #footer-2 #footer-container-2 #left-footer-2 ul li {
   font-size: 0.875rem;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+}
+#footer-2 #footer-container-2 #left-footer-2 ul :last-child {
+  margin-bottom: 0;
 }
 #footer-2 #footer-container-2 #right-footer-2 ul {
   color: #f2f2f3;
@@ -1541,6 +1552,9 @@ h2::-moz-selection {
 #footer-2 #footer-container-2 #right-footer-2 ul li a:visited:hover,
 #footer-2 #footer-container-2 #right-footer-2 ul li a:visited:active {
   color: #D42128;
+}
+#footer-2 #footer-container-2 #right-footer-2 ul :last-child {
+  margin-bottom: 0;
 }
 
 /* =============
@@ -1709,10 +1723,12 @@ h2::-moz-selection {
 @media (min-width: 768px) {
   #contact-container {
     padding-top: 180px;
+    height: 55vh;
   }
 }
 @media (min-width: 1024px) {
   #contact-container {
+    height: auto;
     padding-top: 120px;
   }
 }
@@ -1721,6 +1737,14 @@ h2::-moz-selection {
 }
 #contact-container > div p, #contact-container > div li {
   color: #f2f2f3;
+}
+#contact-container > div p .button, #contact-container > div li .button {
+  border: 1px solid #f2f2f3;
+}
+#contact-container > div p .button:hover, #contact-container > div p .button:active, #contact-container > div li .button:hover, #contact-container > div li .button:active {
+  transition: 0.5s;
+  background-color: #f2f2f3;
+  color: #F89F77;
 }
 #contact-container > div h4 {
   color: #E8622B;
@@ -1768,16 +1792,7 @@ h2::-moz-selection {
   padding: 20px 0;
 }
 #contact-container > div #contact-text #fun-list li {
-  width: fit-content;
-  padding: 12px;
   margin: 5px;
-  border: 2px solid #f2f2f3;
-  border-radius: 50px;
-}
-@media (min-width: 768px) {
-  #contact-container > div #contact-text #fun-list li {
-    padding: 20px;
-  }
 }
 @media (min-width: 768px) {
   #contact-container > div #emails {
@@ -1792,8 +1807,8 @@ h2::-moz-selection {
     display: block;
   }
 }
-#contact-container > div #emails :nth-child(1) {
-  padding-bottom: 10px;
+#contact-container > div #emails h4:nth-child(1) {
+  padding-bottom: 15px;
 }
 
 #play-container {
@@ -2378,16 +2393,21 @@ h2::-moz-selection {
 
 #about-container {
   background-color: #F89F77;
-  padding: 80px 0;
+  padding: 80px 0 100px;
 }
 @media (min-width: 768px) {
   #about-container {
-    padding: 100px 0;
+    padding: 100px 0 150px;
   }
 }
 @media (min-width: 1024px) {
   #about-container {
-    padding: 70px 0;
+    padding: 70px 0 160px;
+  }
+}
+@media (min-width: 1024px) {
+  #about-container {
+    padding: 70px 0 200px;
   }
 }
 #about-container > div > div:nth-child(1) {
@@ -2458,6 +2478,11 @@ h2::-moz-selection {
 }
 @media (min-width: 768px) {
   #about-container > div #resume #resume-badge {
+    top: -130px;
+  }
+}
+@media (min-width: 768px) {
+  #about-container > div #resume #resume-badge {
     width: 310px;
     top: -130px;
   }
@@ -2470,7 +2495,7 @@ h2::-moz-selection {
     margin-top: -100px;
     display: grid;
     grid-template-columns: 28% 72%;
-    grid-template-areas: "resume-l resume-r";
+    grid-template-areas: "resume-l resume-r" "button resume-r";
     grid-gap: 20px;
   }
 }
@@ -2478,7 +2503,7 @@ h2::-moz-selection {
   #about-container #resume-container {
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-areas: "resume-l resume-r";
+    grid-template-areas: "resume-l resume-r" "button resume-r";
     grid-gap: 30px;
   }
 }
@@ -2557,6 +2582,27 @@ h2::-moz-selection {
 }
 #about-container #resume-container #resume-right > div div:last-child {
   border-bottom: none;
+}
+#about-container #resume-container #full-resume {
+  grid-area: button;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 15px;
+}
+#about-container #resume-container #full-resume .button {
+  color: #f2f2f3;
+  border: 1px solid #f2f2f3;
+}
+@media (min-width: 768px) {
+  #about-container #resume-container #full-resume .button {
+    border: 1.5px solid #f2f2f3;
+  }
+}
+#about-container #resume-container #full-resume .button:hover, #about-container #resume-container #full-resume .button:active {
+  transition: 0.5s;
+  background-color: #f2f2f3;
+  color: #E8622B;
 }
 
 @media (min-width: 1024px) {

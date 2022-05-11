@@ -1,11 +1,14 @@
 #about-container{
     background-color: $peachy;
-    padding: 80px 0;
+    padding: 80px 0 100px;
     @include md{
-        padding: 100px 0;
+        padding: 100px 0 150px;
     }
     @include lg{
-        padding: 70px 0;
+        padding: 70px 0 160px;
+    }
+    @include lg{
+        padding: 70px 0 200px;
     }
     >div{
         >div:nth-child(1){
@@ -59,6 +62,10 @@
                 position: relative;
                 top: -70px;
                 @include md{
+                    
+                    top: -130px;
+                }
+                @include md{
                     width: 310px;
                     top: -130px;
                 }
@@ -72,13 +79,15 @@
             margin-top: -100px;
             display: grid;
             grid-template-columns: 28% 72%;
-            grid-template-areas: "resume-l resume-r";
+            grid-template-areas: "resume-l resume-r"
+            "button resume-r";
             grid-gap: 20px;
         }
         @include lg{
             display: grid;
             grid-template-columns: 25% 75%;
-            grid-template-areas: "resume-l resume-r";
+            grid-template-areas: "resume-l resume-r"
+            "button resume-r";
             grid-gap: 30px;
         }
         .resume-content{
@@ -147,5 +156,27 @@
                 }
             }
         }
+        #full-resume{
+            grid-area: button;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding-top: 15px;
+            
+            .button{
+                color: $offwhite;
+                border: 1px solid $offwhite;
+                @include md{
+                    border: 1.5px solid $offwhite;
+                }
+                &:hover,
+                &:active {
+                    transition: 0.5s;
+                    //background-color: rgba($color: white, $alpha: 0.5);
+                    background-color: $offwhite;
+                    color: $tangerine;
+                }
+            }
+            }
+        }
     }
-}
