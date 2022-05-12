@@ -11,12 +11,13 @@ scrollToBtn
     //alpha: 0,
     duration:0.75
 })
-export function scrollToAnim(){
 
+export function scrollToAnim(){
     ScrollTrigger.create({
         animation:scrollToBtn,
         trigger: ".prj-blurbs",
         id: "topBtn",
+    
         //markers: true,
         toggleActions: "restart none none reverse"
     });
@@ -25,13 +26,15 @@ export function scrollToAnim(){
 // export function scrollToAnim(){
 
 //     ScrollTrigger.create({
-//         animation:scrollToBtn,
-//         trigger: ".prj-blurbs",
+//         //animation:scrollToBtn,
 //         id: ".topBtn",
 //         markers: true,
+//         trigger: ".prj-blurbs",
 //         start: "top top", 
-//         end: "bottom bottom",
+//         endTrigger:"footer",
+//         end: "top bottom", 
 //         pin: ".topBtn",
+//         pinSpacing:false,
 //         toggleActions: "restart none none reverse"
 //     });
 // }

@@ -453,9 +453,7 @@ textarea {
 }
 
 .topBtn {
-    //$scrollLength: 100vh;
-    //scroll-behavior: smooth;
-    //display: none; /* Hidden by default */
+    //position: absolute;
     position: fixed; /* Fixed/sticky position */
     bottom: 50px; /* Place the button at the bottom of the page */
     right: 0; /* Place the button 30px from the right */
