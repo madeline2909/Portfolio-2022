@@ -75,8 +75,11 @@ export function pageTransition() {
           sync:true,
           leave(data) {
             return gsap.to(data.current.container, {
-              opacity: 0
-            })
+                opacity: 0,
+                y:"-100vh",
+                ease:"Power2.easeInOut",
+                duration: 1.25
+            });
             
             
           },
@@ -85,9 +88,11 @@ export function pageTransition() {
                 //put back the main nav
                 mainNavTimeline.reverse();
                 canYouSeeTheMenu = false;
+                burgerAnimationTimeline.reverse("burgerToX");
+                navAnimationTimeline.reverse("burgerToX")
             }
           },
-          afterEnter(){
+          beforeEnter(){
                 //move the nav off screen on the Y axis
                 // gsap.set("#main-nav", {
                 //     y: -navHeight
@@ -120,8 +125,11 @@ export function pageTransition() {
           },
           enter(data) {
             return gsap.from(data.next.container, {
-              opacity: 0
-            });
+                    opacity: 0,
+                    y:"100vh",
+                    ease:"Power2.easeInOut",
+                    duration: 1.25
+                });
           }
         }]
       });

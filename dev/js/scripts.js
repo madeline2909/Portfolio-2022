@@ -17,14 +17,6 @@ import {galleryImg4Anim} from "./prj-scroll";
 import {galleryImg5Anim} from "./prj-scroll";
 import {galleryImg6Anim} from "./prj-scroll";
 
-
-// import {footerAnimation} from "./sections/footer-scroll.js";
-// import {indexTitleAnimation} from "./sections/index-scroll.js";
-// import {galleryAnimation} from "./sections/gallery-scroll.js";
-// import {galleryPinning} from "./sections/gallery-scroll.js";
-// import {contactAnimation} from "./sections/contact-scroll.js";
-// import {contactPinning} from "./sections/contact-scroll.js";
-
 // //jquery
 // import {mouseEvent} from "./main-nav/burger-mouse.js";
 import {burgerClick} from "./main-nav/burger-mouse.js";
@@ -32,11 +24,7 @@ import {navClick} from "./main-nav/main-nav-click.js";
 import {reportWindowSize} from "./main-nav/nav-global.js";
 import {menuBgSelect} from "./main-nav/nav-global.js";
 
-//barba
-import {pageTransition} from "./main-nav/nav-global.js";
 
-// import {pageTransition} from "./barba.js";
-pageTransition();
 
 scrollTop();
 moveBtnAnim();
@@ -65,3 +53,8 @@ navClick();
 reportWindowSize();
 menuBgSelect();
 
+//barba
+import {pageTransition} from "./main-nav/nav-global.js";
+
+// import {pageTransition} from "./barba.js";
+pageTransition();
