@@ -429,6 +429,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/play\/prj-11\/.s2-6-flipping-book.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/play\/prj-11\/.s2-6-flipping-book.gif.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/play\/prj-11\/s1-1-open-window-long.gif" : {
       "ft" : 4194304,
       "iS" : 1880189,
@@ -464,16 +472,6 @@
       "iS" : 860592,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/play\/prj-11\/s2-5-on-the-table.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/play\/prj-11\/s2-6-flipping-book.gif" : {
-      "ft" : 4194304,
-      "iS" : 3759447,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/play\/prj-11\/s2-6-flipping-book.gif",
       "oF" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
@@ -938,6 +936,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-1\/.money.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-1\/.money.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/work\/prj-1\/.web-trim.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-1\/.web-trim.gif.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/work\/prj-1\/branding\/hoai-content-04 2.png" : {
       "ft" : 32768,
       "iS" : 449567,
@@ -1183,16 +1197,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-1\/money.gif" : {
-      "ft" : 4194304,
-      "iS" : 5273224,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-1\/money.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/img\/work\/prj-1\/posters.png" : {
@@ -1650,15 +1654,45 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-1\/web-trim.gif" : {
-      "ft" : 4194304,
-      "iS" : 11310379,
+    "\/deploy\/img\/work\/prj-2\/.flip-1.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-1\/web-trim.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
+      "oAP" : "\/deploy\/img\/work\/prj-2\/.flip-1.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/work\/prj-2\/.flip-2 2.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-2\/.flip-2 2.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/work\/prj-2\/.flip-2.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-2\/.flip-2.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/work\/prj-2\/.flip-3 2.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-2\/.flip-3 2.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/work\/prj-2\/.flip-3.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-2\/.flip-3.gif.icloud",
+      "oF" : 0
     },
     "\/deploy\/img\/work\/prj-2\/00 2.PNG" : {
       "ft" : 32768,
@@ -2126,56 +2160,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-2\/flip-1.gif" : {
-      "ft" : 4194304,
-      "iS" : 8819350,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-2\/flip-1.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-2\/flip-2 2.gif" : {
-      "ft" : 4194304,
-      "iS" : 16231720,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-2\/flip-2 2.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-2\/flip-2.gif" : {
-      "ft" : 4194304,
-      "iS" : 16231720,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-2\/flip-2.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-2\/flip-3 2.gif" : {
-      "ft" : 4194304,
-      "iS" : 8053758,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-2\/flip-3 2.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-2\/flip-3.gif" : {
-      "ft" : 4194304,
-      "iS" : 8053758,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-2\/flip-3.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
     "\/deploy\/img\/work\/prj-2\/prj-2-thumbnail.png" : {
       "ft" : 32768,
       "iS" : 1487246,
@@ -2215,15 +2199,37 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-3\/book-flip.gif" : {
-      "ft" : 4194304,
-      "iS" : 13621284,
+    "\/deploy\/img\/work\/prj-3\/.book-flip.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-3\/book-flip.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
+      "oAP" : "\/deploy\/img\/work\/prj-3\/.book-flip.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/work\/prj-3\/.open-box-2.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-3\/.open-box-2.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/work\/prj-3\/.open-box-thumbnail.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-3\/.open-box-thumbnail.gif.icloud",
+      "oF" : 0
+    },
+    "\/deploy\/img\/work\/prj-3\/.open-box.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-3\/.open-box.gif.icloud",
+      "oF" : 0
     },
     "\/deploy\/img\/work\/prj-3\/booklet-1.png" : {
       "ft" : 32768,
@@ -2498,35 +2504,13 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-3\/open-box-2.gif" : {
-      "ft" : 4194304,
-      "iS" : 27100010,
+    "\/deploy\/img\/work\/prj-4\/.nama-open.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-3\/open-box-2.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-3\/open-box-thumbnail.gif" : {
-      "ft" : 4194304,
-      "iS" : 10558331,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-3\/open-box-thumbnail.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-3\/open-box.gif" : {
-      "ft" : 4194304,
-      "iS" : 23015139,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-3\/open-box.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
+      "oAP" : "\/deploy\/img\/work\/prj-4\/.nama-open.gif.icloud",
+      "oF" : 0
     },
     "\/deploy\/img\/work\/prj-4\/moodboard.png" : {
       "ft" : 32768,
@@ -2656,16 +2640,6 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-4\/nama-open.gif" : {
-      "ft" : 4194304,
-      "iS" : 9534430,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-4\/nama-open.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
       "rq" : 75
     },
     "\/deploy\/img\/work\/prj-4\/nama-process-1.jpg" : {
@@ -3117,6 +3091,14 @@
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-6\/.redwoods-spreads.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-6\/.redwoods-spreads.gif.icloud",
+      "oF" : 0
+    },
     "\/deploy\/img\/work\/prj-6\/1st-cover 2.jpg" : {
       "ft" : 16384,
       "iS" : 376338,
@@ -3455,16 +3437,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-6\/redwoods-spreads.gif" : {
-      "ft" : 4194304,
-      "iS" : 5365421,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-6\/redwoods-spreads.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
     "\/deploy\/img\/work\/prj-6\/redwoods-thumbnail 2.jpg" : {
       "ft" : 16384,
       "iS" : 542587,
@@ -3490,6 +3462,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/work\/prj-7\/.books.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-7\/.books.gif.icloud",
+      "oF" : 0
     },
     "\/deploy\/img\/work\/prj-7\/book1-all 2.png" : {
       "ft" : 32768,
@@ -3673,16 +3653,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-7\/books.gif" : {
-      "ft" : 4194304,
-      "iS" : 2966515,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-7\/books.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
     "\/deploy\/img\/work\/prj-7\/sketch1 2.jpg" : {
       "ft" : 16384,
       "iS" : 64200,
@@ -3735,15 +3705,13 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-8\/button.gif" : {
-      "ft" : 4194304,
-      "iS" : 21303552,
+    "\/deploy\/img\/work\/prj-8\/.button.gif.icloud" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-8\/button.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
+      "oAP" : "\/deploy\/img\/work\/prj-8\/.button.gif.icloud",
+      "oF" : 0
     },
     "\/deploy\/img\/work\/prj-8\/cats-1 2.png" : {
       "ft" : 32768,
@@ -4024,7 +3992,7 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work\/prj-8\/footer.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -4615,6 +4583,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/main-nav\/nav-global-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/prj-scroll.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/prj-scroll-min.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0

@@ -25,22 +25,7 @@ export function scrollToAnim(){
 }
 
 //move btn
-// const moveBtn = gsap.timeline({paused:true});
-// moveBtn
-// .to(".topBtn", {
-//     yPercent: -100,
-//     //alpha: 0,
-//     duration:0.5
-// })
 export function moveBtnAnim(){
-    // ScrollTrigger.create({
-    //     animation:moveBtn,
-    //     trigger: "footer",
-    //     start: "top bottom", 
-    //     id: "moveBtn",
-    //     //markers: true,
-    //     toggleActions: "restart none none reverse"
-    // });
     ScrollTrigger.matchMedia({
         // tablet
         "(min-width: 768px)": function() {
@@ -71,22 +56,6 @@ export function moveBtnAnim(){
         }
     });
 }
-
-// export function scrollToAnim(){
-
-//     ScrollTrigger.create({
-//         //animation:scrollToBtn,
-//         id: ".topBtn",
-//         markers: true,
-//         trigger: ".prj-blurbs",
-//         start: "top top", 
-//         endTrigger:"footer",
-//         end: "top bottom", 
-//         pin: ".topBtn",
-//         pinSpacing:false,
-//         toggleActions: "restart none none reverse"
-//     });
-// }
 
 //page titles animation
 const headerAnimTL = gsap.timeline({paused:true});
@@ -142,3 +111,4 @@ export function heroPinning(){
         toggleActions: "restart none none reverse"
     });
 }
+
