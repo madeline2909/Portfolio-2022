@@ -822,6 +822,29 @@ textarea {
   height: 100%;
 }
 
+.topBtn {
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 30px;
+  /* Place the button at the bottom of the page */
+  right: 0;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+}
+.topBtn svg {
+  width: 35px;
+}
+
+.topBtn:hover svg path:first-child {
+  stroke: #F2B029;
+}
+.topBtn:hover svg path:last-child {
+  fill: #F2B029;
+}
+
 /* =============
     Typography
 ============= */

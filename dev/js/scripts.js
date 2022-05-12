@@ -20,12 +20,14 @@ import {burgerClick} from "./main-nav/burger-mouse.js";
 import {navClick} from "./main-nav/main-nav-click.js";
 import {reportWindowSize} from "./main-nav/nav-global.js";
 import {menuBgSelect} from "./main-nav/nav-global.js";
-// import {headerScroll} from "./main-nav/header-scroll.js";
+import {scrollTop} from "./scrollTop.js";
+//import {topFunction} from "./scrollTop.js";
 
-//fancybox and tinyslider
-// import {tinySliderFunc} from "./tinyslider.js";
-// tinySliderFunc();
-// tinySlider();
+scrollTop();
+//windowScroll();
+//topFunction();
+
+//fancybox
 import {fancyBox} from "./fancyBox.js";
 fancyBox();
 
@@ -47,6 +49,7 @@ reportWindowSize();
 menuBgSelect();
 // headerScroll(); 
 
-// //cat button
-// import {btnMouseEvent} from "./btn-cat/btn-mouse-event.js"
-// btnMouseEvent();
+// $(".topBtn").click(function() {
+//     $("html, body").animate({ scrollTop: 0 }, "slow");
+//     return false;
+// });
