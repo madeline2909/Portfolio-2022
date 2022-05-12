@@ -1424,9 +1424,6 @@ h2::-moz-selection {
   transition: 0.5s;
 }
 
-/* =============
-    Header
-============= */
 #header-2 {
   position: fixed;
   width: 100vw;

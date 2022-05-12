@@ -32,6 +32,12 @@ import {navClick} from "./main-nav/main-nav-click.js";
 import {reportWindowSize} from "./main-nav/nav-global.js";
 import {menuBgSelect} from "./main-nav/nav-global.js";
 
+//barba
+import {pageTransition} from "./main-nav/nav-global.js";
+
+// import {pageTransition} from "./barba.js";
+pageTransition();
+
 scrollTop();
 moveBtnAnim();
 //windowScroll();
@@ -54,21 +60,8 @@ galleryImg4Anim();
 galleryImg5Anim();
 galleryImg6Anim();
 
-
-// indexTitleAnimation();
-// contactAnimation();
-// contactPinning();
-// galleryAnimation();
-// galleryPinning();
-
-// mouseEvent();
 burgerClick();
 navClick();
 reportWindowSize();
 menuBgSelect();
-// headerScroll(); 
 
-// $(".topBtn").click(function() {
-//     $("html, body").animate({ scrollTop: 0 }, "slow");
-//     return false;
-// });

@@ -1,6 +1,72 @@
-/* =============
-    Header
-============= */
+// /* =============
+//     Header
+// ============= */
+// #header-1 {
+//     position: fixed;
+//     width: 100vw;
+//     z-index: 200;
+//     border-bottom: 2px solid $offwhite;
+//     .line-4{
+//         opacity: 0;
+//     }
+//     >div {
+//         color: none;
+//         margin-left: 40px;
+//         display: grid;
+//         grid-gap: 0;
+//         grid-template-areas: "logo . burger";
+//         grid-template-columns: (5% auto 20%);
+
+//         @include lg {
+//             grid-template-columns: (10% auto 10%);
+//         }
+
+//         #logo-container-1 {
+//             padding: 15px 0;
+//             grid-area: logo;
+//             display: flex;
+//             justify-content: center;
+//             cursor: pointer;
+            
+//             &:hover {
+//                 #logo-1 {
+//                     path{
+//                         fill: $veryred;
+//                         transition: 0.5s;
+//                     }
+//                 }
+//             }
+//             #logo-1{
+//                 path{
+//                     fill: $offwhite;
+//                 }
+//             }
+//             @include md{
+//                 padding: 20px 0;
+//             }
+//         }
+
+//         #burger-container-1 {
+//             border-left: 2px solid $offwhite;
+//             //padding: 20px 0;
+//             grid-area: burger;
+//             align-items: center;
+//             cursor: pointer;
+//             &:hover {
+//                 .lines {
+//                     fill: $veryred;
+//                     transition: 0.5s;
+//                 }
+//             }
+//             display: flex;
+//             justify-content: center;
+//             .lines{
+//                 fill: $offwhite;
+//             }
+//         }
+//     }
+// }
+
 #header-2 {
     position: fixed;
     width: 100vw;
