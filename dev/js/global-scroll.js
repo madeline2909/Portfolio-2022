@@ -3,7 +3,24 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+//scroll to btn
+const scrollToBtn = gsap.timeline({paused:true});
+scrollToBtn
+.from(".topBtn", {
+    xPercent: 100,
+    //alpha: 0,
+    duration:0.75
+})
+export function scrollToAnim(){
 
+    ScrollTrigger.create({
+        animation:scrollToBtn,
+        trigger: ".prj-blurbs",
+        id: "topBtn",
+        //markers: true,
+        toggleActions: "restart none none reverse"
+    });
+}
 
 //page titles animation
 const headerAnimTL = gsap.timeline({paused:true});

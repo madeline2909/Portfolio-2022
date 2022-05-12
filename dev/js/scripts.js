@@ -6,6 +6,7 @@
 import {heroPinning} from "./global-scroll.js";
 import {headerAnimation} from "./global-scroll.js";
 import {captionAnimation} from "./global-scroll.js";
+import {scrollToAnim} from "./global-scroll";
 
 // import {footerAnimation} from "./sections/footer-scroll.js";
 // import {indexTitleAnimation} from "./sections/index-scroll.js";
@@ -21,7 +22,6 @@ import {navClick} from "./main-nav/main-nav-click.js";
 import {reportWindowSize} from "./main-nav/nav-global.js";
 import {menuBgSelect} from "./main-nav/nav-global.js";
 import {scrollTop} from "./scrollTop.js";
-//import {topFunction} from "./scrollTop.js";
 
 scrollTop();
 //windowScroll();
@@ -35,6 +35,7 @@ fancyBox();
 headerAnimation();
 captionAnimation();
 heroPinning();
+scrollToAnim();
 
 // indexTitleAnimation();
 // contactAnimation();
