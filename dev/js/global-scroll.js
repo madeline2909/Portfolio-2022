@@ -15,9 +15,29 @@ scrollToBtn
 export function scrollToAnim(){
     ScrollTrigger.create({
         animation:scrollToBtn,
-        trigger: ".prj-blurbs",
+        trigger: ".prj-header",
+        start: "top bottom", 
         id: "topBtn",
     
+        //markers: true,
+        toggleActions: "restart none none reverse"
+    });
+}
+
+//move btn
+const moveBtn = gsap.timeline({paused:true});
+moveBtn
+.to(".topBtn", {
+    yPercent: -100,
+    //alpha: 0,
+    duration:0.5
+})
+export function moveBtnAnim(){
+    ScrollTrigger.create({
+        animation:moveBtn,
+        trigger: "footer",
+        start: "top bottom", 
+        id: "moveBtn",
         //markers: true,
         toggleActions: "restart none none reverse"
     });

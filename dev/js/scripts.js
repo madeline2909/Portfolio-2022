@@ -7,6 +7,7 @@ import {heroPinning} from "./global-scroll.js";
 import {headerAnimation} from "./global-scroll.js";
 import {captionAnimation} from "./global-scroll.js";
 import {scrollToAnim} from "./global-scroll";
+import {moveBtnAnim} from "./global-scroll";
 
 // import {footerAnimation} from "./sections/footer-scroll.js";
 // import {indexTitleAnimation} from "./sections/index-scroll.js";
@@ -24,6 +25,7 @@ import {menuBgSelect} from "./main-nav/nav-global.js";
 import {scrollTop} from "./scrollTop.js";
 
 scrollTop();
+moveBtnAnim();
 //windowScroll();
 //topFunction();
 
