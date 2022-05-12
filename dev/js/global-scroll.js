@@ -25,21 +25,50 @@ export function scrollToAnim(){
 }
 
 //move btn
-const moveBtn = gsap.timeline({paused:true});
-moveBtn
-.to(".topBtn", {
-    yPercent: -100,
-    //alpha: 0,
-    duration:0.5
-})
+// const moveBtn = gsap.timeline({paused:true});
+// moveBtn
+// .to(".topBtn", {
+//     yPercent: -100,
+//     //alpha: 0,
+//     duration:0.5
+// })
 export function moveBtnAnim(){
-    ScrollTrigger.create({
-        animation:moveBtn,
-        trigger: "footer",
-        start: "top bottom", 
-        id: "moveBtn",
-        //markers: true,
-        toggleActions: "restart none none reverse"
+    // ScrollTrigger.create({
+    //     animation:moveBtn,
+    //     trigger: "footer",
+    //     start: "top bottom", 
+    //     id: "moveBtn",
+    //     //markers: true,
+    //     toggleActions: "restart none none reverse"
+    // });
+    ScrollTrigger.matchMedia({
+        // tablet
+        "(min-width: 768px)": function() {
+          gsap.to(".topBtn", {
+            yPercent: -100,
+            scrollTrigger: {
+                trigger: "footer",
+                start: "top bottom", 
+                id: "moveBtn",
+                //markers: true,
+                toggleActions: "restart none none reverse"
+            }
+          });
+        },
+      
+        // mobile
+        "(max-width: 767px)": function() {
+          gsap.to(".topBtn", {
+            yPercent: -160,
+            scrollTrigger: {
+                trigger: "footer",
+                start: "top bottom", 
+                id: "moveBtn",
+                //markers: true,
+                toggleActions: "restart none none reverse"
+            }
+          });
+        }
     });
 }
 
