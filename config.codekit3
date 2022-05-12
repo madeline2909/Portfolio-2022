@@ -118,6 +118,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/about\/madeline_resume_2022.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/madeline_resume_2022.pdf",
+      "oF" : 0
+    },
     "\/deploy\/img\/about\/resume-badge.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -4295,22 +4303,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/play.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-13.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-13.html",
-      "oF" : 0
-    },
-    "\/deploy\/project-15.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/project-15.html",
       "oF" : 0
     },
     "\/deploy\/redwoods.html" : {
