@@ -1805,6 +1805,12 @@ h2::-moz-selection {
     grid-template-areas: "title title" "text email";
   }
 }
+@media (min-width: 1440px) {
+  #contact-container > div {
+    grid-template-columns: 62% 38%;
+    grid-template-areas: "title title" "text email";
+  }
+}
 @media (min-width: 768px) {
   #contact-container > div h1 {
     grid-area: title;

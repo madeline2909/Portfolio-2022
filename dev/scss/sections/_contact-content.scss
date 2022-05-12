@@ -39,6 +39,11 @@
             grid-template-areas: "title title"
             "text email";
         }
+        @include xl{
+            grid-template-columns: 62% 38%;
+            grid-template-areas: "title title"
+            "text email";
+        }
         h1{
             @include md{
                 grid-area: title;
