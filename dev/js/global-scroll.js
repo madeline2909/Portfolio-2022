@@ -22,6 +22,20 @@ export function scrollToAnim(){
     });
 }
 
+// export function scrollToAnim(){
+
+//     ScrollTrigger.create({
+//         animation:scrollToBtn,
+//         trigger: ".prj-blurbs",
+//         id: ".topBtn",
+//         markers: true,
+//         start: "top top", 
+//         end: "bottom bottom",
+//         pin: ".topBtn",
+//         toggleActions: "restart none none reverse"
+//     });
+// }
+
 //page titles animation
 const headerAnimTL = gsap.timeline({paused:true});
 headerAnimTL

@@ -457,13 +457,25 @@ textarea {
     //scroll-behavior: smooth;
     //display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 30px; /* Place the button at the bottom of the page */
+    bottom: 50px; /* Place the button at the bottom of the page */
     right: 0; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     cursor: pointer; /* Add a mouse pointer on hover */
+    @include md{
+        bottom: 140px;
+    }
+    @include lg{
+        bottom: 30px;
+    }
     svg{
-    
         width: 35px;
+        @include md{
+            width: 50px;
+        }
+        @include lg{
+            width: 35px;
+        
+        }
     }
   }
   

@@ -825,7 +825,7 @@ textarea {
 .topBtn {
   position: fixed;
   /* Fixed/sticky position */
-  bottom: 30px;
+  bottom: 50px;
   /* Place the button at the bottom of the page */
   right: 0;
   /* Place the button 30px from the right */
@@ -834,8 +834,28 @@ textarea {
   cursor: pointer;
   /* Add a mouse pointer on hover */
 }
+@media (min-width: 768px) {
+  .topBtn {
+    bottom: 140px;
+  }
+}
+@media (min-width: 1024px) {
+  .topBtn {
+    bottom: 30px;
+  }
+}
 .topBtn svg {
   width: 35px;
+}
+@media (min-width: 768px) {
+  .topBtn svg {
+    width: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .topBtn svg {
+    width: 35px;
+  }
 }
 
 .topBtn:hover svg path:first-child {
