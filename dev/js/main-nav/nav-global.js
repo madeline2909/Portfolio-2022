@@ -68,31 +68,34 @@ export function reportWindowSize() {
 
 
 //****************************************BARBA
+//const allHeader = document.querySelectorAll("header");
+
 export function pageTransition() {
     barba.init({
+        sync:true,
         transitions: [{
           name: 'opacity-transition',
-          sync:true,
-          leave(data) {
-            return gsap.to(data.current.container, {
+           leave(data) {
+            //const done = this.async();
+            gsap.to(data.current.container, {
                 opacity: 0,
                 y:"-100vh",
                 ease:"Power2.easeInOut",
                 duration: 1.25
             });
-            
-            
+            //done();
           },
           beforeLeave(){
             if (canYouSeeTheMenu === true) {
                 //put back the main nav
                 mainNavTimeline.reverse();
-                canYouSeeTheMenu = false;
                 burgerAnimationTimeline.reverse("burgerToX");
-                navAnimationTimeline.reverse("burgerToX")
+                navAnimationTimeline.reverse("burgerToX");
+                canYouSeeTheMenu = false;
+
             }
           },
-          beforeEnter(){
+          afterEnter(){
                 //move the nav off screen on the Y axis
                 // gsap.set("#main-nav", {
                 //     y: -navHeight
@@ -111,25 +114,31 @@ export function pageTransition() {
                 //     mainNavTimeline.reverse();
                 //     canYouSeeTheMenu = false;
                 // }
-                $(".burger-container").on("click", hideShowMainNav)
-                $(".burger-container").on("click", function () {
-                    console.log("click");
-                    if (canYouSeeTheMenu === false) {
-                        burgerAnimationTimeline.play("burgerToX");
-                        navAnimationTimeline.play("burgerToX")
-                    } else {
-                        burgerAnimationTimeline.reverse("burgerToX");
-                        navAnimationTimeline.reverse("burgerToX")
-                    }
-                });
+
+                // $(allHeader).css('position', 'fixed');
+                // $(allHeader).css('z-index', 3000);
+
+                // $(".burger-container").on("click", hideShowMainNav)
+                // $(".burger-container").on("click", function () {
+                //     console.log("click");
+                //     if (canYouSeeTheMenu === false) {
+                //         burgerAnimationTimeline.play("burgerToX");
+                //         navAnimationTimeline.play("burgerToX")
+                //     } else {
+                //         burgerAnimationTimeline.reverse("burgerToX");
+                //         navAnimationTimeline.reverse("burgerToX")
+                //     }
+                // });
           },
-          enter(data) {
-            return gsap.from(data.next.container, {
+           enter(data) {
+            //const done = this.async();
+            gsap.from(data.next.container, {
                     opacity: 0,
                     y:"100vh",
                     ease:"Power2.easeInOut",
                     duration: 1.25
                 });
+            //done();
           }
         }]
       });
