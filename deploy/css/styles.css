@@ -1377,7 +1377,7 @@ h2::-moz-selection {
   position: fixed;
   width: 100vw;
   z-index: 200;
-  border-bottom: 2px solid #82AB40;
+  border-bottom: 2px solid #33813F;
 }
 #header-1 .line-4 {
   opacity: 0;
@@ -1403,7 +1403,7 @@ h2::-moz-selection {
   cursor: pointer;
 }
 #header-1 > div #logo-container-1:hover #logo-1 path {
-  fill: #F2B029;
+  fill: #33813F;
   transition: 0.5s;
 }
 @media (min-width: 768px) {
@@ -1412,7 +1412,7 @@ h2::-moz-selection {
   }
 }
 #header-1 > div #burger-container-1 {
-  border-left: 2px solid #82AB40;
+  border-left: 2px solid #33813F;
   grid-area: burger;
   align-items: center;
   cursor: pointer;
@@ -1420,7 +1420,7 @@ h2::-moz-selection {
   justify-content: center;
 }
 #header-1 > div #burger-container-1:hover .lines {
-  fill: #F2B029;
+  fill: #33813F;
   transition: 0.5s;
 }
 
@@ -1968,6 +1968,7 @@ h2::-moz-selection {
   overflow: hidden;
   width: 100%;
   background-color: #f2f2f3;
+  position: relative;
 }
 #home-hero-container .about-bodycopy {
   color: #E8622B;

@@ -5,7 +5,7 @@
     position: fixed;
     width: 100vw;
     z-index: 200;
-    border-bottom: 2px solid $grass;
+    border-bottom: 2px solid $verygreen;
     .line-4{
         opacity: 0;
     }
@@ -30,7 +30,7 @@
             &:hover {
                 #logo-1 {
                     path{
-                        fill: $yellow;
+                        fill: $verygreen;
                         transition: 0.5s;
                     }
                 }
@@ -41,14 +41,14 @@
         }
 
         #burger-container-1 {
-            border-left: 2px solid $grass;
+            border-left: 2px solid $verygreen;
             //padding: 20px 0;
             grid-area: burger;
             align-items: center;
             cursor: pointer;
             &:hover {
                 .lines {
-                    fill: $yellow;
+                    fill: $verygreen;
                     transition: 0.5s;
                 }
             }
