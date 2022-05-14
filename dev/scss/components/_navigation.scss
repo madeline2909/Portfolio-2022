@@ -114,12 +114,12 @@
 
         #nav-work-btn {
             background-color: $grass;
-            border-bottom: 2px solid $offwhite;
+            border-bottom: 1.5px solid $offwhite;
             grid-area: work;
 
             @include md {
                 border-top: none;
-                border-right: 2px solid $offwhite;
+                border-right: 1.5px solid $offwhite;
 
             }
             @include lg{
@@ -129,12 +129,12 @@
 
         #nav-play-btn {
             background-color: $grass;
-            border-bottom: 2px solid $offwhite;
+            border-bottom: 1.5px solid $offwhite;
             grid-area: play;
 
             @include md {
                 border-top: none;
-                border-right: 2px solid $offwhite;
+                border-right: 1.5px solid $offwhite;
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-end;

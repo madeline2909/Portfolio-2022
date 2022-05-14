@@ -5,7 +5,7 @@
     position: fixed;
     width: 100vw;
     z-index: 200;
-    border-bottom: 2px solid $verygreen;
+    border-bottom: 1.5px solid $verygreen;
     .line-4{
         opacity: 0;
     }
@@ -16,8 +16,12 @@
         grid-gap: 0;
         grid-template-areas: "logo . burger";
         grid-template-columns: (5% auto 20%);
-
+        @include md{
+            //margin-left: 11vw;
+        }
         @include lg {
+            margin-left: 40px;
+        
             grid-template-columns: (10% auto 10%);
         }
 
@@ -41,7 +45,7 @@
         }
 
         #burger-container-1 {
-            border-left: 2px solid $verygreen;
+            border-left: 1.5px solid $verygreen;
             //padding: 20px 0;
             grid-area: burger;
             align-items: center;

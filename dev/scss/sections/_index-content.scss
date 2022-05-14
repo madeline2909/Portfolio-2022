@@ -1,6 +1,6 @@
 #home-hero-container {
     height: 100vh;
-    overflow: hidden;
+    //overflow: hidden;
     width: 100%;
     background-color: $offwhite;
     position: relative;
@@ -100,10 +100,11 @@
                 height: auto;
                 position: absolute;
                 right: 10%;
-                bottom: -1%;
+                bottom: 5%;
 
                 @include md {
                     width: 250px;
+                    bottom: -1%;
                     //right: 30%;
                 }
 

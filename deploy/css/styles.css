@@ -1214,13 +1214,13 @@ h2::-moz-selection {
 }
 #main-nav > div #nav-work-btn {
   background-color: #82AB40;
-  border-bottom: 2px solid #f2f2f3;
+  border-bottom: 1.5px solid #f2f2f3;
   grid-area: work;
 }
 @media (min-width: 768px) {
   #main-nav > div #nav-work-btn {
     border-top: none;
-    border-right: 2px solid #f2f2f3;
+    border-right: 1.5px solid #f2f2f3;
   }
 }
 @media (min-width: 1024px) {
@@ -1230,13 +1230,13 @@ h2::-moz-selection {
 }
 #main-nav > div #nav-play-btn {
   background-color: #82AB40;
-  border-bottom: 2px solid #f2f2f3;
+  border-bottom: 1.5px solid #f2f2f3;
   grid-area: play;
 }
 @media (min-width: 768px) {
   #main-nav > div #nav-play-btn {
     border-top: none;
-    border-right: 2px solid #f2f2f3;
+    border-right: 1.5px solid #f2f2f3;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1377,7 +1377,7 @@ h2::-moz-selection {
   position: fixed;
   width: 100vw;
   z-index: 200;
-  border-bottom: 2px solid #33813F;
+  border-bottom: 1.5px solid #33813F;
 }
 #header-1 .line-4 {
   opacity: 0;
@@ -1392,6 +1392,7 @@ h2::-moz-selection {
 }
 @media (min-width: 1024px) {
   #header-1 > div {
+    margin-left: 40px;
     grid-template-columns: 10% auto 10%;
   }
 }
@@ -1412,7 +1413,7 @@ h2::-moz-selection {
   }
 }
 #header-1 > div #burger-container-1 {
-  border-left: 2px solid #33813F;
+  border-left: 1.5px solid #33813F;
   grid-area: burger;
   align-items: center;
   cursor: pointer;
@@ -1422,63 +1423,6 @@ h2::-moz-selection {
 #header-1 > div #burger-container-1:hover .lines {
   fill: #33813F;
   transition: 0.5s;
-}
-
-#header-2 {
-  position: fixed;
-  width: 100vw;
-  z-index: 200;
-  border-bottom: 2px solid #f2f2f3;
-}
-#header-2 .line-4 {
-  opacity: 0;
-}
-#header-2 > div {
-  color: none;
-  margin-left: 40px;
-  display: grid;
-  grid-gap: 0;
-  grid-template-areas: "logo . burger";
-  grid-template-columns: 5% auto 20%;
-}
-@media (min-width: 1024px) {
-  #header-2 > div {
-    grid-template-columns: 10% auto 10%;
-  }
-}
-#header-2 > div #logo-container-2 {
-  padding: 15px 0;
-  grid-area: logo;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-}
-#header-2 > div #logo-container-2:hover #logo-2 path {
-  fill: #D42128;
-  transition: 0.5s;
-}
-#header-2 > div #logo-container-2 #logo-2 path {
-  fill: #f2f2f3;
-}
-@media (min-width: 768px) {
-  #header-2 > div #logo-container-2 {
-    padding: 20px 0;
-  }
-}
-#header-2 > div #burger-container-2 {
-  border-left: 2px solid #f2f2f3;
-  grid-area: burger;
-  align-items: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-}
-#header-2 > div #burger-container-2:hover .lines {
-  fill: #D42128;
-  transition: 0.5s;
-}
-#header-2 > div #burger-container-2 .lines {
-  fill: #f2f2f3;
 }
 
 /* =============
@@ -1494,7 +1438,7 @@ h2::-moz-selection {
 #footer-1 #footer-container-1 {
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid #82AB40;
+  border-top: 1.5px solid #82AB40;
   margin: 0 5vw;
   padding: 30px 0;
 }
@@ -1552,7 +1496,7 @@ h2::-moz-selection {
 #footer-2 #footer-container-2 {
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid #f2f2f3;
+  border-top: 1.5px solid #33813F;
   margin: 0 5vw;
   padding: 30px 0;
 }
@@ -1562,7 +1506,7 @@ h2::-moz-selection {
   }
 }
 #footer-2 #footer-container-2 #left-footer-2 ul {
-  color: #f2f2f3;
+  color: #33813F;
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -1576,7 +1520,7 @@ h2::-moz-selection {
   margin-bottom: 0;
 }
 #footer-2 #footer-container-2 #right-footer-2 ul {
-  color: #f2f2f3;
+  color: #33813F;
   align-items: right;
 }
 #footer-2 #footer-container-2 #right-footer-2 ul li {
@@ -1586,12 +1530,12 @@ h2::-moz-selection {
 }
 #footer-2 #footer-container-2 #right-footer-2 ul li a:link,
 #footer-2 #footer-container-2 #right-footer-2 ul li a:visited {
-  color: #f2f2f3;
+  color: #33813F;
 }
 #footer-2 #footer-container-2 #right-footer-2 ul li a:link:hover, #footer-2 #footer-container-2 #right-footer-2 ul li a:link:active,
 #footer-2 #footer-container-2 #right-footer-2 ul li a:visited:hover,
 #footer-2 #footer-container-2 #right-footer-2 ul li a:visited:active {
-  color: #D42128;
+  color: #f2f2f3;
 }
 #footer-2 #footer-container-2 #right-footer-2 ul :last-child {
   margin-bottom: 0;
@@ -1609,7 +1553,7 @@ h2::-moz-selection {
 #footer-3 #footer-container-3 {
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid #82AB40;
+  border-top: 1.5px solid #82AB40;
   margin: 0 5vw;
   padding: 30px 0;
 }
@@ -1965,7 +1909,6 @@ h2::-moz-selection {
 
 #home-hero-container {
   height: 100vh;
-  overflow: hidden;
   width: 100%;
   background-color: #f2f2f3;
   position: relative;
@@ -2064,11 +2007,12 @@ h2::-moz-selection {
   height: auto;
   position: absolute;
   right: 10%;
-  bottom: -1%;
+  bottom: 5%;
 }
 @media (min-width: 768px) {
   #home-hero-container #home-intro > div #featured-prj {
     width: 250px;
+    bottom: -1%;
   }
 }
 @media (min-width: 1024px) {

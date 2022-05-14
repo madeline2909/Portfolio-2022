@@ -10,7 +10,7 @@
     #footer-container-2 {
         display: flex;
         justify-content: space-between;
-        border-top: 2px solid $offwhite;
+        border-top: 1.5px solid $verygreen;
         margin: 0 5vw;
         padding: 30px 0;
         @include md{
@@ -18,7 +18,7 @@
         }
         #left-footer-2{
             ul {
-                color: $offwhite;
+                color: $verygreen;
                 display: flex;
                 height: 100%;
                 flex-direction: column;
@@ -34,7 +34,7 @@
         }
         #right-footer-2{
             ul {
-                color: $offwhite;
+                color: $verygreen;
                 align-items: right;
                 li {
                     font-size: rem-calc(14);
@@ -42,11 +42,11 @@
                     text-align: right;
                     a:link,
                     a:visited {
-                        color: $offwhite;
+                        color: $verygreen;
     
                         &:hover,
                         &:active {
-                            color: $veryred;
+                            color: $offwhite;
                         }
                     }
                 }

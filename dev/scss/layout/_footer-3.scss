@@ -10,7 +10,7 @@
     #footer-container-3 {
         display: flex;
         justify-content: space-between;
-        border-top: 2px solid $grass;
+        border-top:1.5px solid $grass;
         margin: 0 5vw;
         padding: 30px 0;
         @include md{
