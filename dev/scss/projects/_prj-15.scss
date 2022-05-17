@@ -1,6 +1,56 @@
-#prj-15-gallery-1{
+#prj-15-illust{
+    h5{
+        @include lg {
+            margin-left: 5vw;
+        }
+    }
     img{
-        height: 100%;
-        width: 100%;
+        @include md{
+            padding-bottom: 10px;
+        }
+    }
+}
+#prj-15-details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    a {
+        flex-basis: 49%;
+
+        @include lg {
+            flex-basis: 49.5%;
+        }
+    }
+}
+#prj-15-process{
+    .project-titles {
+        padding: 0 20px 30px;
+
+        @include md {
+            padding: 0 5vw 40px;
+        }
+
+        @include lg {
+            padding: 0 10vw 40px;
+        }
+
+        @include xl {
+            padding: 0 13vw 40px;
+        }
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        a {
+            flex-basis: 32%;
+
+            @include lg {
+                flex-basis: 32.7%;
+            }
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
     }
 }
