@@ -4122,7 +4122,55 @@ h2::-moz-selection {
   object-fit: cover;
 }
 
-#prj-16-gallery-1 img {
-  height: 100%;
-  width: 100%;
+@media (min-width: 1024px) {
+  #prj-16-hero img {
+    object-position: 0 -1000px;
+  }
+}
+
+#prj-16-gallery .project-titles {
+  padding: 0 20px 30px;
+  hyphens: auto;
+}
+@media (min-width: 768px) {
+  #prj-16-gallery .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-16-gallery .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+@media (min-width: 1440px) {
+  #prj-16-gallery .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
+#prj-16-gallery > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#prj-16-gallery > div a {
+  flex-basis: 49%;
+}
+@media (min-width: 1024px) {
+  #prj-16-gallery > div a {
+    flex-basis: 49.5%;
+  }
+}
+#prj-16-gallery > div a img {
+  padding-bottom: 5px;
+}
+@media (min-width: 768px) {
+  #prj-16-gallery > div a img {
+    padding-bottom: 8px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-16-gallery > div a img {
+    object-fit: cover;
+    height: 90vh;
+  }
 }

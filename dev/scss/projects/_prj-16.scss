@@ -1,6 +1,48 @@
-#prj-16-gallery-1{
+#prj-16-hero{
     img{
-        height: 100%;
-        width: 100%;
+        @include lg{
+        object-position: 0 -1000px;
+
+        }
+    }
+}
+#prj-16-gallery{
+    .project-titles {
+        padding: 0 20px 30px;
+        hyphens: auto;
+        @include md {
+            padding: 0 5vw 40px;
+        }
+
+        @include lg {
+            padding: 0 10vw 40px;
+        }
+
+        @include xl {
+            padding: 0 13vw 40px;
+        }
+    }
+    >div{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        a {
+            flex-basis: 49%;
+
+            @include lg {
+                flex-basis: 49.5%;
+            }
+            img{
+                padding-bottom: 5px;
+
+                    @include md {
+                        padding-bottom: 8px;
+                    }
+                    @include lg{
+                        object-fit: cover;
+                        height: 90vh;
+                    }
+            }
+        }
     }
 }
