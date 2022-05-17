@@ -24,6 +24,11 @@
         
             grid-template-columns: (10% auto 10%);
         }
+        @include xl {
+            margin-left: 40px;
+        
+            grid-template-columns: (10% auto 10%);
+        }
 
         #logo-container-1 {
             padding: 15px 0;

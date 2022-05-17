@@ -1405,6 +1405,12 @@ h2::-moz-selection {
     grid-template-columns: 10% auto 10%;
   }
 }
+@media (min-width: 1440px) {
+  #header-1 > div {
+    margin-left: 40px;
+    grid-template-columns: 10% auto 10%;
+  }
+}
 #header-1 > div #logo-container-1 {
   padding: 15px 0;
   grid-area: logo;
@@ -1909,6 +1915,9 @@ h2::-moz-selection {
     height: 55vh;
   }
 }
+#play-container-2 #play-prj-container #play-prj-grid-container .play-project:nth-child(5) img {
+  object-position: 0 -150px;
+}
 #play-container-2 #play-prj-container #play-prj-grid-container .placeholder {
   opacity: 0;
 }
@@ -2101,19 +2110,37 @@ h2::-moz-selection {
     margin: 0;
   }
 }
-#home-content #home-selected .home-prj .thumbnails {
-  object-fit: cover;
+#home-content #home-selected .home-prj .thumbnails-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   height: 45vh;
 }
 @media (min-width: 768px) {
-  #home-content #home-selected .home-prj .thumbnails {
+  #home-content #home-selected .home-prj .thumbnails-container {
     height: 35vh;
   }
 }
 @media (min-width: 1024px) {
-  #home-content #home-selected .home-prj .thumbnails {
+  #home-content #home-selected .home-prj .thumbnails-container {
     height: 60vh;
+  }
+}
+#home-content #home-selected .home-prj .thumbnails {
+  object-fit: cover;
+  width: 100%;
+  height: 50vh;
+}
+@media (min-width: 768px) {
+  #home-content #home-selected .home-prj .thumbnails {
+    height: 45vh;
+  }
+}
+@media (min-width: 1024px) {
+  #home-content #home-selected .home-prj .thumbnails {
+    height: 70vh;
   }
 }
 #home-content #home-selected .home-prj .thumbnails-hover {

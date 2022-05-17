@@ -77,6 +77,7 @@ export function headerAnimation(){
     });
 }
 
+
 //caption animation
 const captionAnimTL = gsap.timeline({paused:true});
 captionAnimTL

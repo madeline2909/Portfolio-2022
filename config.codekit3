@@ -4574,37 +4574,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/work\/prj-10\/srs-poster 2.png" : {
-      "ft" : 32768,
-      "iS" : 419270,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-10\/srs-poster 2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/work\/prj-10\/srs-poster.png" : {
       "ft" : 32768,
       "iS" : 419270,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/work\/prj-10\/srs-poster.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/work\/prj-10\/srs-thumbnail 2.png" : {
-      "ft" : 32768,
-      "iS" : 603712,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/work\/prj-10\/srs-thumbnail 2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5013,6 +4987,17 @@
       "oA" : 1,
       "oAP" : "\/dev\/js\/scrollTop-min.js",
       "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/section\/index-scroll.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/section\/index-scroll-min.js",
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },

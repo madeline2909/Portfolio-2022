@@ -1,5 +1,5 @@
 
-//Scroll Trigger stuffs
+//global Scroll Trigger
 import {heroPinning} from "./global-scroll.js";
 import {headerAnimation} from "./global-scroll.js";
 import {captionAnimation} from "./global-scroll.js";
@@ -13,6 +13,10 @@ import {galleryImg3Anim} from "./prj-scroll";
 import {galleryImg4Anim} from "./prj-scroll";
 import {galleryImg5Anim} from "./prj-scroll";
 import {galleryImg6Anim} from "./prj-scroll";
+
+//Each page animation
+import {indexbioAnim} from "./section/index-scroll.js";
+import {contactBtnAnim} from "./section/index-scroll.js";
 
 // //jquery
 // import {mouseEvent} from "./main-nav/burger-mouse.js";
@@ -37,6 +41,9 @@ headerAnimation();
 captionAnimation();
 heroPinning();
 scrollToAnim();
+
+indexbioAnim();
+contactBtnAnim();
 
 galleryImg1Anim();
 galleryImg2Anim();
