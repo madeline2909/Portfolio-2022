@@ -5,8 +5,11 @@
   },
   "dependencies": {
     "@barba/core": "^2.9.7",
-    "@fancyapps/ui": "^4.0.26",
+    "@fancyapps/ui": "^4.0.27",
+    "@swup/fade-theme": "^1.0.5",
     "gsap": "^3.10.4",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "smooth-scrollbar": "^8.7.4",
+    "swup": "^2.0.14"
   }
 }

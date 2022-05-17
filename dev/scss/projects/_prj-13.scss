@@ -1,6 +1,52 @@
-#prj-13-gallery-1{
-    img{
-        height: 100%;
-        width: 100%;
+#prj-13-book{
+    #prj-13-title{
+        display: flex;
+        justify-content: space-between;
+        @include lg {
+            margin-left: 5vw;
+        }
+        .project-titles{
+           margin: 0;
+           padding: 0;
+        }
+        a{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
+    #prj-13-covers{
+        display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            a {
+                flex-basis: 49%;
+
+                @include lg {
+                    flex-basis: 49.5%;
+                }
+                img{
+                    object-fit: cover;
+                    height: 30vh;
+                    @include md{
+                        height: 50vh;
+                    }
+                    @include lg{
+                        height: 100vh;
+                    }
+                }
+            }
+    }
+    #prj-13-pages{
+        img{
+            @include md{
+                padding-bottom: 10px;
+            }
+        }
+    }
+    section:last-child{
+        padding-bottom: 0;
     }
 }

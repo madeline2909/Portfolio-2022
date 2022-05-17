@@ -865,6 +865,15 @@ textarea {
   fill: #F2B029;
 }
 
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
 /* =============
     Typography
 ============= */
@@ -1477,7 +1486,7 @@ h2::-moz-selection {
 #footer-1 #footer-container-1 #right-footer-1 ul li a:link:hover, #footer-1 #footer-container-1 #right-footer-1 ul li a:link:active,
 #footer-1 #footer-container-1 #right-footer-1 ul li a:visited:hover,
 #footer-1 #footer-container-1 #right-footer-1 ul li a:visited:active {
-  color: #F2B029;
+  color: #E8622B;
 }
 #footer-1 #footer-container-1 #right-footer-1 ul :last-child {
   margin-bottom: 0;
@@ -1535,7 +1544,7 @@ h2::-moz-selection {
 #footer-2 #footer-container-2 #right-footer-2 ul li a:link:hover, #footer-2 #footer-container-2 #right-footer-2 ul li a:link:active,
 #footer-2 #footer-container-2 #right-footer-2 ul li a:visited:hover,
 #footer-2 #footer-container-2 #right-footer-2 ul li a:visited:active {
-  color: #f2f2f3;
+  color: #E8622B;
 }
 #footer-2 #footer-container-2 #right-footer-2 ul :last-child {
   margin-bottom: 0;
@@ -3994,9 +4003,58 @@ h2::-moz-selection {
   }
 }
 
-#prj-13-gallery-1 img {
-  height: 100%;
-  width: 100%;
+#prj-13-book #prj-13-title {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 1024px) {
+  #prj-13-book #prj-13-title {
+    margin-left: 5vw;
+  }
+}
+#prj-13-book #prj-13-title .project-titles {
+  margin: 0;
+  padding: 0;
+}
+#prj-13-book #prj-13-title a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#prj-13-book #prj-13-covers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#prj-13-book #prj-13-covers a {
+  flex-basis: 49%;
+}
+@media (min-width: 1024px) {
+  #prj-13-book #prj-13-covers a {
+    flex-basis: 49.5%;
+  }
+}
+#prj-13-book #prj-13-covers a img {
+  object-fit: cover;
+  height: 30vh;
+}
+@media (min-width: 768px) {
+  #prj-13-book #prj-13-covers a img {
+    height: 50vh;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-13-book #prj-13-covers a img {
+    height: 100vh;
+  }
+}
+@media (min-width: 768px) {
+  #prj-13-book #prj-13-pages img {
+    padding-bottom: 10px;
+  }
+}
+#prj-13-book section:last-child {
+  padding-bottom: 0;
 }
 
 #prj-14-gallery-1 img {

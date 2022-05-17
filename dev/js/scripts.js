@@ -1,6 +1,3 @@
-// import * as fancybox from './fancyBox.js';
-//import {tns} from 'tiny-slider.js';
-
 
 //Scroll Trigger stuffs
 import {heroPinning} from "./global-scroll.js";
@@ -53,8 +50,10 @@ navClick();
 reportWindowSize();
 menuBgSelect();
 
-//barba
-import {pageTransition} from "./main-nav/nav-global.js";
+// //barba
+// import {pageTransition} from "./main-nav/nav-global.js";
 
-// import {pageTransition} from "./barba.js";
-pageTransition();
+// // import {pageTransition} from "./barba.js";
+// pageTransition();
+// import {pageTransition} from "./transition.js";
+// pageTransition();

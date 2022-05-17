@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 //scroll to btn
-const scrollToBtn = gsap.timeline({paused:true});
+export const scrollToBtn = gsap.timeline({paused:true});
 scrollToBtn
 .from(".topBtn", {
     xPercent: 100,
