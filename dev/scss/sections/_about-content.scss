@@ -42,14 +42,39 @@
                         width: 42%;
                     }
                 }
+                @-webkit-keyframes loading {
+                    from {
+                        -webkit-transform: rotate(0deg);
+                    }
+                    to {
+                        -webkit-transform: rotate(360deg);
+                    }
+                }
+                @-moz-keyframes loading {
+                    from {
+                        -moz-transform: rotate(0deg);
+                    }
+                    to {
+                        -moz-transform: rotate(360deg);
+                    }
+                }
                 #thisisme{
                     display: none;
                     @include md{
                         display: block;
                         position: relative;
                         width: 200px;
+                        right: -12%;
+                    }
+                    @include lg{
                         right: -8%;
                     }
+
+                    // width: 16px;
+                    // height: 16px;
+                    -webkit-animation: loading 9s linear infinite;
+                    -moz-animation: loading 9s linear infinite;
+                    
                 }
             }
         }
