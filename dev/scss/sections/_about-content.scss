@@ -63,6 +63,7 @@
                     @include md{
                         display: block;
                         position: relative;
+                        z-index: 3;
                         width: 200px;
                         right: -12%;
                     }

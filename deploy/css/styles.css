@@ -2557,6 +2557,7 @@ h2::-moz-selection {
   #about-container > div > div:nth-child(1) #about-pic #thisisme {
     display: block;
     position: relative;
+    z-index: 3;
     width: 200px;
     right: -12%;
   }
