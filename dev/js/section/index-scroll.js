@@ -42,11 +42,11 @@ export function indexbioAnim(){
 const contactBtnAnimTL = gsap.timeline({paused:true});
 contactBtnAnimTL
 .from(".home-contact-text", {
-    yPercent: -50,
+    xPercent: -20,
     alpha: 0,
     duration:0.75,
-    stagger:0.5
-},"-=0.2")
+    stagger:0.1
+})
 .from("#home-contact-arrow", {
     xPercent: -10,
     alpha: 0,
