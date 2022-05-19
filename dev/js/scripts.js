@@ -18,6 +18,7 @@ import {galleryImg6Anim} from "./prj-scroll";
 import {indexbioAnim} from "./section/index-scroll.js";
 import {contactBtnAnim} from "./section/index-scroll.js";
 import {aboutAnim} from "./section/about-scroll.js";
+import {contactAnim} from "./section/contact-scroll.js";
 //import {parallax} from "./section/index-scroll.js";
 
 // //jquery
@@ -47,6 +48,7 @@ scrollToAnim();
 indexbioAnim();
 contactBtnAnim();
 aboutAnim();
+contactAnim();
 //parallax();
 
 galleryImg1Anim();
