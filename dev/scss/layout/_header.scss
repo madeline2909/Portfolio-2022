@@ -6,6 +6,9 @@
     width: 100vw;
     z-index: 200;
     border-bottom: 1.5px solid $verygreen;
+    @include xl{
+        border-bottom: 2px solid $verygreen;
+    }
     .line-4{
         opacity: 0;
     }
@@ -47,10 +50,16 @@
             @include md{
                 padding: 20px 0;
             }
+            @include lg{
+                padding: 18px 0;
+            }
         }
 
         #burger-container-1 {
             border-left: 1.5px solid $verygreen;
+            @include xl{
+                border-left: 2px solid $verygreen;
+            }
             //padding: 20px 0;
             grid-area: burger;
             align-items: center;

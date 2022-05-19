@@ -66,36 +66,36 @@ export function contactBtnAnim(){
 }
 
 //parallax
-export function parallax(){
-    gsap.utils
-  .toArray(".thumbnails-container .thumbnails,.thumbnails-container .thumbnails-hover")
-  .forEach((div, img) => {
-    const heightDiff =
-    img.offsetHeight - div.parentElement.offsetHeight;
+// export function parallax(){
+//     gsap.utils
+//   .toArray(".thumbnails-container .thumbnails,.thumbnails-container .thumbnails-hover")
+//   .forEach((div, img) => {
+//     const heightDiff =
+//     img.offsetHeight - div.parentElement.offsetHeight;
 
-    // gsap.to(section, {
-    //   scrollTrigger: {
-    //     trigger: section.parentElement,
-    //     scrub: true
-    //   },
-    //   y: section.parentElement.offsetHeight - section.offsetHeight,
-    //   ease: "none"
-    // });
+//     // gsap.to(section, {
+//     //   scrollTrigger: {
+//     //     trigger: section.parentElement,
+//     //     scrub: true
+//     //   },
+//     //   y: section.parentElement.offsetHeight - section.offsetHeight,
+//     //   ease: "none"
+//     // });
 
-    gsap.fromTo(
-        img,
-      {
-        y: heightDiff
-      },
-      {
-        y: 0,
-        ease: "none",
-        scrollTrigger: {
-          trigger: ".thumbnails-container",
-          markers:true,
-          scrub: true
-        }
-      }
-    );
-  });
-}
+//     gsap.fromTo(
+//         img,
+//       {
+//         y: heightDiff
+//       },
+//       {
+//         y: 0,
+//         ease: "none",
+//         scrollTrigger: {
+//           trigger: ".thumbnails-container",
+//           markers:true,
+//           scrub: true
+//         }
+//       }
+//     );
+//   });
+// }

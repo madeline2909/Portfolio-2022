@@ -1144,7 +1144,7 @@ h2::-moz-selection {
 }
 @media (min-width: 1024px) {
   #main-nav > div {
-    grid-template-rows: 60px auto 30%;
+    grid-template-rows: 55px auto 30%;
     grid-template-columns: repeat(4, 25%);
     grid-template-areas: ". . . ." "work play about contact" "work play about info";
   }
@@ -1237,6 +1237,11 @@ h2::-moz-selection {
     border-bottom: 0;
   }
 }
+@media (min-width: 1440px) {
+  #main-nav > div #nav-work-btn {
+    border-right: 2px solid #f2f2f3;
+  }
+}
 #main-nav > div #nav-play-btn {
   background-color: #82AB40;
   border-bottom: 1.5px solid #f2f2f3;
@@ -1256,6 +1261,11 @@ h2::-moz-selection {
     border-bottom: 0;
   }
 }
+@media (min-width: 1440px) {
+  #main-nav > div #nav-play-btn {
+    border-right: 2px solid #f2f2f3;
+  }
+}
 #main-nav > div #nav-about-btn {
   background-color: #82AB40;
   border-bottom: 2px solid #f2f2f3;
@@ -1271,8 +1281,13 @@ h2::-moz-selection {
 }
 @media (min-width: 1024px) {
   #main-nav > div #nav-about-btn {
-    border-right: 2px solid #f2f2f3;
+    border-right: 1.5px solid #f2f2f3;
     border-bottom: 0;
+  }
+}
+@media (min-width: 1440px) {
+  #main-nav > div #nav-about-btn {
+    border-right: 2px solid #f2f2f3;
   }
 }
 #main-nav > div #nav-contact-btn {
@@ -1321,7 +1336,7 @@ h2::-moz-selection {
   }
 }
 #main-nav > div #nav-info-btn {
-  border-top: 2px solid #f2f2f3;
+  border-top: 1.5px solid #f2f2f3;
   grid-area: info;
   background-color: #F89F77;
   color: #f2f2f3;
@@ -1344,6 +1359,11 @@ h2::-moz-selection {
   #main-nav > div #nav-info-btn {
     flex-direction: column;
     justify-content: center;
+  }
+}
+@media (min-width: 1440px) {
+  #main-nav > div #nav-info-btn {
+    border-top: 2px solid #f2f2f3;
   }
 }
 #main-nav > div #nav-info-btn h4 {
@@ -1388,6 +1408,11 @@ h2::-moz-selection {
   z-index: 200;
   border-bottom: 1.5px solid #33813F;
 }
+@media (min-width: 1440px) {
+  #header-1 {
+    border-bottom: 2px solid #33813F;
+  }
+}
 #header-1 .line-4 {
   opacity: 0;
 }
@@ -1427,6 +1452,11 @@ h2::-moz-selection {
     padding: 20px 0;
   }
 }
+@media (min-width: 1024px) {
+  #header-1 > div #logo-container-1 {
+    padding: 18px 0;
+  }
+}
 #header-1 > div #burger-container-1 {
   border-left: 1.5px solid #33813F;
   grid-area: burger;
@@ -1434,6 +1464,11 @@ h2::-moz-selection {
   cursor: pointer;
   display: flex;
   justify-content: center;
+}
+@media (min-width: 1440px) {
+  #header-1 > div #burger-container-1 {
+    border-left: 2px solid #33813F;
+  }
 }
 #header-1 > div #burger-container-1:hover .lines {
   fill: #33813F;
@@ -1460,6 +1495,11 @@ h2::-moz-selection {
 @media (min-width: 768px) {
   #footer-1 #footer-container-1 {
     padding: 35px 0;
+  }
+}
+@media (min-width: 1440px) {
+  #footer-1 #footer-container-1 {
+    border-top: 2px solid #82AB40;
   }
 }
 #footer-1 #footer-container-1 #left-footer-1 ul {
@@ -1520,6 +1560,11 @@ h2::-moz-selection {
     padding: 35px 0;
   }
 }
+@media (min-width: 1440px) {
+  #footer-2 #footer-container-2 {
+    border-top: 2px solid #33813F;
+  }
+}
 #footer-2 #footer-container-2 #left-footer-2 ul {
   color: #33813F;
   display: flex;
@@ -1575,6 +1620,11 @@ h2::-moz-selection {
 @media (min-width: 768px) {
   #footer-3 #footer-container-3 {
     padding: 35px 0;
+  }
+}
+@media (min-width: 1440px) {
+  #footer-3 #footer-container-3 {
+    border-top: 2px solid #82AB40;
   }
 }
 #footer-3 #footer-container-3 #left-footer-3 ul {

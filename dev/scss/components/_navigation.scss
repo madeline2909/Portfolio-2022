@@ -35,7 +35,7 @@
         }
 
         @include lg {
-            grid-template-rows: 60px auto 30%;
+            grid-template-rows: 55px auto 30%;
             grid-template-columns: repeat(4, 25%);
             grid-template-areas:
                 ". . . ."
@@ -125,6 +125,9 @@
             @include lg{
                 border-bottom: 0;
             }
+            @include xl{
+                border-right: 2px solid $offwhite;
+            }
         }
 
         #nav-play-btn {
@@ -142,6 +145,9 @@
             @include lg{
                 border-bottom: 0;
             }
+            @include xl{
+                border-right: 2px solid $offwhite;
+            }
         }
 
         #nav-about-btn {
@@ -158,8 +164,11 @@
             }
 
             @include lg {
-                border-right: 2px solid $offwhite;
+                border-right: 1.5px solid $offwhite;
                 border-bottom: 0;
+            }
+            @include xl{
+                border-right: 2px solid $offwhite;
             }
 
         }
@@ -208,7 +217,7 @@
         }
 
         #nav-info-btn {
-            border-top: 2px solid $offwhite;
+            border-top: 1.5px solid $offwhite;
             grid-area: info;
             background-color: $peachy;
             color: $offwhite;
@@ -232,7 +241,9 @@
                 flex-direction: column;
                 justify-content: center;
             }
-
+            @include xl{
+                border-top: 2px solid $offwhite;
+            }
             h4 {
                 padding-bottom: 20px;
                 @include md{

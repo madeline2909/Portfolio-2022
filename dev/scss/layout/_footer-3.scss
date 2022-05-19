@@ -16,6 +16,9 @@
         @include md{
             padding: 35px 0;
         }
+        @include xl{
+            border-top: 2px solid $grass;
+        }
         #left-footer-3{
             ul {
                 color: $grass;

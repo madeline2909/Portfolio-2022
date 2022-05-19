@@ -17,7 +17,7 @@ import {galleryImg6Anim} from "./prj-scroll";
 //Each page animation
 import {indexbioAnim} from "./section/index-scroll.js";
 import {contactBtnAnim} from "./section/index-scroll.js";
-import {parallax} from "./section/index-scroll.js";
+//import {parallax} from "./section/index-scroll.js";
 
 // //jquery
 // import {mouseEvent} from "./main-nav/burger-mouse.js";
@@ -45,7 +45,7 @@ scrollToAnim();
 
 indexbioAnim();
 contactBtnAnim();
-parallax();
+//parallax();
 
 galleryImg1Anim();
 galleryImg2Anim();

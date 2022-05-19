@@ -16,6 +16,9 @@
         @include md{
             padding: 35px 0;
         }
+        @include xl{
+            border-top: 2px solid $verygreen;
+        }
         #left-footer-2{
             ul {
                 color: $verygreen;
