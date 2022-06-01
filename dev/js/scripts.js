@@ -3,7 +3,7 @@
 import {heroPinning} from "./global-scroll.js";
 import {headerAnimation} from "./global-scroll.js";
 import {captionAnimation} from "./global-scroll.js";
-import {scrollTop} from "./scrollTop.js";
+import {scrollTop, scrollIndex} from "./scrollTop.js";
 import {scrollToAnim} from "./global-scroll";
 import {moveBtnAnim} from "./global-scroll";
 
@@ -28,8 +28,7 @@ import {navClick} from "./main-nav/main-nav-click.js";
 import {reportWindowSize} from "./main-nav/nav-global.js";
 import {menuBgSelect} from "./main-nav/nav-global.js";
 
-
-
+scrollIndex();
 scrollTop();
 moveBtnAnim();
 //windowScroll();

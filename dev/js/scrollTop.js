@@ -13,3 +13,13 @@ export function scrollTop(){
     }
   );
 }
+export function scrollIndex(){
+  console.log("scroll back to top");
+  document.querySelectorAll("#featured-prj").forEach(
+    a => {
+    a.addEventListener("click", () => {
+      gsap.to(window, {duration: 1, scrollTo:"#home-selected"});
+    });
+    }
+  );
+}
