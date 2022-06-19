@@ -1762,6 +1762,9 @@ h2::-moz-selection {
     height: 55vh;
   }
 }
+#work-container-2 #work-prj-container #work-prj-grid-container .work-project:nth-child(2) img {
+  object-position: 0 -180px;
+}
 #work-container-2 #work-prj-container #work-prj-grid-container p {
   padding-bottom: 80px;
 }

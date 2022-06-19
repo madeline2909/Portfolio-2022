@@ -80,6 +80,11 @@
                     }
                 }
             }
+            .work-project:nth-child(2){
+                img{
+                    object-position: 0 -180px;
+                }
+            }
             p{
                 padding-bottom: 80px;
             }
