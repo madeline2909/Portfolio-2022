@@ -3905,6 +3905,197 @@ h2::-moz-selection {
   color: #254157;
 }
 
+#prj-10-research .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-10-research .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-10-research .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+@media (min-width: 1440px) {
+  #prj-10-research .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
+
+#prj-10-brand .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-10-brand .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-10-brand .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+@media (min-width: 1440px) {
+  #prj-10-brand .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
+#prj-10-brand #prj-10-poster > div > div {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  grid-template-areas: "poster poster" "detail-1 detail-2" "detail-3 detail-4";
+  grid-gap: 5px;
+}
+@media (min-width: 768px) {
+  #prj-10-brand #prj-10-poster > div > div {
+    grid-template-columns: 40fr 25fr 25fr;
+    grid-template-areas: "poster detail-1 detail-2" "poster detail-3 detail-4";
+    grid-gap: 15px;
+  }
+}
+#prj-10-brand #prj-10-poster > div > div a:nth-child(1) {
+  grid-area: poster;
+}
+#prj-10-brand #prj-10-poster > div > div a:nth-child(2) {
+  grid-area: detail-1;
+}
+#prj-10-brand #prj-10-poster > div > div a:nth-child(3) {
+  grid-area: detail-2;
+}
+#prj-10-brand #prj-10-poster > div > div a:nth-child(4) {
+  grid-area: detail-3;
+}
+#prj-10-brand #prj-10-poster > div > div a:nth-child(5) {
+  grid-area: detail-4;
+}
+#prj-10-brand #prj-10-poster > div > div a img {
+  height: 100%;
+  object-fit: cover;
+}
+
+#prj-10-print .project-titles {
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-10-print .project-titles {
+    padding: 0 5vw 40px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-10-print .project-titles {
+    padding: 0 10vw 40px;
+  }
+}
+@media (min-width: 1440px) {
+  #prj-10-print .project-titles {
+    padding: 0 13vw 40px;
+  }
+}
+#prj-10-print > section > div > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#prj-10-print > section > div > div a {
+  flex-basis: 49%;
+  padding-bottom: 5px;
+}
+@media (min-width: 768px) {
+  #prj-10-print > section > div > div a {
+    padding-bottom: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-10-print > section > div > div a {
+    flex-basis: 49.5%;
+    padding-bottom: 10px;
+  }
+}
+#prj-10-print > section > div > div a img {
+  width: 100%;
+  object-fit: cover;
+  height: 20vh;
+}
+@media (min-width: 768px) {
+  #prj-10-print > section > div > div a img {
+    height: 30vh;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-10-print > section > div > div a img {
+    height: 100%;
+  }
+}
+#prj-10-print a:last-child img {
+  padding-bottom: 0;
+}
+
+#prj-10-digital #prj-10-digital-titles {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 30px;
+}
+@media (min-width: 768px) {
+  #prj-10-digital #prj-10-digital-titles {
+    padding: 0 5vw 30px;
+  }
+}
+@media (min-width: 1024px) {
+  #prj-10-digital #prj-10-digital-titles {
+    padding: 0 10vw 30px;
+  }
+}
+@media (min-width: 1440px) {
+  #prj-10-digital #prj-10-digital-titles {
+    padding: 0 13vw 30px;
+  }
+}
+#prj-10-digital #prj-10-digital-titles .project-titles {
+  margin: 0;
+  padding: 0;
+}
+#prj-10-digital #prj-10-digital-titles > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+#prj-10-digital #prj-10-digital-titles a {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#prj-10-digital > section {
+  padding-bottom: 0;
+}
+@media (min-width: 1024px) {
+  #prj-10-digital > section > div > div {
+    display: grid;
+    grid-template-columns: 70fr 30fr;
+    grid-template-rows: 90vh;
+    grid-template-areas: "insta-1 insta-2";
+  }
+}
+#prj-10-digital > section > div > div a:nth-child(1) {
+  grid-area: insta-1;
+}
+#prj-10-digital > section > div > div a:nth-child(2) {
+  grid-area: insta-2;
+}
+#prj-10-digital > section > div > div a:nth-child(2) img {
+  padding: 40px 0;
+}
+@media (min-width: 1024px) {
+  #prj-10-digital > section > div > div a:nth-child(2) img {
+    padding: 0;
+  }
+}
+#prj-10-digital > section > div > div a img {
+  height: 100%;
+}
+
 #prj-11-hero {
   object-position: -1000px;
 }

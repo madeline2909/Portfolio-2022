@@ -4888,6 +4888,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-10\/srs-process-2.png" : {
+      "ft" : 32768,
+      "iS" : 872759,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-10\/srs-process-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/work\/prj-10\/srs-process.png" : {
       "ft" : 32768,
       "iS" : 168171,

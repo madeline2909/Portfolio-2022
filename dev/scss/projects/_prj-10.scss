@@ -10,3 +10,180 @@
         }
     }
 }
+#prj-10-research{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+}
+#prj-10-brand{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    #prj-10-poster{
+        >div{
+            >div{
+                display: grid;
+                grid-template-columns: 50fr 50fr;
+                grid-template-areas: "poster poster""detail-1 detail-2" "detail-3 detail-4";
+                grid-gap: 5px;
+                @include md{
+                    grid-template-columns: 40fr 25fr 25fr;
+                    grid-template-areas: "poster detail-1 detail-2" "poster detail-3 detail-4";
+                    grid-gap: 15px;
+                }
+                a:nth-child(1){
+                    grid-area: poster;
+                }
+                a:nth-child(2){
+                    grid-area: detail-1;
+                }
+                a:nth-child(3){
+                    grid-area: detail-2;
+                }
+                a:nth-child(4){
+                    grid-area: detail-3;
+                }
+                a:nth-child(5){
+                    grid-area: detail-4;
+                }
+                a{
+                    img{
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+#prj-10-print{
+    .project-titles{
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 40px;
+        }
+        @include lg{
+            padding: 0 10vw 40px;
+        }
+        @include xl{
+            padding: 0 13vw 40px;
+        }
+    }
+    >section{
+        >div{
+            >div{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                a{
+                    flex-basis: 49%;
+                    padding-bottom: 5px;
+                    @include md{
+                        padding-bottom: 15px;
+                    }
+                    @include lg{
+                        flex-basis: 49.5%;
+                        padding-bottom: 10px;
+                    }
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                        height: 20vh;
+                    
+                        @include md{
+                            height: 30vh;
+                        }
+                        @include lg{
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    a:last-child{
+        img{
+            padding-bottom: 0;
+        }
+    }
+}
+#prj-10-digital{
+    #prj-10-digital-titles{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px 30px;
+        @include md{
+            padding: 0 5vw 30px;
+        }
+        @include lg{
+            padding: 0 10vw 30px;
+        }
+        @include xl{
+            padding: 0 13vw 30px;
+        }
+        .project-titles{
+           margin: 0;
+           padding: 0;
+        }
+        >div{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 100%;
+        }
+        a{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
+    >section{
+        >div{
+            >div{
+                @include lg{
+                    display: grid;
+                    grid-template-columns: 70fr 30fr;
+                    grid-template-rows: 90vh;
+                    grid-template-areas: "insta-1 insta-2";
+                }
+                a:nth-child(1){
+                    grid-area: insta-1;
+                }
+                a:nth-child(2){
+                    grid-area: insta-2;
+                    img{
+                        padding: 40px 0;
+                        @include lg{
+                            padding: 0;
+                        }
+                    }
+                }
+                a{
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        padding-bottom: 0;
+    }
+}
