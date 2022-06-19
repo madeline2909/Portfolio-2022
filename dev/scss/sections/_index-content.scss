@@ -301,6 +301,9 @@
             @include md {
                 grid-area: prj1;
             }
+            .thumbnails{
+                object-position: bottom;
+            }
         }
 
         #home-prj-2 {

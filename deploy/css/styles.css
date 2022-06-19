@@ -2249,6 +2249,9 @@ h2::-moz-selection {
     grid-area: prj1;
   }
 }
+#home-content #home-selected #home-prj-1 .thumbnails {
+  object-position: bottom;
+}
 @media (min-width: 768px) {
   #home-content #home-selected #home-prj-2 {
     grid-area: prj2;
@@ -3896,6 +3899,10 @@ h2::-moz-selection {
   #prj-9-prototype iframe {
     height: 100vh;
   }
+}
+
+#prj-10-poster-hero {
+  object-position: bottom;
 }
 
 #prj-10-blurbs > div ul li {
