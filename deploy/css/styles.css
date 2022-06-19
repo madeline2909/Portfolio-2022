@@ -3898,10 +3898,11 @@ h2::-moz-selection {
   }
 }
 
-@media (min-width: 1024px) {
-  #prj-10-gallery > div h5 {
-    margin-left: 5vw;
-  }
+#prj-10-blurbs > div ul li {
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #254157;
 }
 
 #prj-11-hero {

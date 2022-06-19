@@ -1,8 +1,11 @@
-#prj-10-gallery{
+#prj-10-blurbs{
     >div{
-        h5{
-            @include lg{
-                margin-left: 5vw;
+        ul{
+            li{
+                font-weight: 300;
+                font-size: rem-calc(14);
+                line-height: rem-calc(22);
+                color: $midnight;
             }
         }
     }

@@ -4826,6 +4826,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/work\/prj-10\/srs-logos.gif" : {
+      "ft" : 4194304,
+      "iS" : 2926656,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/work\/prj-10\/srs-logos.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/img\/work\/prj-10\/srs-logos.png" : {
       "ft" : 32768,
       "iS" : 82131,
