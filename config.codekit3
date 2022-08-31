@@ -105,6 +105,19 @@
       "oAP" : "\/deploy\/hoai-exhibition.html",
       "oF" : 0
     },
+    "\/deploy\/img\/about\/about-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 325531,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/about-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/about\/about.jpg" : {
       "ft" : 16384,
       "iS" : 301556,
